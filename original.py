@@ -86,8 +86,14 @@ def main():
     # Set up the plot
     plt.figure(figsize=(12, 8))
 
+    for layer, nodes in enumerate(nx.topological_generations(G)):
+    # `multipartite_layout` expects the layer as a node attribute, so add the
+    # numeric layer value as a node attribute
+        for node in nodes:
+            G.nodes[node]["layer"] = layer
+
     # Calculate positions for the entire graph
-    pos = nx.fruchterman_reingold_layout(G, scale=5.0)
+    pos = nx.multipartite_layout(G, subset_key="layer", scale=5.0)
     # pos = nx.shell_layout(G)
 
     # Draw the entire graph including nodes, edges, labels, arrows, and text attributes

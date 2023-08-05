@@ -13,6 +13,7 @@ from io import BytesIO
 app = Flask(__name__)
 CORS(app)
 
+
 @app.route('/generate_graph', methods=['POST'])
 def generate_graph():
     data = request.get_json()
@@ -35,14 +36,25 @@ def generate_graph():
     initiateList(course_graph, G, selected_major)
 
     # Set up the plot
-    plt.figure(figsize=(12, 12))
+    plt.figure(figsize=(16, 16))
+    try:
+        for layer, nodes in enumerate(nx.topological_generations(G)):
+        # `multipartite_layout` expects the layer as a node attribute, so add the
+        # numeric layer value as a node attribute
+            for node in nodes:
+                G.nodes[node]["layer"] = layer
+        pos = nx.multipartite_layout(G, subset_key="layer", scale=5.0)
+    except:
+        pos = nx.spring_layout(G, k=1.25)
 
-    # Calculate positions for the entire graph
-    pos = nx.spring_layout(G, k=1.0)
-    # pos = nx.shell_layout(G)
+    # Get the number of nodes in the graph
+    num_nodes = G.number_of_nodes()
+
+    # Calculate the scaling factor: inverse of the number of nodes
+    scaling_factor = (1.0 / num_nodes) if num_nodes != 0 else 1.0
 
     # Draw the entire graph including nodes, edges, labels, arrows, and text attributes
-    nx.draw(G, pos, with_labels=True, node_size=5000, arrows=True, alpha=0.75, font_size=12, edge_color='white')
+    nx.draw(G, pos, with_labels=True, node_size=scaling_factor* 100000, arrows=True, alpha=0.75, font_size=12, edge_color='white')
 
     # Highlight nodes for taken courses using a different color
     nx.draw_networkx_nodes(G, pos, nodelist=taken_courses, node_size=5000, node_color='g')
@@ -121,4 +133,5 @@ def initiateList(course_graph, G, selected_major):
 if __name__ == '__main__':
     #For server use
     app.run(host='0.0.0.0', port=5000, debug=False)
+    #For local use
     # app.run(debug=True)
