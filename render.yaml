@@ -3,7 +3,7 @@ services:
   name: flask-app
   env: python
   buildCommand: pip install -r requirements.txt
-  startCommand: python adjacencyList.py
+  startCommand: python server.py
   envVars:
   - key: FLASK_ENV
     value: production

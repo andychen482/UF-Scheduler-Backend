@@ -18,8 +18,8 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/generate_graph', methods=['POST'])
-def generate_graph():
+@app.route('/generate_a_list', methods=['POST'])
+def generate_a_list():
   data = request.get_json()
 
   course_graph = CourseGraph()
@@ -139,8 +139,8 @@ def initiateList(course_graph, G, selected_major):
       course_graph.add_attribute(course_code, "deptName", dept_name)
       course_graph.add_attribute(course_code, "instructors", course.get("instructors"))
 
-@app.route('/generate_other_graph', methods=['POST'])
-def generate_other_graph():
+@app.route('/generate_a_matrix', methods=['POST'])
+def generate_a_matrix():
   data = request.get_json()
   file = "doc/summer.json"
 
