@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 import json
 import re
@@ -10,13 +11,19 @@ import base64
 from io import BytesIO
 
 app = Flask(__name__)
+CORS(app)
 
-@app.route('/adjacencyList', methods=['POST'])
+@app.route('/generate_graph', methods=['POST'])
 def generate_graph():
     data = request.get_json()
 
-    selected_major = data['selectedMajor']
-    taken_courses = data['selectedCourses']
+    selected_major = data['selectedMajorServ']
+    taken_courses = data['selectedCoursesServ']
+
+    for i in range(len(taken_courses)):
+        course = taken_courses[i]
+        if course[-1].isalpha():
+            taken_courses[i] = course[:-1]
 
     course_graph = CourseGraph()
     G = nx.DiGraph()
@@ -24,20 +31,20 @@ def generate_graph():
     initiateList(course_graph, G, selected_major)
 
     # Set up the plot
-    plt.figure(figsize=(12, 8))
+    plt.figure(figsize=(12, 12))
 
     # Calculate positions for the entire graph
-    pos = nx.fruchterman_reingold_layout(G, scale=5.0)
+    pos = nx.spring_layout(G, k=1.0)
     # pos = nx.shell_layout(G)
 
     # Draw the entire graph including nodes, edges, labels, arrows, and text attributes
-    nx.draw(G, pos, with_labels=True, node_size=1500, arrows=True, alpha=0.75, font_size=7)
+    nx.draw(G, pos, with_labels=True, node_size=5000, arrows=True, alpha=0.75, font_size=12, edge_color='white')
 
     # Highlight nodes for taken courses using a different color
-    nx.draw_networkx_nodes(G, pos, nodelist=taken_courses, node_size=1500, node_color='g')
+    nx.draw_networkx_nodes(G, pos, nodelist=taken_courses, node_size=5000, node_color='g')
 
     figFile = BytesIO()
-    plt.savefig(figFile, format='png')
+    plt.savefig(figFile, transparent=True, format='png', dpi=300)
     figFile.seek(0)
     figData_png = base64.b64encode(figFile.getvalue())
 
@@ -87,28 +94,24 @@ def initiateList(course_graph, G, selected_major):
     with open("doc/summer.json") as f1:
         data1 = json.load(f1)
 
-    # It's nested twice
-    for data in data1:
-        courses_list = data.get("COURSES", [])
+    for course in data1:
+        course_code = course.get("code")
+        sections = course.get('sections', [])  # Get the sections list for each course
+        dept_name = sections[0].get("deptName", "") if sections else ""  # First section is enough
 
-        for course in courses_list:
-            course_code = course.get("code")
-            sections = course.get('sections', [])  # Get the sections list for each course
-            dept_name = sections[0].get("deptName", "") if sections else ""  # First section is enough
+        if selected_major in dept_name:  # Check if the selected major is in the department name
+            prereq_list = clean_prereq(course.get("prerequisites", ""))
 
-            if selected_major in dept_name:  # Check if the selected major is in the department name
-                prereq_list = clean_prereq(course.get("prerequisites", ""))
+            for prereq in prereq_list:
+                # Omit space, and letters at the end
+                course_code_stripped = course_code.rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ ')
+                prereq_stripped = prereq.replace(" ", "").rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 
-                for prereq in prereq_list:
-                    # Omit space, and letters at the end
-                    course_code_stripped = course_code.rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ ')
-                    prereq_stripped = prereq.replace(" ", "").rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+                course_graph.add_edge(course_code_stripped, prereq_stripped)
+                G.add_edge(prereq_stripped, course_code_stripped)  # Add directed edge to the graph
 
-                    course_graph.add_edge(course_code_stripped, prereq_stripped)
-                    G.add_edge(prereq_stripped, course_code_stripped)  # Add directed edge to the graph
-
-                course_graph.add_attribute(course_code, "deptName", dept_name)
-                course_graph.add_attribute(course_code, "instructors", course.get("instructors"))
+            course_graph.add_attribute(course_code, "deptName", dept_name)
+            course_graph.add_attribute(course_code, "instructors", course.get("instructors"))
 
 
 if __name__ == '__main__':
