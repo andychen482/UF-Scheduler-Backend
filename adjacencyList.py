@@ -13,7 +13,7 @@ from io import BytesIO
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/generate_graph', methods=['POST'])
+@app.route('/', methods=['POST'])
 def generate_graph():
     data = request.get_json()
 
