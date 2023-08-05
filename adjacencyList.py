@@ -57,7 +57,7 @@ def generate_graph():
     nx.draw(G, pos, with_labels=True, node_size=scaling_factor* 100000, arrows=True, alpha=0.75, font_size=12, edge_color='white')
 
     # Highlight nodes for taken courses using a different color
-    nx.draw_networkx_nodes(G, pos, nodelist=taken_courses, node_size=5000, node_color='g')
+    nx.draw_networkx_nodes(G, pos, nodelist=taken_courses, node_size=scaling_factor*100000, node_color='g')
 
     figFile = BytesIO()
     plt.savefig(figFile, transparent=True, format='png', dpi=300)
