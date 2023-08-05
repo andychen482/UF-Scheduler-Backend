@@ -51,13 +51,13 @@ def generate_graph():
     num_nodes = G.number_of_nodes()
 
     # Calculate the scaling factor: inverse of the number of nodes
-    scaling_factor = (1.0 / num_nodes) if num_nodes != 0 else 1.0
+    scaling_factor = (100000.0 / num_nodes) if num_nodes != 0 else 100000.0
 
     # Draw the entire graph including nodes, edges, labels, arrows, and text attributes
-    nx.draw(G, pos, with_labels=True, node_size=scaling_factor* 100000, arrows=True, alpha=0.75, font_size=12, edge_color='white')
+    nx.draw(G, pos, with_labels=True, node_size=scaling_factor if scaling_factor > 4000 else 4000, arrows=True, alpha=0.75, font_size=12, edge_color='white')
 
     # Highlight nodes for taken courses using a different color
-    nx.draw_networkx_nodes(G, pos, nodelist=taken_courses, node_size=scaling_factor*100000, node_color='g')
+    nx.draw_networkx_nodes(G, pos, nodelist=taken_courses, node_size=scaling_factor if scaling_factor > 4000 else 4000, node_color='g')
 
     figFile = BytesIO()
     plt.savefig(figFile, transparent=True, format='png', dpi=300)
