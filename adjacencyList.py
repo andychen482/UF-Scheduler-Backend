@@ -17,6 +17,9 @@ CORS(app)
 def generate_graph():
     data = request.get_json()
 
+    course_graph = CourseGraph()
+    G = nx.DiGraph()
+
     selected_major = data['selectedMajorServ']
     taken_courses = data['selectedCoursesServ']
 
@@ -25,8 +28,9 @@ def generate_graph():
         if course[-1].isalpha():
             taken_courses[i] = course[:-1]
 
-    course_graph = CourseGraph()
-    G = nx.DiGraph()
+    for course in taken_courses:
+        G.add_node(course)
+
 
     initiateList(course_graph, G, selected_major)
 
@@ -115,4 +119,6 @@ def initiateList(course_graph, G, selected_major):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    #For server use
+    #app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(debug=True)
