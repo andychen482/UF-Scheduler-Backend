@@ -28,11 +28,6 @@ def generate_a_list():
   selected_major = data['selectedMajorServ']
   taken_courses = data['selectedCoursesServ']
 
-  for i in range(len(taken_courses)):
-    course = taken_courses[i]
-    if course[-1].isalpha():
-      taken_courses[i] = course[:-1]
-
   for course in taken_courses:
     G.add_node(course)
 
