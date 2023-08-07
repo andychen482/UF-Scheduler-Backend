@@ -155,6 +155,9 @@ def generate_a_matrix():
   dept = find_department_by_name(other_course_graph, other_selected_major)
   S = nx.DiGraph()
 
+  for course in other_taken_courses:
+    S.add_node(course)
+
   dept.remove_non_courses()
   print_department_courses(other_course_graph, S, dept.name)
 
