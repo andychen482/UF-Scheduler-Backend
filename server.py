@@ -128,8 +128,9 @@ def initiateList(course_graph, G, selected_major):
         course_code_stripped = course_code.rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ ')
         prereq_stripped = prereq.replace(" ", "").rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 
-        course_graph.add_edge(course_code_stripped, prereq_stripped)
-        G.add_edge(prereq_stripped, course_code_stripped)  # Add directed edge to the graph
+        if course_code_stripped != prereq_stripped:
+          course_graph.add_edge(course_code_stripped, prereq_stripped)
+          G.add_edge(prereq_stripped, course_code_stripped)  # Add directed edge to the graph
 
       course_graph.add_attribute(course_code, "deptName", dept_name)
       course_graph.add_attribute(course_code, "instructors", course.get("instructors"))
