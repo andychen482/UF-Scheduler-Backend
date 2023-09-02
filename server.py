@@ -17,6 +17,23 @@ from io import BytesIO
 app = Flask(__name__)
 CORS(app)
 
+with open("doc/Fall2023.json") as f1:
+  all_courses = json.load(f1)
+
+@app.route("/api/get_courses", methods=['POST'])
+def get_courses():
+    data = request.json
+    searchTerm = data.get('searchTerm', '').upper().replace(" ", "")
+    itemsPerPage = data.get('itemsPerPage', 20)
+    startFrom = data.get('startFrom', 0)
+
+    # Filter and paginate the data based on the provided criteria
+    filtered_courses = [
+        course for course in all_courses if course['code'].upper().startswith(searchTerm)
+    ]
+    paginated_courses = filtered_courses[startFrom:startFrom + itemsPerPage]
+
+    return jsonify(paginated_courses)
 
 @app.route('/generate_a_list', methods=['POST'])
 def generate_a_list():
@@ -80,10 +97,8 @@ def clean_prereq(prerequisites):
 
 
 def initiateList(G, selected_major):
-  with open("doc/Fall2023.json") as f1:
-    data1 = json.load(f1)
 
-  for course in data1:
+  for course in all_courses:
     course_code = course.get("code")
     sections = course.get('sections', [])  # Get the sections list for each course
     dept_name = sections[0].get("deptName", "") if sections else ""  # First section is enough
