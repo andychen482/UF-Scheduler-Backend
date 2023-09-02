@@ -117,6 +117,6 @@ def initiateList(G, selected_major):
 
 if __name__ == '__main__':
   # For server use
-  # app.run(host='0.0.0.0', port=5000, debug=False)
+  app.run(host='0.0.0.0', port=5000, debug=False)
   # For local use
-  app.run(debug=True)
+  # app.run(debug=True)
