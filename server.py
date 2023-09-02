@@ -115,8 +115,8 @@ def initiateList(G, selected_major):
           G.add_edge(prereq_stripped, course_code_stripped)  # Add directed edge to the graph
 
 
-if __name__ == '__main__':
-  # For server use
-  app.run(host='0.0.0.0', port=5000, debug=False)
-  # For local use
-  # app.run(debug=True)
+# if __name__ == '__main__':
+#   # For server use
+#   app.run(host='0.0.0.0', port=5000, debug=False)
+#   # For local use
+#   # app.run(debug=True)
