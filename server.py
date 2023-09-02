@@ -80,7 +80,7 @@ def clean_prereq(prerequisites):
 
 
 def initiateList(G, selected_major):
-  with open("doc/summer.json") as f1:
+  with open("doc/Fall2023.json") as f1:
     data1 = json.load(f1)
 
   for course in data1:
