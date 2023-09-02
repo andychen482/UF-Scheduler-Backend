@@ -15,7 +15,7 @@ import base64
 from io import BytesIO
 
 app = Flask(__name__)
-CORS(app, origins=['http://ufscheduler.com', 'https://ufscheduler.com', 'http://www.ufscheduler.com', 'https://www.ufscheduler.com'])
+CORS(app, origins=['http://ufscheduler.com', 'https://ufscheduler.com', 'http://www.ufscheduler.com', 'https://www.ufscheduler.com', 'http://localhost:3000'])
 
 with open("doc/Fall2023.json") as f1:
   all_courses = json.load(f1)
