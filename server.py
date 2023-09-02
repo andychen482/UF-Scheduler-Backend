@@ -49,8 +49,6 @@ def generate_a_list():
 
   timeBefore = time.time()
   initiateList(G, selected_major)
-  timeAfter = time.time()
-  elapsedTime = round(timeAfter - timeBefore, 3)
 
   # Set up the plot
   plt.figure(figsize=(16, 16))
@@ -86,6 +84,9 @@ def generate_a_list():
   figData_png = base64.b64encode(figFile.getvalue())
 
   image_base64 = str(figData_png)[2:-1]
+
+  timeAfter = time.time()
+  elapsedTime = round(timeAfter - timeBefore, 3)
 
   return jsonify({'image': image_base64, 'time': elapsedTime})
 
