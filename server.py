@@ -43,14 +43,15 @@ def generate_a_list():
 
     selected_major = data['selectedMajorServ']
     taken_courses = data['selectedCoursesServ']
+    formatted_taken_courses = [course[:3] + '\n' + course[3:] for course in taken_courses]
 
-    for course in taken_courses:
+    for course in formatted_taken_courses:
         G.add_node(course)
 
     initiateList(G, selected_major)
 
     # Extract nodes and edges for Cytoscape
-    nodes = [{"data": {"id": node}, "classes": "selected" if node in taken_courses else "not_selected"} for node in G.nodes()]
+    nodes = [{"data": {"id": node}, "classes": "selected" if node in formatted_taken_courses else "not_selected"} for node in G.nodes()]
     edges = [{"data": {"source": edge[0], "target": edge[1]}} for edge in G.edges()]
 
     return jsonify({
@@ -81,7 +82,7 @@ def initiateList(G, selected_major):
         prereq_stripped = prereq.replace(" ", "").rstrip(' ')
 
         if course_code_stripped != prereq_stripped:
-          G.add_edge(prereq_stripped, course_code_stripped)  # Add directed edge to the graph
+          G.add_edge(prereq_stripped[:3] + '\n' + prereq_stripped[3:], course_code_stripped[:3] + '\n' + course_code_stripped[3:])  # Add directed edge to the graph
 
 
 # if __name__ == '__main__':
