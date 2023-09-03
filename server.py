@@ -77,8 +77,8 @@ def initiateList(G, selected_major):
 
       for prereq in prereq_list:
         # Omit space, and letters at the end
-        course_code_stripped = course_code.rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ ')
-        prereq_stripped = prereq.replace(" ", "").rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+        course_code_stripped = course_code.rstrip(' ')
+        prereq_stripped = prereq.replace(" ", "").rstrip(' ')
 
         if course_code_stripped != prereq_stripped:
           G.add_edge(prereq_stripped, course_code_stripped)  # Add directed edge to the graph
@@ -88,4 +88,4 @@ def initiateList(G, selected_major):
 #   # For server use
 # #   app.run(host='0.0.0.0', port=5000, debug=False)
 #   # For local use
-#   app.run(debug=True)
+  # app.run(debug=True)
