@@ -50,7 +50,7 @@ def generate_a_list():
     initiateList(G, selected_major)
 
     # Extract nodes and edges for Cytoscape
-    nodes = [{"data": {"id": node}} for node in G.nodes()]
+    nodes = [{"data": {"id": node}, "classes": "selected" if node in taken_courses else "not_selected"} for node in G.nodes()]
     edges = [{"data": {"source": edge[0], "target": edge[1]}} for edge in G.edges()]
 
     return jsonify({
