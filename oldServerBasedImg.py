@@ -37,26 +37,58 @@ def get_courses():
 
 @app.route('/generate_a_list', methods=['POST'])
 def generate_a_list():
-    data = request.get_json()
+  data = request.get_json()
 
-    G = nx.DiGraph()
+  G = nx.DiGraph()
 
-    selected_major = data['selectedMajorServ']
-    taken_courses = data['selectedCoursesServ']
+  selected_major = data['selectedMajorServ']
+  taken_courses = data['selectedCoursesServ']
 
-    for course in taken_courses:
-        G.add_node(course)
+  for course in taken_courses:
+    G.add_node(course)
 
-    initiateList(G, selected_major)
+  timeBefore = time.time()
+  initiateList(G, selected_major)
 
-    # Extract nodes and edges for Cytoscape
-    nodes = [{"data": {"id": node}} for node in G.nodes()]
-    edges = [{"data": {"source": edge[0], "target": edge[1]}} for edge in G.edges()]
+  # Set up the plot
+  plt.figure(figsize=(16, 16))
+  try:
+    for layer, nodes in enumerate(nx.topological_generations(G)):
+      # `multipartite_layout` expects the layer as a node attribute, so add the
+      # numeric layer value as a node attribute
+      for node in nodes:
+        G.nodes[node]["layer"] = layer
+    pos = nx.multipartite_layout(G, subset_key="layer", scale=5.0)
+  except:
+    pos = nx.spring_layout(G, k=1.25)
 
-    return jsonify({
-        'nodes': nodes,
-        'edges': edges
-    })
+  # Get the number of nodes in the graph
+  num_nodes = G.number_of_nodes()
+
+  # Calculate the scaling factor: inverse of the number of nodes
+  scaling_factor = (100000.0 / num_nodes) if num_nodes != 0 else 100000.0
+
+  if scaling_factor > 8000:
+    scaling_factor = 8000
+
+  # Draw the entire graph including nodes, edges, labels, arrows, and text attributes
+  nx.draw(G, pos, with_labels=True, node_color='#0021A5', node_size=scaling_factor if scaling_factor > 3500 else 3500, arrows=True, alpha=0.75, font_size=12,
+          edge_color='white', font_color='white', font_weight='bold', font_family='monospace')
+
+  # Highlight nodes for taken courses using a different color
+  nx.draw_networkx_nodes(G, pos, nodelist=taken_courses, node_size=scaling_factor if scaling_factor > 3500 else 3500, node_color='#FA4616', edgecolors='white', linewidths=2.0)
+
+  figFile = BytesIO()
+  plt.savefig(figFile, transparent=True, format='png', dpi=300)
+  figFile.seek(0)
+  figData_png = base64.b64encode(figFile.getvalue())
+
+  image_base64 = str(figData_png)[2:-1]
+
+  timeAfter = time.time()
+  elapsedTime = round(timeAfter - timeBefore, 3)
+
+  return jsonify({'image': image_base64, 'time': elapsedTime})
 
 def clean_prereq(prerequisites):
   # Use regular expression to find course codes in the prerequisites string
@@ -86,6 +118,6 @@ def initiateList(G, selected_major):
 
 # if __name__ == '__main__':
 #   # For server use
-# #   app.run(host='0.0.0.0', port=5000, debug=False)
+#   app.run(host='0.0.0.0', port=5000, debug=False)
 #   # For local use
-#   app.run(debug=True)
+#   # app.run(debug=True)
