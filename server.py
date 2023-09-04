@@ -67,6 +67,8 @@ def clean_prereq(prerequisites):
 
 
 def initiateList(G, selected_major):
+  if not selected_major:
+    return
 
   for course in all_courses:
     course_code = course.get("code")
