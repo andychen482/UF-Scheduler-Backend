@@ -38,13 +38,13 @@ gc.collect()
 @app.route("/api/get_courses", methods=['POST'])
 def get_courses():
     data = request.json
-    searchTerm = data.get('searchTerm', '').upper().replace(" ", "")
+    searchTerm = data.get('searchTerm', '').replace(" ", "")
     itemsPerPage = data.get('itemsPerPage', 20)
     startFrom = data.get('startFrom', 0)
 
     filtered_courses = course_trie.find(searchTerm)
     paginated_courses = filtered_courses[startFrom:startFrom + itemsPerPage]
-
+    
     return jsonify(paginated_courses)
 
 
@@ -104,5 +104,5 @@ def initiateList(G, selected_major):
             if course_code_formatted != prereq_formatted:
                 G.add_edge(prereq_formatted, course_code_formatted)
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -19,4 +19,13 @@ class TrieNode:
             if ch not in node.children:
                 return []
             node = node.children[ch]
-        return node.courses
+        return self._retrieve_courses(node)
+
+    def _retrieve_courses(self, node):
+        """Recursive method to get courses for a node and its descendants."""
+        courses = []
+        if node.end_of_word:
+            courses.extend(node.courses)
+        for child in node.children.values():
+            courses.extend(self._retrieve_courses(child))
+        return courses
