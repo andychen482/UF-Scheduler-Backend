@@ -1,24 +1,39 @@
-import queue
-
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-
 import json
 import re
 import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib
-import time
-
-matplotlib.use('Agg')
-import base64
-from io import BytesIO
+from TrieModule import TrieNode
 
 app = Flask(__name__)
-CORS(app, origins=['http://ufscheduler.com', 'https://ufscheduler.com', 'http://www.ufscheduler.com', 'https://www.ufscheduler.com', 'http://localhost:3000'])
+CORS(app, origins=[
+    'http://ufscheduler.com',
+    'https://ufscheduler.com',
+    'http://www.ufscheduler.com',
+    'https://www.ufscheduler.com',
+    'http://localhost:3000'
+])
 
 with open("doc/Fall2023.json") as f1:
-  all_courses = json.load(f1)
+    all_courses = json.load(f1)
+
+course_trie = TrieNode()
+for course in all_courses:
+    code = course['code'].upper().replace(" ", "")
+    course_trie.add(code, course)
+
+# Preprocess all_courses once at the beginning
+course_code_to_course = {course['code']: course for course in all_courses}
+course_code_to_dept_name = {
+    course['code']: course.get('sections', [{}])[0].get("deptName", "")
+    for course in all_courses
+}
+
+del all_courses
+
+import gc
+gc.collect()
+
 
 @app.route("/api/get_courses", methods=['POST'])
 def get_courses():
@@ -27,31 +42,30 @@ def get_courses():
     itemsPerPage = data.get('itemsPerPage', 20)
     startFrom = data.get('startFrom', 0)
 
-    # Filter and paginate the data based on the provided criteria
-    filtered_courses = [
-        course for course in all_courses if course['code'].upper().startswith(searchTerm)
-    ]
+    filtered_courses = course_trie.find(searchTerm)
     paginated_courses = filtered_courses[startFrom:startFrom + itemsPerPage]
 
     return jsonify(paginated_courses)
 
+
 @app.route('/generate_a_list', methods=['POST'])
 def generate_a_list():
     data = request.get_json()
-
     G = nx.DiGraph()
 
     selected_major = data['selectedMajorServ']
     taken_courses = data['selectedCoursesServ']
-    formatted_taken_courses = [course[:3] + '\n' + course[3:] for course in taken_courses]
+    formatted_taken_courses = [format_course_code(course) for course in taken_courses]
 
     for course in formatted_taken_courses:
         G.add_node(course)
 
     initiateList(G, selected_major)
 
-    # Extract nodes and edges for Cytoscape
-    nodes = [{"data": {"id": node}, "classes": "selected" if node in formatted_taken_courses else "not_selected"} for node in G.nodes()]
+    nodes = [
+        {"data": {"id": node}, "classes": "selected" if node in formatted_taken_courses else "not_selected"}
+        for node in G.nodes()
+    ]
     edges = [{"data": {"source": edge[0], "target": edge[1]}} for edge in G.edges()]
 
     return jsonify({
@@ -59,36 +73,36 @@ def generate_a_list():
         'edges': edges
     })
 
+
 def clean_prereq(prerequisites):
-  # Use regular expression to find course codes in the prerequisites string
-  pattern = r'[A-Z]{3}\s\d{4}'
-  course_codes = re.findall(pattern, prerequisites)
-  return course_codes
+    pattern = r'[A-Z]{3}\s\d{4}'
+    return re.findall(pattern, prerequisites)
+
+
+def format_course_code(course):
+    return course[:3] + '\n' + course[3:]
 
 
 def initiateList(G, selected_major):
-  if not selected_major:
-    return
+    if not selected_major:
+        return
 
-  for course in all_courses:
-    course_code = course.get("code")
-    sections = course.get('sections', [])  # Get the sections list for each course
-    dept_name = sections[0].get("deptName", "") if sections else ""  # First section is enough
+    # This is to filter courses by department name just once
+    relevant_courses = {
+        code for code, dept in course_code_to_dept_name.items()
+        if selected_major in dept
+    }
 
-    if selected_major in dept_name:  # Check if the selected major is in the department name
-      prereq_list = clean_prereq(course.get("prerequisites", ""))
+    for course_code in relevant_courses:
+        course = course_code_to_course[course_code]
+        prereq_list = clean_prereq(course.get("prerequisites", ""))
+        
+        course_code_formatted = format_course_code(course_code.rstrip(' '))
+        for prereq in prereq_list:
+            prereq_formatted = format_course_code(prereq.replace(" ", "").rstrip(' '))
 
-      for prereq in prereq_list:
-        # Omit space, and letters at the end
-        course_code_stripped = course_code.rstrip(' ')
-        prereq_stripped = prereq.replace(" ", "").rstrip(' ')
-
-        if course_code_stripped != prereq_stripped:
-          G.add_edge(prereq_stripped[:3] + '\n' + prereq_stripped[3:], course_code_stripped[:3] + '\n' + course_code_stripped[3:])  # Add directed edge to the graph
-
+            if course_code_formatted != prereq_formatted:
+                G.add_edge(prereq_formatted, course_code_formatted)
 
 # if __name__ == '__main__':
-#   # For server use
-# #   app.run(host='0.0.0.0', port=5000, debug=False)
-#   # For local use
-  # app.run(debug=True)
+#     app.run(debug=True)
