@@ -97,7 +97,7 @@ def initiateList(G, selected_major):
         course = course_code_to_course[course_code]
         prereq_list = clean_prereq(course.get("prerequisites", ""))
         
-        course_code_formatted = format_course_code(course_code.rstrip(' '))
+        course_code_formatted = format_course_code(course_code.rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ '))
         for prereq in prereq_list:
             prereq_formatted = format_course_code(prereq.replace(" ", "").rstrip(' '))
 
