@@ -55,7 +55,7 @@ def generate_a_list():
 
     selected_major = data['selectedMajorServ']
     taken_courses = data['selectedCoursesServ']
-    formatted_taken_courses = [format_course_code(course) for course in taken_courses]
+    formatted_taken_courses = [format_course_code(course.rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ ')) for course in taken_courses]
 
     for course in formatted_taken_courses:
         G.add_node(course)
@@ -104,5 +104,5 @@ def initiateList(G, selected_major):
             if course_code_formatted != prereq_formatted:
                 G.add_edge(prereq_formatted, course_code_formatted)
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
