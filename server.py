@@ -104,5 +104,5 @@ def initiateList(G, selected_major):
             if course_code_formatted != prereq_formatted:
                 G.add_edge(prereq_formatted, course_code_formatted)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
