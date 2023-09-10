@@ -14,7 +14,7 @@ CORS(app, origins=[
     'http://localhost:3000'
 ])
 
-with open("doc/Fall2023.json") as f1:
+with open("doc/Spring2024.json") as f1:
     all_courses = json.load(f1)
 
 course_trie = TrieNode()
