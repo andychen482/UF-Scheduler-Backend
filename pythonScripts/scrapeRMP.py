@@ -140,14 +140,17 @@ def fetch_professor_data(prof):
       try:
           response_data = response.json()
           teacher_edges = response_data.get("data", {}).get("search", {}).get("teachers", {}).get("edges", [])
-          if teacher_edges:
-              node = teacher_edges[0]["node"]
-              local_data[prof] = {
-                  "avgRating": node["avgRating"],
-                  "avgDifficulty": node["avgDifficulty"]
-              }
+          for edge in teacher_edges:
+              node = edge["node"]
+              if node["numRatings"] > 0:
+                  local_data[prof] = {
+                      "avgRating": node["avgRating"],
+                      "avgDifficulty": node["avgDifficulty"]
+                  }
+                  break  # Break once we found a valid teacher node
       except json.JSONDecodeError:
           print(f"Failed to decode JSON for professor {prof}.")
+
 
   # Using a lock to prevent simultaneous writes to the shared dictionary
   with lock:
@@ -160,6 +163,6 @@ with ThreadPoolExecutor(max_workers=16) as executor:
         future.result()
 
 # Saving professor data to RateMyProfessorData.json
-with open("RateMyProfessorData.json", "w") as file:
+with open("pythonScripts/RateMyProfessorData.json", "w") as file:
     json.dump(professor_data, file, indent=4)
     print("Professor data saved to RateMyProfessorData.json")
