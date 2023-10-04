@@ -53,5 +53,17 @@ def alphabeticalNoDuplicates(directory):
                 meetTime['meetTimeBegin'] = convert_to_24_hour(meetTime['meetTimeBegin'])
                 meetTime['meetTimeEnd'] = convert_to_24_hour(meetTime['meetTimeEnd'])
     os.remove(output_file_name)
+
+    with open('RateMyProfessorData.json', 'r') as f:
+        professors = json.load(f)
+        
+    for course in data:
+        for section in course['sections']:
+            for instructor in section['instructors']:
+                instructor_name = instructor['name']
+                if instructor_name in professors:
+                    instructor['avgRating'] = professors[instructor_name]['avgRating']
+                    instructor['avgDifficulty'] = professors[instructor_name]['avgDifficulty']
+
     with open(output_file_name, 'w') as file:
         json.dump(data, file, indent=4)
