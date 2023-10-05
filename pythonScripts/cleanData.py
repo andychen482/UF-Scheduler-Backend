@@ -3,6 +3,10 @@ import os
 from datetime import datetime
 
 def alphabeticalNoDuplicates(directory):
+    # Helper function to convert time to 24-hour format
+    def convert_to_24_hour(time_str):
+        return datetime.strptime(time_str, '%I:%M %p').strftime('%H:%M')
+
     # Read the JSON file
     with open(directory) as file:
         data = json.load(file)
@@ -15,7 +19,7 @@ def alphabeticalNoDuplicates(directory):
         courses = item.get('COURSES', [])
         all_courses.extend(courses)
 
-    # Remove duplicate courses based on specified criteria
+    # Remove duplicate courses
     unique_courses_set = set()
     for course in all_courses:
         unique_courses_set.add(json.dumps(course, sort_keys=True))
@@ -23,7 +27,7 @@ def alphabeticalNoDuplicates(directory):
     # Convert the set back to a list of dictionaries
     unique_courses = [json.loads(course) for course in unique_courses_set]
 
-    # Sort the courses by code, name, and termInd
+    # Sort the courses
     unique_courses.sort(key=lambda x: (x['code'], x['name'], x['termInd']))
 
     # Print the number of unique courses
@@ -32,32 +36,23 @@ def alphabeticalNoDuplicates(directory):
     # Extract the file name without the extension
     file_name = os.path.splitext(os.path.basename(directory))[0]
 
-    # Write the unique courses data into a file with the same name but with '_clean' tag added
+    # Define the output file name
     output_folder = '../courses/'
     output_file_name = os.path.join(output_folder, file_name + '_clean.json')
-    with open(output_file_name, 'w') as no_dupes_file:
-        json.dump(unique_courses, no_dupes_file, indent=4)
 
-    def convert_to_24_hour(time_str):
-        return datetime.strptime(time_str, '%I:%M %p').strftime('%H:%M')
-
-    with open(output_file_name, 'r') as file:
-        data = json.load(file)
-
-    for course in data:
-        # Iterate through each section
+    # Convert meetTimeBegin and meetTimeEnd to 24-hour format
+    for course in unique_courses:
         for section in course['sections']:
-            # Iterate through each meetTime
             for meetTime in section['meetTimes']:
-                # Convert meetTimeBegin and meetTimeEnd to 24-hour format
                 meetTime['meetTimeBegin'] = convert_to_24_hour(meetTime['meetTimeBegin'])
                 meetTime['meetTimeEnd'] = convert_to_24_hour(meetTime['meetTimeEnd'])
-    os.remove(output_file_name)
 
+    # Load professor data
     with open('RateMyProfessorData.json', 'r') as f:
         professors = json.load(f)
-        
-    for course in data:
+
+    # Add avgRating and avgDifficulty to instructors
+    for course in unique_courses:
         for section in course['sections']:
             for instructor in section['instructors']:
                 instructor_name = instructor['name']
@@ -65,5 +60,6 @@ def alphabeticalNoDuplicates(directory):
                     instructor['avgRating'] = professors[instructor_name]['avgRating']
                     instructor['avgDifficulty'] = professors[instructor_name]['avgDifficulty']
 
+    # Write data to file
     with open(output_file_name, 'w') as file:
-        json.dump(data, file, indent=4)
+        json.dump(unique_courses, file, indent=4)

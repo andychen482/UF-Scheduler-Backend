@@ -7,7 +7,7 @@ url = 'https://www.ratemyprofessors.com/graphql'
 
 professor = set()
 
-with open("Fall2023.json") as file:
+with open("../courses/UF_Oct-05-2023_24_spring_clean.json") as file:
     data = json.load(file)
 
 for course in data:
