@@ -7,7 +7,7 @@ url = 'https://www.ratemyprofessors.com/graphql'
 
 professor = set()
 
-with open("courses/UF_Oct-04-2023_24_spring_clean.json") as file:
+with open("Fall2023.json") as file:
     data = json.load(file)
 
 for course in data:
@@ -163,6 +163,6 @@ with ThreadPoolExecutor(max_workers=16) as executor:
         future.result()
 
 # Saving professor data to RateMyProfessorData.json
-with open("pythonScripts/RateMyProfessorData.json", "w") as file:
+with open("RateMyProfessorData.json", "w") as file:
     json.dump(professor_data, file, indent=4)
     print("Professor data saved to RateMyProfessorData.json")
