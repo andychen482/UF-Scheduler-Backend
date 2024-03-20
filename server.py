@@ -4,6 +4,7 @@ import json
 import re
 import networkx as nx
 from TrieModule import TrieNode
+import glob
 
 app = Flask(__name__)
 CORS(app, origins=[
@@ -14,7 +15,8 @@ CORS(app, origins=[
     'http://localhost:3000'
 ])
 
-with open("courses/UF_Mar-19-2024_24_fall_clean.json") as f1:
+json_file = glob.glob('courses/*_final.json')[0]
+with open(json_file) as f1:
     all_courses = json.load(f1)
 
 course_trie = TrieNode()

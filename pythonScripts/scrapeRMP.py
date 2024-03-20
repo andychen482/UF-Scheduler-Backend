@@ -2,12 +2,16 @@ import requests
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+import glob
+import os
 
 url = 'https://www.ratemyprofessors.com/graphql'
 
 professor = set()
 
-with open("../courses/UF_Mar-19-2024_24_fall_clean.json") as file:
+course_file = glob.glob("../courses/*.json")[0]
+
+with open(course_file) as file:
     data = json.load(file)
 
 for course in data:
@@ -42,7 +46,30 @@ headers = {
     'sec-ch-ua-platform': 'Windows'
 }
 
+def merge_course_and_professor_data(course_file, professor_data_file):
+    with open(course_file, 'r') as f:
+        courses = json.load(f)
+
+    with open(professor_data_file, 'r') as f:
+        professors = json.load(f)
+
+    for course in courses:
+        for section in course['sections']:
+            for instructor in section['instructors']:
+                instructor_name = instructor["name"]
+                if instructor_name in professors:
+                    instructor.update(professors[instructor_name])
+
+    # Save merged data to a new file
+    merged_file_name = course_file.replace('_clean', '_final')
+    with open(merged_file_name, 'w') as f:
+        json.dump(courses, f, indent=4)
+    
+    os.remove(course_file)
+
+
 def fetch_professor_data(prof):
+  print(f"Fetching data for professor {prof}...")
   payload = {
       "query": """
           query TeacherSearchResultsPageQuery(
@@ -166,3 +193,5 @@ with ThreadPoolExecutor(max_workers=16) as executor:
 with open("RateMyProfessorData.json", "w") as file:
     json.dump(professor_data, file, indent=4)
     print("Professor data saved to RateMyProfessorData.json")
+
+merge_course_and_professor_data(course_file, "RateMyProfessorData.json")
