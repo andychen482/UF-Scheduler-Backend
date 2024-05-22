@@ -166,18 +166,20 @@ def fetch_professor_data(prof):
   if response.status_code == 200:
       try:
           response_data = response.json()
-          teacher_edges = response_data.get("data", {}).get("search", {}).get("teachers", {}).get("edges", [])
-          for edge in teacher_edges:
-              node = edge["node"]
-              if node["numRatings"] > 0:
-                  local_data[prof] = {
-                      "avgRating": node["avgRating"],
-                      "avgDifficulty": node["avgDifficulty"]
-                  }
-                  break  # Break once we found a valid teacher node
+          if response_data and "data" in response_data:
+              teacher_edges = response_data.get("data", {}).get("search", {}).get("teachers", {}).get("edges", [])
+              for edge in teacher_edges:
+                  node = edge["node"]
+                  if node["numRatings"] > 0:
+                      local_data[prof] = {
+                          "avgRating": node["avgRating"],
+                          "avgDifficulty": node["avgDifficulty"]
+                      }
+                      break  # Break once we found a valid teacher node
       except json.JSONDecodeError:
           print(f"Failed to decode JSON for professor {prof}.")
-
+      except Exception as e:
+          print(f"Error processing data for professor {prof}: {str(e)}")
 
   # Using a lock to prevent simultaneous writes to the shared dictionary
   with lock:
