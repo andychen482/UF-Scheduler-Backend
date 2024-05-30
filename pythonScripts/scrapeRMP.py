@@ -192,8 +192,8 @@ with ThreadPoolExecutor(max_workers=16) as executor:
         future.result()
 
 # Saving professor data to RateMyProfessorData.json
-with open("RateMyProfessorData.json", "w") as file:
+with open("pythonScripts/RateMyProfessorData.json", "w") as file:
     json.dump(professor_data, file, indent=4)
     print("Professor data saved to RateMyProfessorData.json")
 
-merge_course_and_professor_data(course_file, "RateMyProfessorData.json")
+merge_course_and_professor_data(course_file, "pythonScripts/RateMyProfessorData.json")
