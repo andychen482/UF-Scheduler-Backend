@@ -9,7 +9,7 @@ url = 'https://www.ratemyprofessors.com/graphql'
 
 professor = set()
 
-course_file = glob.glob("../courses/*.json")[0]
+course_file = glob.glob("courses/*.json")[0]
 
 with open(course_file) as file:
     data = json.load(file)

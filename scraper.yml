@@ -1,0 +1,38 @@
+name: Run Web Scrapers
+
+on:
+  schedule:
+    # Runs at 03:00 UTC every day
+    - cron: '0 3 * * *'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Ensure you have a requirements.txt
+
+    - name: Run first script
+      run: python pythonScripts/UFCourseGrabber.py fall 24
+
+    - name: Run second script
+      run: python pythonScripts/scrapeRMP.py
+
+    - name: Commit and push if changes
+      run: |
+        git config --global user.email "andy.chen0607@gmail.com"
+        git config --global user.name "andychen482"
+        git add -A
+        git diff --staged --quiet || git commit -m "Daily update from web scrapers"
+        git push

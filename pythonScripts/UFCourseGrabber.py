@@ -166,7 +166,7 @@ def alphabeticalNoDuplicates(directory):
     file_name = os.path.splitext(os.path.basename(directory))[0]
 
     # Define the output file name
-    output_folder = '../courses/'
+    output_folder = 'courses/'
     output_file_name = os.path.join(output_folder, file_name + '_clean.json')
 
     # Convert meetTimeBegin and meetTimeEnd to 24-hour format
@@ -199,6 +199,14 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print("Usage: script.py <term> <year> [<term> <year> ...]")
         sys.exit(1)
+
+    current_files = glob.glob(os.path.join(courses_dir, '*.json'))
+    for file in current_files:
+        try:
+            os.remove(file)
+        except OSError as e:
+            logging.error(f'Error while deleting file {file}. Error message: {e.strerror}')
+            sys.exit(1)
 
     terms = sys.argv[1:]
     for i in range(0, len(terms), 2):
