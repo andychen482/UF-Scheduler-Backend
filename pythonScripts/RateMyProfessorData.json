@@ -23,8 +23,36 @@
         "avgRating": 2,
         "avgDifficulty": 2
     },
-    "KRISTIN JOYS": {
-        "avgRating": 2.4,
+    "Melissa Brace": {
+        "avgRating": 5,
+        "avgDifficulty": 2.5
+    },
+    "Peggy Borum": {
+        "avgRating": 2,
+        "avgDifficulty": 3.5
+    },
+    "Scott Horsley": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.5
+    },
+    "Silvio Dos Santos": {
+        "avgRating": 2.7,
+        "avgDifficulty": 4.2
+    },
+    "Roger Austin": {
+        "avgRating": 5,
+        "avgDifficulty": 2.6
+    },
+    "Richard Lutz": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.5
+    },
+    "Darlena Cunha": {
+        "avgRating": 4.4,
+        "avgDifficulty": 2.4
+    },
+    "Tolulope Agunbiade": {
+        "avgRating": 3.1,
         "avgDifficulty": 4
     },
     "Victoria Miller": {
@@ -37,6 +65,42 @@
     },
     "Mark Reid": {
         "avgRating": 5,
+        "avgDifficulty": 2.9
+    },
+    "Mikael Sandberg": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.1
+    },
+    "William Beverly": {
+        "avgRating": 4.4,
+        "avgDifficulty": 1.1
+    },
+    "Markus Santoso": {
+        "avgRating": 3,
+        "avgDifficulty": 4.3
+    },
+    "Felipe Gonz\u00e1lez-Silva": {
+        "avgRating": 3,
+        "avgDifficulty": 3
+    },
+    "Selwyn Piramuthu": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.3
+    },
+    "Andreas Enqvist": {
+        "avgRating": 4,
+        "avgDifficulty": 4
+    },
+    "abigail Grix": {
+        "avgRating": 3,
+        "avgDifficulty": 3.3
+    },
+    "Kasey Power": {
+        "avgRating": 1.5,
+        "avgDifficulty": 5
+    },
+    "Ashleigh Wright": {
+        "avgRating": 3,
         "avgDifficulty": 2
     },
     "Jack Jacob": {
@@ -627,8 +691,12 @@
         "avgRating": 4,
         "avgDifficulty": 2
     },
-    "Khiem Tran": {
-        "avgRating": 3,
+    "Maxim Dolinsky": {
+        "avgRating": 2.8,
+        "avgDifficulty": 4.9
+    },
+    "Tracey Taylor": {
+        "avgRating": 5,
         "avgDifficulty": 2
     },
     "Taikgun Song": {
@@ -687,8 +755,92 @@
         "avgRating": 5,
         "avgDifficulty": 3
     },
-    "Mitchell Knutson": {
-        "avgRating": 2.6,
+    "Cathy Hwang": {
+        "avgRating": 3.2,
+        "avgDifficulty": 2.3
+    },
+    "Eileen Buss": {
+        "avgRating": 2,
+        "avgDifficulty": 5
+    },
+    "Kurt Schulze": {
+        "avgRating": 2.4,
+        "avgDifficulty": 2.4
+    },
+    "Brianna Blassneck": {
+        "avgRating": 5,
+        "avgDifficulty": 2.3
+    },
+    "Nancy Hunt": {
+        "avgRating": 1.9,
+        "avgDifficulty": 2.9
+    },
+    "Jeff Eickwort": {
+        "avgRating": 4.7,
+        "avgDifficulty": 1.6
+    },
+    "Zhiguang Huo": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.9
+    },
+    "Maria Ripol": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.3
+    },
+    "Sara Behdad": {
+        "avgRating": 4.6,
+        "avgDifficulty": 3
+    },
+    "Robert Averbuch": {
+        "avgRating": 3.9,
+        "avgDifficulty": 2.4
+    },
+    "Wagner Vendrame": {
+        "avgRating": 5,
+        "avgDifficulty": 3.4
+    },
+    "Rori Bloom": {
+        "avgRating": 4.1,
+        "avgDifficulty": 3
+    },
+    "Stephen Kimmel": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3.1
+    },
+    "Jennifer Bizon": {
+        "avgRating": 4,
+        "avgDifficulty": 3
+    },
+    "James Vogl": {
+        "avgRating": 2.3,
+        "avgDifficulty": 3.9
+    },
+    "Janet Coats": {
+        "avgRating": 3,
+        "avgDifficulty": 2.5
+    },
+    "Soohyoun Ahn": {
+        "avgRating": 5,
+        "avgDifficulty": 3.8
+    },
+    "Lara Murphy": {
+        "avgRating": 2.8,
+        "avgDifficulty": 1.5
+    },
+    "Karen Schofield": {
+        "avgRating": 4.8,
+        "avgDifficulty": 2.2
+    },
+    "James Estrada": {
+        "avgRating": 2.3,
+        "avgDifficulty": 3.9
+    },
+    "Yongpei Guan": {
+        "avgRating": 2.5,
+        "avgDifficulty": 4
+    },
+    "Julie Brown": {
+        "avgRating": 4.3,
         "avgDifficulty": 2.8
     },
     "Dina Sandoval": {
@@ -6981,7 +7133,7 @@
     },
     "Abhisheak Sharma": {
         "avgRating": 5,
-        "avgDifficulty": 2.4
+        "avgDifficulty": 2.1
     },
     "Thomas Knight": {
         "avgRating": 4,
@@ -11821,7 +11973,7 @@
     },
     "Simon Crowcroft": {
         "avgRating": 5,
-        "avgDifficulty": 2
+        "avgDifficulty": 4
     },
     "Zhoumeng Lin": {
         "avgRating": 3.9,
@@ -11982,6 +12134,674 @@
     "Tony Mata": {
         "avgRating": 2.5,
         "avgDifficulty": 4
+    },
+    "Taikgun Song": {
+        "avgRating": 4,
+        "avgDifficulty": 2
+    },
+    "Robert Rhee": {
+        "avgRating": 3.9,
+        "avgDifficulty": 2.4
+    },
+    "Carrie Adams": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1.5
+    },
+    "Jack Mecholsky": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.9
+    },
+    "Chris Sanchez": {
+        "avgRating": 5,
+        "avgDifficulty": 2.5
+    },
+    "William Littlejohn-Oram": {
+        "avgRating": 1.8,
+        "avgDifficulty": 3
+    },
+    "Jian Zou": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.4
+    },
+    "Mathew Leibold": {
+        "avgRating": 2,
+        "avgDifficulty": 3
+    },
+    "Steven Noll": {
+        "avgRating": 5,
+        "avgDifficulty": 3
+    },
+    "Hina Shaikh": {
+        "avgRating": 5,
+        "avgDifficulty": 3
+    },
+    "Phillip Lantry": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2
+    },
+    "Neil Sullivan": {
+        "avgRating": 4.3,
+        "avgDifficulty": 1.5
+    },
+    "Grady Roberts": {
+        "avgRating": 3.9,
+        "avgDifficulty": 3.4
+    },
+    "Jason Butler": {
+        "avgRating": 4,
+        "avgDifficulty": 4.4
+    },
+    "Noah Hammarlund": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1
+    },
+    "Boyi Hu": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.3
+    },
+    "Larissa Williamson": {
+        "avgRating": 2.2,
+        "avgDifficulty": 3.4
+    },
+    "Simon Phillpot": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "James Hobert": {
+        "avgRating": 2.3,
+        "avgDifficulty": 3.9
+    },
+    "Emily Miller-Cushon": {
+        "avgRating": 4.8,
+        "avgDifficulty": 2.8
+    },
+    "Rebecca Pearl": {
+        "avgRating": 4.3,
+        "avgDifficulty": 1
+    },
+    "Stephanie Smith": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.5
+    },
+    "Eftihia Arkoudis": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.3
+    },
+    "Anomitra Paul": {
+        "avgRating": 3.9,
+        "avgDifficulty": 3.6
+    },
+    "Kevin Casseday": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1.8
+    },
+    "Mary Koroly": {
+        "avgRating": 2.5,
+        "avgDifficulty": 3.6
+    },
+    "Rong Zhang": {
+        "avgRating": 3.9,
+        "avgDifficulty": 3.9
+    },
+    "Analiz Faife Casas": {
+        "avgRating": 3.3,
+        "avgDifficulty": 2.8
+    },
+    "Hannah Shipley": {
+        "avgRating": 2.3,
+        "avgDifficulty": 2.5
+    },
+    "Jason Scheffler": {
+        "avgRating": 5,
+        "avgDifficulty": 3
+    },
+    "Kathleen Ham": {
+        "avgRating": 4,
+        "avgDifficulty": 3.5
+    },
+    "Dianne Goede": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.3
+    },
+    "Erin Cunningham": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.1
+    },
+    "Jeffrey Andrews": {
+        "avgRating": 4.7,
+        "avgDifficulty": 1.6
+    },
+    "Rodrigo Borges": {
+        "avgRating": 3.3,
+        "avgDifficulty": 3.1
+    },
+    "Elizabeth Gadsby": {
+        "avgRating": 2.4,
+        "avgDifficulty": 2.5
+    },
+    "Carlos Vallejos": {
+        "avgRating": 1,
+        "avgDifficulty": 5
+    },
+    "Rebecca Wilson": {
+        "avgRating": 4.3,
+        "avgDifficulty": 1
+    },
+    "Arunava Banerjee": {
+        "avgRating": 4.9,
+        "avgDifficulty": 3.9
+    },
+    "Thomas Pecor": {
+        "avgRating": 4,
+        "avgDifficulty": 2.9
+    },
+    "Gabrielle Salazar": {
+        "avgRating": 2,
+        "avgDifficulty": 4
+    },
+    "Sidney Homan": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Meredith Montgomery": {
+        "avgRating": 4.8,
+        "avgDifficulty": 1.2
+    },
+    "Bill Eisenstadt": {
+        "avgRating": 1.5,
+        "avgDifficulty": 3
+    },
+    "Davis Simmons": {
+        "avgRating": 4,
+        "avgDifficulty": 4
+    },
+    "Anna Peterson": {
+        "avgRating": 4,
+        "avgDifficulty": 3
+    },
+    "Iske Larkin": {
+        "avgRating": 2.7,
+        "avgDifficulty": 2
+    },
+    "Corrine Buchanan": {
+        "avgRating": 4,
+        "avgDifficulty": 2
+    },
+    "Andrew Maurer": {
+        "avgRating": 4.1,
+        "avgDifficulty": 3.7
+    },
+    "Melissa Munson": {
+        "avgRating": 3,
+        "avgDifficulty": 3
+    },
+    "Matthew Uttermark": {
+        "avgRating": 2.4,
+        "avgDifficulty": 3.3
+    },
+    "Aroon Pressram": {
+        "avgRating": 3.3,
+        "avgDifficulty": 1.5
+    },
+    "Emily Fox": {
+        "avgRating": 4.4,
+        "avgDifficulty": 2.5
+    },
+    "Bridget Grogan": {
+        "avgRating": 4.6,
+        "avgDifficulty": 2.6
+    },
+    "Haipeng Yu": {
+        "avgRating": 5,
+        "avgDifficulty": 2.6
+    },
+    "Chen Gilor": {
+        "avgRating": 3.9,
+        "avgDifficulty": 3
+    },
+    "John Banko": {
+        "avgRating": 3.8,
+        "avgDifficulty": 3.8
+    },
+    "Carl Crane": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.6
+    },
+    "Xiaoyi Tian": {
+        "avgRating": 1,
+        "avgDifficulty": 4
+    },
+    "Samuel Martins": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3.5
+    },
+    "Gisele McAuliffe": {
+        "avgRating": 3.8,
+        "avgDifficulty": 2.6
+    },
+    "Gene Crislip": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.9
+    },
+    "Gina Musolino": {
+        "avgRating": 5,
+        "avgDifficulty": 3
+    },
+    "Nancy Chrystal-Green": {
+        "avgRating": 4.3,
+        "avgDifficulty": 1.9
+    },
+    "Ronald Stein": {
+        "avgRating": 2.2,
+        "avgDifficulty": 3.3
+    },
+    "Glenn Bryan": {
+        "avgRating": 5,
+        "avgDifficulty": 1.6
+    },
+    "CARLOS BET": {
+        "avgRating": 1,
+        "avgDifficulty": 5
+    },
+    "G. Chip Johnson": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.8
+    },
+    "Sebastian Galindo": {
+        "avgRating": 2,
+        "avgDifficulty": 4.4
+    },
+    "Erik Sander": {
+        "avgRating": 4.8,
+        "avgDifficulty": 3.5
+    },
+    "Brenda Smith": {
+        "avgRating": 3.6,
+        "avgDifficulty": 2.5
+    },
+    "Gregg Henderschiedt": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2
+    },
+    "Mark Wood": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Chad Carr": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3
+    },
+    "Mickey Nall": {
+        "avgRating": 4.6,
+        "avgDifficulty": 3.1
+    },
+    "Wei Li": {
+        "avgRating": 3.5,
+        "avgDifficulty": 2
+    },
+    "Amanda Janner": {
+        "avgRating": 4.7,
+        "avgDifficulty": 3.5
+    },
+    "Anita Marshall": {
+        "avgRating": 5,
+        "avgDifficulty": 2.3
+    },
+    "Laurie Solomon": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.5
+    },
+    "Rob Moore": {
+        "avgRating": 2,
+        "avgDifficulty": 3
+    },
+    "Jason Weaver": {
+        "avgRating": 4,
+        "avgDifficulty": 3.7
+    },
+    "Shi Jin": {
+        "avgRating": 5,
+        "avgDifficulty": 3
+    },
+    "Jalie Tucker": {
+        "avgRating": 1.3,
+        "avgDifficulty": 4
+    },
+    "Tishawna Dawson": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Priti Patel": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Naibi Marinas": {
+        "avgRating": 3.3,
+        "avgDifficulty": 3.3
+    },
+    "Frank Barnas": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.3
+    },
+    "Edo Navot": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3
+    },
+    "Norman Goda": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.8
+    },
+    "Duwayne Schubring": {
+        "avgRating": 3,
+        "avgDifficulty": 3
+    },
+    "Julian Cook": {
+        "avgRating": 3.6,
+        "avgDifficulty": 4.8
+    },
+    "Timothy Farmer": {
+        "avgRating": 4.6,
+        "avgDifficulty": 2.5
+    },
+    "Davie Kadyampakeni": {
+        "avgRating": 2.3,
+        "avgDifficulty": 3.7
+    },
+    "Kalen Manasco": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.7
+    },
+    "SANDIP RAY": {
+        "avgRating": 3,
+        "avgDifficulty": 1
+    },
+    "Nawari Nawari": {
+        "avgRating": 1.9,
+        "avgDifficulty": 1.9
+    },
+    "Bethany Shoulders": {
+        "avgRating": 4,
+        "avgDifficulty": 2.8
+    },
+    "Lauren Douma": {
+        "avgRating": 5,
+        "avgDifficulty": 4
+    },
+    "Olesya Savchenko": {
+        "avgRating": 4,
+        "avgDifficulty": 2.7
+    },
+    "Dragan Kujundzic": {
+        "avgRating": 3.1,
+        "avgDifficulty": 1.8
+    },
+    "Richard Woodard": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.5
+    },
+    "Matthew Jones": {
+        "avgRating": 2.4,
+        "avgDifficulty": 3.3
+    },
+    "Chelsea Cantrell": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.8
+    },
+    "Hamad Alhatem": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.6
+    },
+    "Ludovica Chiavaccini": {
+        "avgRating": 2.8,
+        "avgDifficulty": 4
+    },
+    "Ana Longo": {
+        "avgRating": 2.6,
+        "avgDifficulty": 4
+    },
+    "Kristen Lewandowski": {
+        "avgRating": 5,
+        "avgDifficulty": 1.8
+    },
+    "Jennifer Bridge": {
+        "avgRating": 4,
+        "avgDifficulty": 3
+    },
+    "John Watkins": {
+        "avgRating": 3.8,
+        "avgDifficulty": 3.8
+    },
+    "Afsar Ali": {
+        "avgRating": 3.4,
+        "avgDifficulty": 3.6
+    },
+    "Randell Doty": {
+        "avgRating": 3.3,
+        "avgDifficulty": 4
+    },
+    "Elham Nasri": {
+        "avgRating": 4.8,
+        "avgDifficulty": 2.5
+    },
+    "Xavier Kowalski": {
+        "avgRating": 3.8,
+        "avgDifficulty": 4.3
+    },
+    "Simon Taipliadis": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Demetris Athienitis": {
+        "avgRating": 2.9,
+        "avgDifficulty": 4
+    },
+    "Kaylee Lamb": {
+        "avgRating": 4,
+        "avgDifficulty": 3
+    },
+    "Michael Stapleton": {
+        "avgRating": 2.8,
+        "avgDifficulty": 1.8
+    },
+    "Samuel Aye-Gboyin": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3.5
+    },
+    "Briana Bivens": {
+        "avgRating": 5,
+        "avgDifficulty": 3
+    },
+    "Michael Capece": {
+        "avgRating": 2.8,
+        "avgDifficulty": 1.8
+    },
+    "Gunnar Heins": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.9
+    },
+    "John Laibson": {
+        "avgRating": 3.8,
+        "avgDifficulty": 3.8
+    },
+    "Bernard Hauser": {
+        "avgRating": 3.9,
+        "avgDifficulty": 4
+    },
+    "Alison Noonan": {
+        "avgRating": 5,
+        "avgDifficulty": 3.3
+    },
+    "Barbara Zsembik": {
+        "avgRating": 3.8,
+        "avgDifficulty": 2.8
+    },
+    "Ryan McCarty": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3
+    },
+    "Savannah Mikus": {
+        "avgRating": 5,
+        "avgDifficulty": 1
+    },
+    "Belkis Abufaur": {
+        "avgRating": 5,
+        "avgDifficulty": 4
+    },
+    "Daniella Conde": {
+        "avgRating": 3,
+        "avgDifficulty": 3.7
+    },
+    "Andrea Caloiaro": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3
+    },
+    "Ted Spiker": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Mar'Tina Wimberly": {
+        "avgRating": 1.9,
+        "avgDifficulty": 4
+    },
+    "Lisa House": {
+        "avgRating": 2.9,
+        "avgDifficulty": 2.7
+    },
+    "Jaysankar De": {
+        "avgRating": 4.8,
+        "avgDifficulty": 2.8
+    },
+    "Melanie Correll": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.8
+    },
+    "Michelle Phillips": {
+        "avgRating": 5,
+        "avgDifficulty": 3.8
+    },
+    "Ann Clark": {
+        "avgRating": 4.8,
+        "avgDifficulty": 3
+    },
+    "Marsha Bryant": {
+        "avgRating": 3.8,
+        "avgDifficulty": 3.3
+    },
+    "Peter Adams": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3
+    },
+    "Rene Love": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Andrea Lucky": {
+        "avgRating": 4.4,
+        "avgDifficulty": 2.5
+    },
+    "Taylor Morris": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Brian Slawson": {
+        "avgRating": 4.8,
+        "avgDifficulty": 2
+    },
+    "Jessica Hutson": {
+        "avgRating": 4.1,
+        "avgDifficulty": 3.3
+    },
+    "De-Fen Mou": {
+        "avgRating": 3.6,
+        "avgDifficulty": 2.1
+    },
+    "Antoine Williams": {
+        "avgRating": 2.1,
+        "avgDifficulty": 4.4
+    },
+    "SADIE HUNDEMER": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Marcel Foster": {
+        "avgRating": 1,
+        "avgDifficulty": 3
+    },
+    "Ghatu Subhash": {
+        "avgRating": 5,
+        "avgDifficulty": 3.6
+    },
+    "Marian Borg": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3.1
+    },
+    "Matthew Terza": {
+        "avgRating": 2.4,
+        "avgDifficulty": 3.3
+    },
+    "Iser Deleon": {
+        "avgRating": 4.4,
+        "avgDifficulty": 2.6
+    },
+    "Woochoel Shin": {
+        "avgRating": 2.4,
+        "avgDifficulty": 4.8
+    },
+    "Naim Montazeri": {
+        "avgRating": 1.8,
+        "avgDifficulty": 4.3
+    },
+    "Ivan Ruchkin": {
+        "avgRating": 3.9,
+        "avgDifficulty": 1.9
+    },
+    "Meghan Ferrall-Fairbanks": {
+        "avgRating": 5,
+        "avgDifficulty": 2.8
+    },
+    "Nicholas Napoli": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3.6
+    },
+    "Joe Newman": {
+        "avgRating": 5,
+        "avgDifficulty": 2
+    },
+    "Grace John": {
+        "avgRating": 3.8,
+        "avgDifficulty": 3.8
+    },
+    "Bernadine Thomas": {
+        "avgRating": 3.3,
+        "avgDifficulty": 3.5
+    },
+    "Kimberly Stubbs": {
+        "avgRating": 4.8,
+        "avgDifficulty": 1.5
+    },
+    "Hyojin Kim": {
+        "avgRating": 2.5,
+        "avgDifficulty": 3.9
+    },
+    "Maria Watson": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1.7
+    },
+    "Julia Varnes": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.3
+    },
+    "Leo Amini": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3.2
+    },
+    "Leslie Murray": {
+        "avgRating": 3.1,
+        "avgDifficulty": 4.3
+    },
+    "John Breed": {
+        "avgRating": 3.8,
+        "avgDifficulty": 3.8
     },
     "Sanaz Motamedi": {
         "avgRating": 2.8,
