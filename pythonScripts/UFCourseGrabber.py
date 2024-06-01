@@ -37,25 +37,25 @@ def scrape_page(url):
         response.raise_for_status()  # Raises stored HTTPError, if one occurred.
     except requests.HTTPError as http_err:
         logging.error(f'HTTP error occurred: {http_err}')
-        sys.exit(1)
+        os._exit(1)
         return []
     except Exception as err:
         logging.error(f'Other error occurred: {err}')
-        sys.exit(1)
+        os._exit(1)
         return []
 
     try:
         data = response.json()
     except ValueError:  # includes simplejson.decoder.JSONDecodeError
         logging.error('Decoding JSON has failed')
-        sys.exit(1)
+        os._exit(1)
         return []
 
     if isinstance(data, list):  # Changed this to list as you mentioned the type of data is list
         return data
     else:
         logging.info("Data is not a list.")
-        sys.exit(1)
+        os._exit(1)
         return []  # Return an empty list if data is not a list
 
 def save_text_to_json_file(text, filename):
@@ -72,7 +72,7 @@ def save_text_to_json_file(text, filename):
             existing_data = []
     except json.JSONDecodeError:
         logging.error('Failed to decode JSON from file')
-        sys.exit(1)
+        os._exit(1)
         existing_data = []
 
     # Remove unwanted keys from the text
@@ -90,7 +90,7 @@ def save_text_to_json_file(text, filename):
             json.dump(existing_data, f, indent=4)
     except IOError:
         logging.error('Failed to write to file')
-        sys.exit(1)
+        os._exit(1)
 
 def thread_handler(thread_id, controlNum_start, url, increment=16):
     filename = date.today().strftime("%b-%d-%Y") + f'_{year}_{term}_thread{thread_id}.json'
@@ -129,7 +129,7 @@ def merge_json_files():
             os.remove(file)
         except OSError as e:
             logging.error(f'Error while deleting file {file}. Error message: {e.strerror}')
-            sys.exit(1)
+            os._exit(1)
 
 def alphabeticalNoDuplicates(directory):
     # Helper function to convert time to 24-hour format
