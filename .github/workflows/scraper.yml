@@ -2,8 +2,7 @@ name: Run Web Scrapers
 
 on:
   schedule:
-    # Runs at 03:00 UTC every day
-    - cron: "0 * * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 jobs:
