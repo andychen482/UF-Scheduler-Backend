@@ -26,8 +26,8 @@ lock = threading.Lock()
 
 
 headers = {
-    'Accept': '*/*',
-    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept': 'application/json',
+    'Accept-Encoding': 'gzip, deflate, br, zstd',
     'Accept-Language': 'en-US,en;q=0.9,es;q=0.8',
     'Authorization': 'Basic dGVzdDp0ZXN0',
     'Connection': 'keep-alive',
@@ -36,14 +36,10 @@ headers = {
     'DNT': '1',
     'Host': 'www.ratemyprofessors.com',
     'Origin': 'https://www.ratemyprofessors.com',
-    'Referer': 'https://www.ratemyprofessors.com/search/professors/1100?q=*',
     'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
-    'Sec-Fetch-Site': 'same-origin',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
-    'sec-ch-ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': 'Windows'
+    'Sec-Fetch-Site': 'none',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
 }
 
 def merge_course_and_professor_data(course_file, professor_data_file):
@@ -72,90 +68,65 @@ def fetch_professor_data(prof):
   print(f"Fetching data for professor {prof}...")
   payload = {
       "query": """
-          query TeacherSearchResultsPageQuery(
-            $query: TeacherSearchQuery!
-            $schoolID: ID
-          ) {
-            search: newSearch {
-              ...TeacherSearchPagination_search_1ZLmLD
-            }
-            school: node(id: $schoolID) {
-              __typename
-              ... on School {
-                name
-              }
-              id
-            }
-          }
-
-          fragment TeacherSearchPagination_search_1ZLmLD on newSearch {
-            teachers(query: $query, first: 8, after: "") {
-              didFallback
-              edges {
-                cursor
-                node {
-                  ...TeacherCard_teacher
-                  id
-                  __typename
+    query NewSearchTeachersQuery($query: TeacherSearchQuery!) {
+        newSearch {
+            teachers(query: $query) {
+                didFallback
+                edges {
+                    cursor
+                    node {
+                        id
+                        legacyId
+                        firstName
+                        lastName
+                        avgRatingRounded
+                        numRatings
+                        wouldTakeAgainPercentRounded
+                        wouldTakeAgainCount
+                        teacherRatingTags {
+                            id
+                            legacyId
+                            tagCount
+                            tagName
+                        }
+                        mostUsefulRating {
+                            id
+                            class
+                            isForOnlineClass
+                            legacyId
+                            comment
+                            helpfulRatingRounded
+                            ratingTags
+                            grade
+                            date
+                            iWouldTakeAgain
+                            qualityRating
+                            difficultyRatingRounded
+                            teacherNote{
+                                id
+                                comment
+                                createdAt
+                                class
+                            }
+                            thumbsDownTotal
+                            thumbsUpTotal
+                        }
+                        avgDifficultyRounded
+                        school {
+                            name
+                            id
+                        }
+                        department
+                    }
                 }
-              }
-              pageInfo {
-                hasNextPage
-                endCursor
-              }
-              resultCount
-              filters {
-                field
-                options {
-                  value
-                  id
-                }
-              }
             }
-          }
-
-          fragment TeacherCard_teacher on Teacher {
-            id
-            legacyId
-            avgRating
-            numRatings
-            ...CardFeedback_teacher
-            ...CardSchool_teacher
-            ...CardName_teacher
-            ...TeacherBookmark_teacher
-          }
-
-          fragment CardFeedback_teacher on Teacher {
-            wouldTakeAgainPercent
-            avgDifficulty
-          }
-
-          fragment CardSchool_teacher on Teacher {
-            department
-            school {
-              name
-              id
-            }
-          }
-
-          fragment CardName_teacher on Teacher {
-              firstName
-              lastName
-          }
-
-          fragment TeacherBookmark_teacher on Teacher {
-              id
-              isSaved
-          }
+        }
+    }
           """,  # Continue from where you left off
         "variables": {
-            "count": 8,
-            "cursor": "YXJyYXljb25uZWN0aW9uOjc=",
             "query": {
                 "text": prof,
                 "schoolID": "U2Nob29sLTExMDA=",
-                "fallback": True,
-                "departmentID": None
             }
         }
     }
@@ -170,10 +141,11 @@ def fetch_professor_data(prof):
               teacher_edges = response_data.get("data", {}).get("search", {}).get("teachers", {}).get("edges", [])
               for edge in teacher_edges:
                   node = edge["node"]
-                  if node["numRatings"] > 0:
+                  if node["numRatings"] > 0 and (node["firstName"] + " " + node["lastName"]).lower() == prof.lower():
                       local_data[prof] = {
                           "avgRating": node["avgRating"],
-                          "avgDifficulty": node["avgDifficulty"]
+                          "avgDifficulty": node["avgDifficulty"],
+                          "professorID": node["legacyId"]
                       }
                       break  # Break once we found a valid teacher node
       except json.JSONDecodeError:
