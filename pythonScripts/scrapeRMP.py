@@ -66,70 +66,67 @@ def merge_course_and_professor_data(course_file, professor_data_file):
 
 def fetch_professor_data(prof):
   print(f"Fetching data for professor {prof}...")
+  query = """
+  query NewSearchTeachersQuery($query: TeacherSearchQuery!) {
+      newSearch {
+          teachers(query: $query) {
+              didFallback
+              edges {
+                  cursor
+                  node {
+                      id
+                      legacyId
+                      firstName
+                      lastName
+                      avgRatingRounded
+                      numRatings
+                      wouldTakeAgainPercentRounded
+                      wouldTakeAgainCount
+                      teacherRatingTags {
+                          id
+                          legacyId
+                          tagCount
+                          tagName
+                      }
+                      mostUsefulRating {
+                          id
+                          class
+                          isForOnlineClass
+                          legacyId
+                          comment
+                          helpfulRatingRounded
+                          ratingTags
+                          grade
+                          date
+                          iWouldTakeAgain
+                          qualityRating
+                          difficultyRatingRounded
+                          teacherNote{
+                              id
+                              comment
+                              createdAt
+                              class
+                          }
+                          thumbsDownTotal
+                          thumbsUpTotal
+                      }
+                      avgDifficultyRounded
+                      school {
+                          name
+                          id
+                      }
+                      department
+                  }
+              }
+          }
+      }
+  }
+  """
+  variables = {"query": {"text": prof, "schoolID": "U2Nob29sLTExMDA="}}
   payload = {
-      "query": """
-    query NewSearchTeachersQuery($query: TeacherSearchQuery!) {
-        newSearch {
-            teachers(query: $query) {
-                didFallback
-                edges {
-                    cursor
-                    node {
-                        id
-                        legacyId
-                        firstName
-                        lastName
-                        avgRatingRounded
-                        numRatings
-                        wouldTakeAgainPercentRounded
-                        wouldTakeAgainCount
-                        teacherRatingTags {
-                            id
-                            legacyId
-                            tagCount
-                            tagName
-                        }
-                        mostUsefulRating {
-                            id
-                            class
-                            isForOnlineClass
-                            legacyId
-                            comment
-                            helpfulRatingRounded
-                            ratingTags
-                            grade
-                            date
-                            iWouldTakeAgain
-                            qualityRating
-                            difficultyRatingRounded
-                            teacherNote{
-                                id
-                                comment
-                                createdAt
-                                class
-                            }
-                            thumbsDownTotal
-                            thumbsUpTotal
-                        }
-                        avgDifficultyRounded
-                        school {
-                            name
-                            id
-                        }
-                        department
-                    }
-                }
-            }
-        }
-    }
-          """,  # Continue from where you left off
-        "variables": {
-            "query": {
-                "text": prof,
-                "schoolID": "U2Nob29sLTExMDA=",
-            }
-        }
-    }
+      "query": query,
+      "variables": variables
+  }
 
   response = requests.post(url, json=payload, headers=headers)
   local_data = {}
@@ -137,21 +134,26 @@ def fetch_professor_data(prof):
   if response.status_code == 200:
       try:
           response_data = response.json()
+
           if response_data and "data" in response_data:
-              teacher_edges = response_data.get("data", {}).get("search", {}).get("teachers", {}).get("edges", [])
+              teacher_edges = response_data.get("data", {}).get(
+                  "newSearch", {}).get("teachers", {}).get("edges", [])
               for edge in teacher_edges:
                   node = edge["node"]
                   if node["numRatings"] > 0 and (node["firstName"] + " " + node["lastName"]).lower() == prof.lower():
                       local_data[prof] = {
-                          "avgRating": node["avgRating"],
-                          "avgDifficulty": node["avgDifficulty"],
-                          "professorID": node["legacyId"]
+                          "avgRating": node.get("avgRatingRounded"),
+                          "avgDifficulty": node.get("avgDifficultyRounded"),
+                          "professorID": node.get("legacyId")
                       }
                       break  # Break once we found a valid teacher node
       except json.JSONDecodeError:
           print(f"Failed to decode JSON for professor {prof}.")
       except Exception as e:
           print(f"Error processing data for professor {prof}: {str(e)}")
+  else:
+      print(f"Failed to fetch data for professor {prof}, status code: {response.status_code}")
+      return None
 
   # Using a lock to prevent simultaneous writes to the shared dictionary
   with lock:
