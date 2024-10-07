@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt  # Ensure you have a requirements.txt
 
       - name: Run first script
-        run: python pythonScripts/UFCourseGrabber.py fall 24
+        run: python pythonScripts/UFCourseGrabber.py spring 25
 
       - name: Run second script
         run: python pythonScripts/scrapeRMP.py
