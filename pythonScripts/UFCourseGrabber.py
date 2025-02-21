@@ -92,7 +92,7 @@ def save_text_to_json_file(text, filename):
         logging.error('Failed to write to file')
         os._exit(1)
 
-def thread_handler(thread_id, controlNum_start, url, increment=16):
+def thread_handler(thread_id, controlNum_start, url, term, year, increment=16):
     filename = date.today().strftime("%b-%d-%Y") + f'_{year}_{term}_thread{thread_id}.json'
     filename = os.path.join(courses_dir, filename)  # Add 'courses' directory to the filename
 
@@ -109,7 +109,7 @@ def thread_handler(thread_id, controlNum_start, url, increment=16):
         controlNum += 50 * increment
         counter.increment()
 
-def merge_json_files():
+def merge_json_files(term, year):
     all_data = []
     files = glob.glob(os.path.join(courses_dir, date.today().strftime("%b-%d-%Y") + f'_{year}_{term}_thread*.json'))
 
@@ -207,14 +207,6 @@ if __name__ == '__main__':
         print("Usage: script.py <term> <year> [<term> <year> ...]")
         sys.exit(1)
 
-    current_files = glob.glob(os.path.join(courses_dir, '*.json'))
-    for file in current_files:
-        try:
-            os.remove(file)
-        except OSError as e:
-            logging.error(f'Error while deleting file {file}. Error message: {e.strerror}')
-            sys.exit(1)
-
     terms = sys.argv[1:]
     for i in range(0, len(terms), 2):
         term = terms[i].lower()
@@ -232,13 +224,22 @@ if __name__ == '__main__':
             print("Year should be a two-digit number between 00 and 99")
             sys.exit(1)
 
+        # Delete existing JSON files for the current term and year
+        current_files = glob.glob(os.path.join(courses_dir, f'*_{year}_{term}.json'))
+        for file in current_files:
+            try:
+                os.remove(file)
+            except OSError as e:
+                logging.error(f'Error while deleting file {file}. Error message: {e.strerror}')
+                sys.exit(1)
+
         term_dict = {'spring': '1', 'summer': '5', 'fall': '8'}
         term_num = str(2) + str(year) + term_dict[term]
 
         url = f'https://one.ufl.edu/apix/soc/schedule/?category=RES&term={term_num}&last-control-number='
         threads = []
         for i in range(16):  # Create 16 threads
-            t = threading.Thread(target=thread_handler, args=(i, 50 * i, url))
+            t = threading.Thread(target=thread_handler, args=(i, 50 * i, url, term, year))
             t.start()
             threads.append(t)
 
@@ -248,10 +249,10 @@ if __name__ == '__main__':
         print(f'Total API calls for {term} {year}: {counter.value}')
 
         # Merge all thread files into one final file
-        merge_json_files()
+        merge_json_files(term, year)
 
-        # Get a list of all JSON files in the 'courses' directory
-        json_files = glob.glob(os.path.join(courses_dir, '*.json'))
+        # Get a list of all JSON files in the 'courses' directory for the current term and year
+        json_files = glob.glob(os.path.join(courses_dir, f'*_{year}_{term}.json'))
 
         # Iterate over each JSON file
         for file in json_files:

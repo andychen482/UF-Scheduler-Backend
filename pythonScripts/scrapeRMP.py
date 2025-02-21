@@ -5,20 +5,24 @@ import threading
 import glob
 import os
 
-url = 'https://www.ratemyprofessors.com/graphql'
+url = "https://www.ratemyprofessors.com/graphql"
+
+# Collect all .json files in "courses" that aren't _clean or _final
+course_files = [
+    f for f in glob.glob("courses/*.json")
+]
 
 professor = set()
 
-course_file = glob.glob("courses/*.json")[0]
-
-with open(course_file) as file:
-    data = json.load(file)
-
-for course in data:
-    for section in course['sections']:
-        for instructor in section['instructors']:
-            if instructor["name"] != "":
-                professor.add(instructor["name"])
+# Build professor set from all relevant files
+for cf in course_files:
+    with open(cf, "r") as file:
+        data = json.load(file)
+        for course in data:
+            for section in course["sections"]:
+                for instructor in section["instructors"]:
+                    if instructor["name"]:
+                        professor.add(instructor["name"])
 
 # Dictionary to store professor data
 professor_data = {}
@@ -166,8 +170,10 @@ with ThreadPoolExecutor(max_workers=16) as executor:
         future.result()
 
 # Saving professor data to RateMyProfessorData.json
-with open("pythonScripts/RateMyProfessorData.json", "w") as file:
-    json.dump(professor_data, file, indent=4)
+with open("pythonScripts/RateMyProfessorData.json", "w") as outfile:
+    json.dump(professor_data, outfile, indent=4)
     print("Professor data saved to RateMyProfessorData.json")
 
-merge_course_and_professor_data(course_file, "pythonScripts/RateMyProfessorData.json")
+# Now merge professor data into each file
+for cf in course_files:
+    merge_course_and_professor_data(cf, "pythonScripts/RateMyProfessorData.json")

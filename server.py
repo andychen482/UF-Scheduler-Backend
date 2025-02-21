@@ -18,37 +18,61 @@ CORS(app, origins=[
 ])
 
 # -------------------------------------------------------------------
-# 1. Locate and load your course JSON file
+# 1. Locate and load all course JSON files corresponding to (_{year}_{term}_final.json)
+#    Create a dictionary of code->course for each (year, term).
 # -------------------------------------------------------------------
-json_file = glob.glob('courses/*_final.json')[0]
-with open(json_file) as f:
-    all_courses = json.load(f)
+
+json_files = glob.glob('courses/*_final.json')
+course_data_map = {}  # Dictionary keyed by (year, term) -> {code -> course}
+course_dept_map = {}  # Dictionary keyed by (year, term) -> {code -> deptName}
+
+def parse_year_term_from_filename(filename):
+    """
+    Parses the filename to extract the year and term.
+    Assumes filename ends with something like: '_{year}_{term}_final.json'
+    For example: 'UF_Feb-21-2025_25_fall_final.json' -> (year='25', term='fall')
+    """
+    # This is a simple approach; adapt to your file naming as needed.
+    # We'll split on underscores and take indices from the end.
+    parts = os.path.basename(filename).split('_')
+    # e.g. ['UF', 'Feb-21-2025', '25', 'fall', 'final.json']
+    # year might be parts[-3], term might be parts[-2] (depending on your naming)
+    year = parts[-3]
+    term = parts[-2]
+    # strip off any file extension from term if needed, e.g. "fall_final.json" -> "fall"
+    if 'final.json' in term:
+        term = term.replace('final.json', '')
+    return year, term
 
 # -------------------------------------------------------------------
-# 2. Create/Open SQLite Database and Create FTS Table with Prefixes
+# 2. Create/Open SQLite Database(s) for each (year, term)
+#    and Create FTS Table with Prefixes, then insert data.
 # -------------------------------------------------------------------
-DB_NAME = 'courses.db'
 
-def get_connection():
+def get_connection(db_name):
     """
-    Returns a connection to the SQLite database.
+    Returns a connection to the given SQLite database.
     """
-    return sqlite3.connect(DB_NAME)
+    return sqlite3.connect(db_name)
 
-def init_db():
+def init_db_for_file(json_path):
     """
-    Initializes the database and FTS table (with prefix support).
-    Inserts all courses if the table is empty.
+    - Parses (year, term) from json_path
+    - Creates a DB named 'courses_{year}_{term}.db'
+    - Initializes the FTS table (with prefix) if needed
+    - Inserts all courses specific to that file
+    - Populates course_data_map[(year, term)] and course_dept_map[(year, term)]
     """
-    conn = get_connection()
+    year, term = parse_year_term_from_filename(json_path)
+    db_name = f'courses_{year}_{term}.db'
+    
+    with open(json_path) as f:
+        all_courses = json.load(f)
+
+    conn = get_connection(db_name)
     cur = conn.cursor()
-
-    # Enable WAL mode (optional) to improve concurrency
     cur.execute("PRAGMA journal_mode=WAL;")
 
-    # Create an FTS5 virtual table with prefix indexes on lengths 2, 3, and 4.
-    # Adjust these lengths depending on how deep you want the prefix matching.
-    # For example, prefix='1 2 3' would allow matching from the first character onwards.
     cur.execute('''
         CREATE VIRTUAL TABLE IF NOT EXISTS courses_fts
         USING fts5(
@@ -62,18 +86,15 @@ def init_db():
         )
     ''')
 
-    # Check if the table is empty; if so, insert data
     row_count = cur.execute('SELECT count(*) FROM courses_fts;').fetchone()[0]
     if row_count == 0:
-        # Insert all course data
         for course in all_courses:
             code = course['code']
-            codeWithSpace = course['codeWithSpace']
+            codeWithSpace = course.get('codeWithSpace', '')
             name = course.get('name', '')
             description = course.get('description', '')
             prerequisites = course.get('prerequisites', '')
 
-            # Collect all instructor names in one string
             instructor_names = []
             for section in course.get('sections', []):
                 for inst in section.get('instructors', []):
@@ -89,23 +110,25 @@ def init_db():
 
     conn.close()
 
-# Initialize the database once on startup
-init_db()
+    # Build the code->course map and code->deptName map
+    local_course_map = {}
+    local_dept_map = {}
+    for course in all_courses:
+        local_course_map[course['code']] = course
+        sections = course.get('sections', [])
+        dept_name = sections[0].get("deptName", "") if sections else ""
+        local_dept_map[course['code']] = dept_name
+
+    course_data_map[(year, term)] = local_course_map
+    course_dept_map[(year, term)] = local_dept_map
+
+# Initialize a DB for each final JSON on startup
+for jpath in json_files:
+    init_db_for_file(jpath)
 
 # -------------------------------------------------------------------
-# 3. Maintain references for generating graph, etc.
-# -------------------------------------------------------------------
-course_code_to_course = {course['code']: course for course in all_courses}
-course_code_to_dept_name = {
-    course['code']: course.get('sections', [{}])[0].get("deptName", "")
-    for course in all_courses
-}
-
-del all_courses  # free memory
-gc.collect()
-
-# -------------------------------------------------------------------
-# 4. Search Endpoint (with Prefix Matching)
+# 3. Modify the /api/get_courses route to accept year and term,
+#    then query the correct DB.
 # -------------------------------------------------------------------
 @app.route("/api/get_courses", methods=['POST'])
 def get_courses():
@@ -114,30 +137,36 @@ def get_courses():
       - searchTerm: the query string
       - itemsPerPage: number of items per page
       - startFrom: offset for pagination
-    Returns a JSON list of matched courses, with prefix matching.
+      - year:  '25'
+      - term:  'fall', 'summer', 'spring', etc.
+    Returns a JSON list of matched courses, from the correct DB.
     """
     data = request.json
     searchTerm = data.get('searchTerm', '').strip()
     itemsPerPage = data.get('itemsPerPage', 20)
     startFrom = data.get('startFrom', 0)
+    year = data.get('year')
+    term = data.get('term')
+
+    # Validate year/term
+    if not year or not term:
+        return jsonify({"error": "Missing 'year' or 'term' in request body"}), 400
+
+    db_name = f'courses_{year}_{term}.db'
+    # Look up the relevant code->course dictionary
+    codes_dict = course_data_map.get((year, term), {})
 
     if not searchTerm:
         return jsonify([])
 
-    # Split on whitespace, then append '*' for prefix matching on each term
-    # Example: "prog fun" -> "prog*" "fun*"
     terms = searchTerm.split()
     prefix_terms = [term + '*' for term in terms]
-    # Join them with spaces so FTS interprets them as an AND query by default
-    # i.e. must match each prefix term
     fts_query = ' '.join(prefix_terms)
 
-    # Connect to SQLite and perform an FTS query
-    conn = get_connection()
+    conn = get_connection(db_name)
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
 
-    # CASE expression to prioritize exact matches on codeWithSpace
     query = '''
         SELECT
             code,
@@ -168,8 +197,7 @@ def get_courses():
     results = []
     for row in rows:
         code = row['code']
-        # Reconstruct the full course object from your dictionary
-        course_obj = course_code_to_course.get(code, {})
+        course_obj = codes_dict.get(code, {})
         results.append(course_obj)
 
     conn.close()
@@ -185,6 +213,9 @@ def generate_a_list():
 
     selected_major = data['selectedMajorServ']
     taken_courses = data['selectedCoursesServ']
+    year = data.get('year')
+    term = data.get('term')
+
     formatted_taken_courses = [
         format_course_code(course.rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ '))
         for course in taken_courses
@@ -194,7 +225,7 @@ def generate_a_list():
     for course in formatted_taken_courses:
         G.add_node(course)
 
-    initiateList(G, selected_major)
+    initiateList(G, selected_major, year, term)
 
     nodes = [
         {"data": {"id": node}, "classes": "selected" if node in formatted_taken_courses else "not_selected"}
@@ -214,18 +245,22 @@ def clean_prereq(prerequisites):
 def format_course_code(course):
     return course[:3] + '\n' + course[3:]
 
-def initiateList(G, selected_major):
+def initiateList(G, selected_major, year, term):
     if not selected_major:
         return
 
+    # Access the correct course_dept_map and course_data_map for the given year and term
+    dept_map = course_dept_map.get((year, term), {})
+    course_map = course_data_map.get((year, term), {})
+
     # Filter courses by department name
     relevant_courses = {
-        code for code, dept in course_code_to_dept_name.items()
+        code for code, dept in dept_map.items()
         if selected_major in dept
     }
 
     for course_code in relevant_courses:
-        course = course_code_to_course[course_code]
+        course = course_map.get(course_code, {})
         prereq_list = clean_prereq(course.get("prerequisites", ""))
 
         course_code_formatted = format_course_code(course_code.rstrip('ABCDEFGHIJKLMNOPQRSTUVWXYZ '))
