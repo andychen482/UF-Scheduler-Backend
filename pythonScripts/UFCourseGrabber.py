@@ -171,6 +171,7 @@ def alphabeticalNoDuplicates(directory):
 
     # Convert meetTimeBegin and meetTimeEnd to 24-hour format
     for course in unique_courses:
+        course['codeWithSpace'] = course['code'][:3] + ' ' + course['code'][3:]
         for section in course['sections']:
             del section['EEP']
             del section['LMS']
