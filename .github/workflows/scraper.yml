@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 2  # Fetch the last 2 commits to check commit message
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -35,8 +37,15 @@ jobs:
           git config --global user.name "andychen482"
           git remote set-url origin https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/andychen482/UF-Scheduler-Backend.git
 
-      - name: Commit and push if changes
+      - name: Commit and conditionally amend previous commit
         run: |
           git add -A
-          git diff --staged --quiet || git commit -m "Hourly update from web scrapers"
-          git push
+          if ! git diff --staged --quiet; then
+            LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
+            if [ "$LAST_COMMIT_MSG" = "Hourly update from web scrapers" ]; then
+              git commit --amend --no-edit
+            else
+              git commit -m "Hourly update from web scrapers"
+            fi
+            git push --force
+          fi
