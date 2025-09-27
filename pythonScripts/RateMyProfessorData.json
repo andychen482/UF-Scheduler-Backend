@@ -1,2662 +1,3032 @@
 {
-    "Kurt Schulze": {
-        "avgRating": 2.3000000000000003,
+    "Dale Pracht": {
+        "avgRating": 4.3,
         "avgDifficulty": 2.3000000000000003,
-        "professorID": 2710242
+        "professorID": 1125907
     },
-    "Pratap Pullammanappallil": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.6,
-        "professorID": 1591257
-    },
-    "Donal Bissainte": {
-        "avgRating": 5,
-        "avgDifficulty": 1.5,
-        "professorID": 2974817
-    },
-    "Wilfred Vermerris": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 1149298
-    },
-    "Austin Moss": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 3063643
-    },
-    "Elizabeth Cronin": {
-        "avgRating": 5,
-        "avgDifficulty": 2.1,
-        "professorID": 3044654
-    },
-    "Aaron Zubia": {
-        "avgRating": 3.1,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 2999682
-    },
-    "Prabhat Mishra": {
-        "avgRating": 3.1,
-        "avgDifficulty": 3.5,
-        "professorID": 1543702
-    },
-    "Emily Overend": {
-        "avgRating": 2.5,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2964024
-    },
-    "Md. Shamsudduha Sami": {
+    "Robyn Goodman": {
         "avgRating": 4,
-        "avgDifficulty": 2,
-        "professorID": 3102572
+        "avgDifficulty": 3.5,
+        "professorID": 2203418
     },
-    "Peter Rudnytsky": {
-        "avgRating": 2.6,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 293266
+    "Daniel Dickrell": {
+        "avgRating": 3,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1146730
     },
-    "Paul Basler": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 143852
+    "Stephen Adams": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 3.1,
+        "professorID": 2508840
     },
-    "James Cauraugh": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 3,
-        "professorID": 129811
-    },
-    "Kevin Folta": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.4000000000000004,
-        "professorID": 512605
-    },
-    "John Streese": {
+    "Evan Lauteria": {
         "avgRating": 4.9,
-        "avgDifficulty": 2.6,
-        "professorID": 2367129
-    },
-    "Kimberly Williams": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2765275
-    },
-    "Erik Sander": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 3.6,
-        "professorID": 1816898
-    },
-    "Vasudha Narayanan": {
-        "avgRating": 2,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 434347
-    },
-    "Ali Mian": {
-        "avgRating": 4,
-        "avgDifficulty": 2.6,
-        "professorID": 2742320
-    },
-    "Anwesha Chattopadhyay": {
-        "avgRating": 3.5,
-        "avgDifficulty": 2.2,
-        "professorID": 2705262
-    },
-    "Bruce Carroll": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 2.6,
-        "professorID": 945067
-    },
-    "Garrett Beatty": {
-        "avgRating": 4,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2112437
-    },
-    "Stephen Coombes": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.7,
-        "professorID": 2350086
-    },
-    "Sarah Furtney": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2,
-        "professorID": 2988466
-    },
-    "Georgia Papadogeorgou": {
-        "avgRating": 3.6,
-        "avgDifficulty": 4.800000000000001,
-        "professorID": 2611855
-    },
-    "Jessica Francis": {
-        "avgRating": 5,
-        "avgDifficulty": 1.5,
-        "professorID": 2956600
-    },
-    "Paul Sell": {
-        "avgRating": 2.6,
-        "avgDifficulty": 3.5,
-        "professorID": 2529190
-    },
-    "Krishnaswami Alladi": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 3.1,
-        "professorID": 1383097
-    },
-    "Jill Goslinga": {
-        "avgRating": 3,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 1363607
-    },
-    "Giulio Ronzoni": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.2,
-        "professorID": 2840928
-    },
-    "Emily Butler": {
-        "avgRating": 4.5,
-        "avgDifficulty": 3,
-        "professorID": 2163822
-    },
-    "Prajakatta Mulay": {
-        "avgRating": 5,
-        "avgDifficulty": 1,
-        "professorID": 3113085
-    },
-    "Haruna Kyomoto": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 3027295
-    },
-    "Melanie Ross": {
-        "avgRating": 4.2,
-        "avgDifficulty": 4.3,
-        "professorID": 1134630
-    },
-    "Lora Levett": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2.6,
-        "professorID": 742709
-    },
-    "Missy Shabazz": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 2407372
-    },
-    "Olivier Walther": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 2.7,
-        "professorID": 2640877
-    },
-    "Kim Bastable": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2847777
-    },
-    "Todd Osborne": {
-        "avgRating": 4.3,
-        "avgDifficulty": 3.7,
-        "professorID": 2338417
-    },
-    "Hengxuan Chi": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2812544
-    },
-    "Terence Ryan": {
-        "avgRating": 4,
-        "avgDifficulty": 4,
-        "professorID": 2718551
-    },
-    "Stephen Mullens": {
-        "avgRating": 5,
-        "avgDifficulty": 2.5,
-        "professorID": 2526848
-    },
-    "Scott Mccullough": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2,
-        "professorID": 185770
-    },
-    "Welson Tremura": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 322062
-    },
-    "Nick Heitzman": {
-        "avgRating": 5,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2513637
-    },
-    "Ivan Ruchkin": {
-        "avgRating": 4,
-        "avgDifficulty": 3.7,
-        "professorID": 3057377
-    },
-    "Christopher Mcleod": {
-        "avgRating": 4.7,
-        "avgDifficulty": 3.7,
-        "professorID": 3056650
-    },
-    "Michael Olexa": {
-        "avgRating": 4.5,
-        "avgDifficulty": 3.1,
-        "professorID": 449716
-    },
-    "Joshua Moon": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 3094238
-    },
-    "Meredith Farnum": {
-        "avgRating": 4.5,
-        "avgDifficulty": 1.4000000000000001,
-        "professorID": 599258
-    },
-    "Anthony Middlebrooks": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2856515
-    },
-    "Whittaker Schroder": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2986058
-    },
-    "Joseph Miguez": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2786607
-    },
-    "Roger Austin": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 1148388
-    },
-    "Bojan Lazarevic": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2,
-        "professorID": 2527052
-    },
-    "Karim Asghari": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3,
-        "professorID": 256650
-    },
-    "Steve Johnson": {
-        "avgRating": 4.4,
-        "avgDifficulty": 3,
-        "professorID": 1340526
-    },
-    "Amber Bollinger": {
-        "avgRating": 4,
-        "avgDifficulty": 1.5,
-        "professorID": 2806175
-    },
-    "Georgette Kluiters": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 2830851
-    },
-    "Michael Carrillo": {
-        "avgRating": 4,
-        "avgDifficulty": 2,
-        "professorID": 2765380
-    },
-    "Tracy Johns": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 180887
-    },
-    "Valeria Marcia": {
-        "avgRating": 5,
-        "avgDifficulty": 2.5,
-        "professorID": 2961547
-    },
-    "Annemarie Furlong": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2529961
-    },
-    "Gladys Cleland": {
-        "avgRating": 3.1,
-        "avgDifficulty": 2.7,
-        "professorID": 2298603
-    },
-    "Jean-Claude Bonzongo": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 3.7,
-        "professorID": 2274275
-    },
-    "Zhiyong Cheng": {
-        "avgRating": 3,
-        "avgDifficulty": 4,
-        "professorID": 2941036
-    },
-    "Nikolay Bliznyuk": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 1628484
-    },
-    "Rachel Carrico": {
-        "avgRating": 4.3,
-        "avgDifficulty": 1.7000000000000002,
-        "professorID": 2554233
-    },
-    "Melissa White": {
-        "avgRating": 2.7,
-        "avgDifficulty": 2.6,
-        "professorID": 2464897
-    },
-    "Patrick Musgrave": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.5,
-        "professorID": 2731711
-    },
-    "Yuan Zhang": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3014218
-    },
-    "Dustin Hall": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2650445
-    },
-    "Samuel Martins": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 1.5,
-        "professorID": 2745504
-    },
-    "Peng Jiang": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 1052919
-    },
-    "Guido Mueller": {
-        "avgRating": 2.2,
-        "avgDifficulty": 4.2,
-        "professorID": 939260
-    },
-    "Michael Link": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 3028092
-    },
-    "David Winchester": {
-        "avgRating": 5,
-        "avgDifficulty": 1,
-        "professorID": 3061718
-    },
-    "Mang Tia": {
-        "avgRating": 4,
-        "avgDifficulty": 2.5,
-        "professorID": 1443291
-    },
-    "Melanie Correll": {
-        "avgRating": 3.1,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 1263265
-    },
-    "Satya Narayan": {
-        "avgRating": 1,
-        "avgDifficulty": 5,
-        "professorID": 2742836
-    },
-    "Timothy Halloran": {
-        "avgRating": 3.7,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2709642
-    },
-    "Stephanie Fajre": {
-        "avgRating": 4,
-        "avgDifficulty": 3,
-        "professorID": 3033119
-    },
-    "Amy Williams": {
-        "avgRating": 5,
-        "avgDifficulty": 4,
-        "professorID": 2843786
-    },
-    "Joseph Delfino": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.1,
-        "professorID": 731539
-    },
-    "Su Ar Lee": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 1030957
-    },
-    "Juannan Zhou": {
-        "avgRating": 1.1,
-        "avgDifficulty": 4.4,
-        "professorID": 2841666
-    },
-    "Michael Heckenberger": {
-        "avgRating": 3,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 701462
-    },
-    "Michael Clark": {
-        "avgRating": 3.5,
         "avgDifficulty": 1.8,
-        "professorID": 2579015
+        "professorID": 3052153
     },
-    "Gabriele Suboch": {
+    "Cristian Cardenas-Lailhacar": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 3.2,
+        "professorID": 671216
+    },
+    "Todd Adams": {
         "avgRating": 1,
-        "avgDifficulty": 4.5,
-        "professorID": 2701404
+        "avgDifficulty": 3,
+        "professorID": 2928769
     },
-    "Scott Thompson": {
-        "avgRating": 4.5,
+    "Rayven Crisafulli": {
+        "avgRating": 4.800000000000001,
         "avgDifficulty": 2.1,
-        "professorID": 2845358
+        "professorID": 2711554
     },
-    "Hubert Wagner": {
+    "Stephan Kory": {
         "avgRating": 4.7,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2860723
-    },
-    "Dennis Mitterer": {
-        "avgRating": 4,
-        "avgDifficulty": 1,
-        "professorID": 2463775
-    },
-    "Sujata Krishna": {
-        "avgRating": 3.7,
-        "avgDifficulty": 3.7,
-        "professorID": 2425565
-    },
-    "Randi Faris": {
-        "avgRating": 1.5,
-        "avgDifficulty": 4.3,
-        "professorID": 2640994
-    },
-    "James Sullivan": {
-        "avgRating": 4.7,
-        "avgDifficulty": 1.8,
-        "professorID": 1074530
-    },
-    "Peggy Borum": {
-        "avgRating": 1.8,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 720984
-    },
-    "Hal Knowles": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.2,
-        "professorID": 2438054
-    },
-    "Nicole Dorey": {
-        "avgRating": 2.4000000000000004,
-        "avgDifficulty": 3.5,
-        "professorID": 1089773
-    },
-    "Shawn Weatherford": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 4,
-        "professorID": 2395835
-    },
-    "Lindsay Carlton": {
-        "avgRating": 5,
-        "avgDifficulty": 2.5,
-        "professorID": 2917429
-    },
-    "Naomi Harrell": {
-        "avgRating": 5,
-        "avgDifficulty": 1,
-        "professorID": 2780937
-    },
-    "Sean Trainor": {
-        "avgRating": 4.9,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2117742
-    },
-    "Ocqua Murrell": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 1.7000000000000002,
-        "professorID": 2924721
-    },
-    "Zachary Hamaker": {
-        "avgRating": 2.9000000000000004,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 2752370
-    },
-    "Ashleigh White": {
-        "avgRating": 3,
-        "avgDifficulty": 3,
-        "professorID": 2880137
-    },
-    "Mercedes Machado": {
-        "avgRating": 5,
-        "avgDifficulty": 1,
-        "professorID": 2359097
-    },
-    "Stephanie Wohlgemuth": {
-        "avgRating": 2.8000000000000003,
-        "avgDifficulty": 4.5,
-        "professorID": 1780488
-    },
-    "Katie Spargo": {
-        "avgRating": 5,
-        "avgDifficulty": 1,
-        "professorID": 3005965
-    },
-    "Catia Silva": {
-        "avgRating": 3.7,
-        "avgDifficulty": 4.2,
-        "professorID": 2565118
-    },
-    "Crystal Marull": {
-        "avgRating": 4,
-        "avgDifficulty": 3.2,
-        "professorID": 2293674
-    },
-    "Anand Paul": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3.5,
-        "professorID": 1947058
-    },
-    "David Keellings": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2,
-        "professorID": 1569905
-    },
-    "Laura Cruz Castro": {
-        "avgRating": 4.5,
-        "avgDifficulty": 3,
-        "professorID": 2840256
-    },
-    "Demi Zhang": {
-        "avgRating": 5,
-        "avgDifficulty": 1.3,
-        "professorID": 2978024
-    },
-    "Paola Uparela": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3.5,
-        "professorID": 2585522
-    },
-    "Simon Lopez D'Sola": {
-        "avgRating": 2.6,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 1889472
-    },
-    "Kyla Mcmullen": {
-        "avgRating": 2.4000000000000004,
-        "avgDifficulty": 3.6,
-        "professorID": 2035683
-    },
-    "Ryan Good": {
-        "avgRating": 3.7,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 1538749
-    },
-    "Gene Witmer": {
-        "avgRating": 4,
-        "avgDifficulty": 3.7,
-        "professorID": 438067
-    },
-    "Daniel Connaughton": {
-        "avgRating": 4.9,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 563078
-    },
-    "Valerie Hampton": {
-        "avgRating": 1.3,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2438711
-    },
-    "Molly Gardner": {
-        "avgRating": 3.7,
         "avgDifficulty": 3.1,
-        "professorID": 2691063
+        "professorID": 2549941
     },
-    "Alicia Petersen": {
-        "avgRating": 1.6,
-        "avgDifficulty": 3.2,
-        "professorID": 2930198
-    },
-    "Amanda Subalusky": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 3091999
-    },
-    "Jason Meneely": {
-        "avgRating": 4.5,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 1630462
-    },
-    "Kelsi Matwick": {
-        "avgRating": 4.5,
-        "avgDifficulty": 1.3,
-        "professorID": 2740792
-    },
-    "Santiago Kember": {
-        "avgRating": 4,
-        "avgDifficulty": 2,
-        "professorID": 2926738
-    },
-    "Nicole Marlow": {
-        "avgRating": 2,
-        "avgDifficulty": 3,
-        "professorID": 2050926
-    },
-    "Bala Rathinasabapathi": {
-        "avgRating": 4.5,
-        "avgDifficulty": 1.4000000000000001,
-        "professorID": 564192
-    },
-    "Ravi Ghadge": {
-        "avgRating": 4.4,
-        "avgDifficulty": 1.8,
-        "professorID": 2855489
-    },
-    "Robert McKenna": {
-        "avgRating": 5,
-        "avgDifficulty": 2.6,
-        "professorID": 1148006
-    },
-    "Juliana Sanin": {
-        "avgRating": 3.2,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2614569
-    },
-    "Elias Dinopoulos": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 2.7,
-        "professorID": 1054400
-    },
-    "Mark Reid": {
-        "avgRating": 3.2,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 776686
-    },
-    "Mariela Pajuelo": {
-        "avgRating": 1.8,
-        "avgDifficulty": 3,
-        "professorID": 2680608
-    },
-    "Maria Ripol": {
-        "avgRating": 3.6,
-        "avgDifficulty": 3,
-        "professorID": 154463
-    },
-    "Lisa Scarton": {
-        "avgRating": 4,
-        "avgDifficulty": 1,
-        "professorID": 2332954
-    },
-    "Ana Siljak": {
-        "avgRating": 3.5,
-        "avgDifficulty": 3,
-        "professorID": 3037342
-    },
-    "Robert Wagman": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2,
-        "professorID": 171174
-    },
-    "Robert Spielbauer": {
-        "avgRating": 4.9,
-        "avgDifficulty": 2.4000000000000004,
-        "professorID": 2637356
-    },
-    "Jaime Little": {
-        "avgRating": 5,
-        "avgDifficulty": 1,
-        "professorID": 2273580
-    },
-    "James Goodwin": {
-        "avgRating": 5,
-        "avgDifficulty": 2.7,
-        "professorID": 579077
-    },
-    "Amber Emanuel": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 1.7000000000000002,
-        "professorID": 2032674
-    },
-    "Joy Gabrielli": {
-        "avgRating": 4.4,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2503531
-    },
-    "Jeffrey Harrison": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2.4000000000000004,
-        "professorID": 623990
-    },
-    "Patrick Carmichael": {
-        "avgRating": 3.7,
-        "avgDifficulty": 3.7,
-        "professorID": 2525231
-    },
-    "Michael Ryngaert": {
-        "avgRating": 3.2,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2337533
-    },
-    "Matthew Sowcik": {
-        "avgRating": 4.5,
-        "avgDifficulty": 1.3,
-        "professorID": 2187871
-    },
-    "Patricia Durning": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 1355783
-    },
-    "Jasmin Arakawa": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2298402
-    },
-    "Spyros Svoronos": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 819396
-    },
-    "Siddharth Thakur": {
-        "avgRating": 2.3000000000000003,
-        "avgDifficulty": 3.6,
-        "professorID": 1965580
-    },
-    "Matthew Traum": {
-        "avgRating": 4.5,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 2677211
-    },
-    "Jennifer Coenen": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 472368
-    },
-    "Todd Palmer": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.6,
-        "professorID": 925753
-    },
-    "Amie Imler": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.7,
-        "professorID": 2447978
-    },
-    "Todd Thrift": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 131426
-    },
-    "Peter Sprowls": {
-        "avgRating": 5,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2397823
-    },
-    "KRISTIN JOYS": {
-        "avgRating": 2.1,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 2547814
-    },
-    "Sergey Klimenko": {
-        "avgRating": 5,
-        "avgDifficulty": 4,
-        "professorID": 2985566
-    },
-    "David Groisser": {
-        "avgRating": 2.6,
-        "avgDifficulty": 4.7,
-        "professorID": 8154
-    },
-    "John Aris": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 4.3,
-        "professorID": 2666951
-    },
-    "Christopher Falk": {
-        "avgRating": 2.8000000000000003,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 1750260
-    },
-    "Keri Matwick": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 1.2000000000000002,
-        "professorID": 2906382
-    },
-    "Taylor Morris": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3010938
-    },
-    "Andrew Rosenberg": {
-        "avgRating": 4,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2526799
-    },
-    "Estelle Martin": {
-        "avgRating": 4,
-        "avgDifficulty": 1.3,
-        "professorID": 2689653
-    },
-    "Bridget Baker": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2,
-        "professorID": 2960416
-    },
-    "Kyle Mendes": {
-        "avgRating": 4.9,
-        "avgDifficulty": 1.4000000000000001,
-        "professorID": 2784351
-    },
-    "Jason Nowell": {
-        "avgRating": 2.7,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 2035844
-    },
-    "Debjani Das": {
-        "avgRating": 5,
-        "avgDifficulty": 1.5,
-        "professorID": 2895040
-    },
-    "Misti Sharp": {
-        "avgRating": 3.6,
-        "avgDifficulty": 3.1,
-        "professorID": 2168679
-    },
-    "Edo Navot": {
-        "avgRating": 3.7,
-        "avgDifficulty": 2.7,
-        "professorID": 2814775
-    },
-    "Florin Curta": {
-        "avgRating": 3.2,
-        "avgDifficulty": 3.7,
-        "professorID": 140280
-    },
-    "Alireza Entezari": {
-        "avgRating": 2.9000000000000004,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 1669386
-    },
-    "Melissa Jones": {
-        "avgRating": 4.5,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 920550
-    },
-    "Jason Portmess": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 4.5,
-        "professorID": 515620
-    },
-    "Jon Stewart": {
-        "avgRating": 4.4,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 585807
-    },
-    "Charlie Mitchell": {
-        "avgRating": 3.7,
-        "avgDifficulty": 2.4000000000000004,
-        "professorID": 2644882
-    },
-    "AJ Jung": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2816941
-    },
-    "Mack Thetford": {
-        "avgRating": 2.5,
-        "avgDifficulty": 4.5,
-        "professorID": 2623329
-    },
-    "Marc Chevrette": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 2882677
-    },
-    "Lesley Gamble": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 2.6,
-        "professorID": 1010927
-    },
-    "Anthea Behm": {
-        "avgRating": 3,
-        "avgDifficulty": 2,
-        "professorID": 2665795
-    },
-    "Laura Acosta": {
-        "avgRating": 4.7,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 2234863
-    },
-    "Sarah Gamble": {
-        "avgRating": 2.3000000000000003,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 2594246
-    },
-    "Charles Parks": {
-        "avgRating": 4.2,
-        "avgDifficulty": 3.2,
-        "professorID": 811133
-    },
-    "Vincent Tocco": {
-        "avgRating": 4.2,
-        "avgDifficulty": 4,
-        "professorID": 2436488
-    },
-    "Brittany Taylor": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 3,
-        "professorID": 2839895
-    },
-    "Laurel Nesbit": {
-        "avgRating": 4,
-        "avgDifficulty": 3,
-        "professorID": 2614714
-    },
-    "Kwai-Lee Chui": {
-        "avgRating": 4.5,
-        "avgDifficulty": 3.1,
-        "professorID": 320469
-    },
-    "Anthony Auletta": {
+    "Robert Thieke": {
         "avgRating": 4.2,
         "avgDifficulty": 3.6,
-        "professorID": 2593760
+        "professorID": 120649
     },
-    "Grant Jones": {
-        "avgRating": 5,
-        "avgDifficulty": 1.5,
-        "professorID": 2721382
-    },
-    "Noah Ellis": {
-        "avgRating": 4.5,
-        "avgDifficulty": 1,
-        "professorID": 2813284
-    },
-    "Julia Varnes": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.2,
-        "professorID": 1960771
-    },
-    "Denise Schentrup": {
-        "avgRating": 4,
-        "avgDifficulty": 5,
-        "professorID": 1513025
-    },
-    "EMILY JOHNSON": {
-        "avgRating": 3.2,
-        "avgDifficulty": 3,
-        "professorID": 2461609
-    },
-    "Daniel Stepp": {
-        "avgRating": 3,
-        "avgDifficulty": 2,
-        "professorID": 2361638
-    },
-    "Alberto Perez": {
-        "avgRating": 2.7,
-        "avgDifficulty": 3.6,
-        "professorID": 2817772
-    },
-    "Anthony Coman": {
-        "avgRating": 3.7,
-        "avgDifficulty": 2.7,
-        "professorID": 1682921
-    },
-    "Anil Rao": {
-        "avgRating": 4,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 929071
-    },
-    "Kelley Gudahl": {
-        "avgRating": 1,
-        "avgDifficulty": 4,
-        "professorID": 2784227
-    },
-    "James Vogl": {
-        "avgRating": 2.6,
-        "avgDifficulty": 3.5,
-        "professorID": 2006319
-    },
-    "Max Walzer": {
-        "avgRating": 4,
-        "avgDifficulty": 1,
-        "professorID": 3084313
-    },
-    "Jodi Lane": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 3.1,
-        "professorID": 257221
-    },
-    "James Hobert": {
-        "avgRating": 3.6,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 1779521
-    },
-    "John Maze": {
-        "avgRating": 4.5,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 342794
-    },
-    "William Schap": {
-        "avgRating": 5,
-        "avgDifficulty": 2.5,
-        "professorID": 2294428
-    },
-    "Xiaochen Duan": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3006100
-    },
-    "Carissa Nicholson": {
-        "avgRating": 1.9000000000000001,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2478274
-    },
-    "Lyle Brenner": {
-        "avgRating": 3.1,
-        "avgDifficulty": 3.2,
-        "professorID": 201224
-    },
-    "Steven Thomas": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 1.5,
-        "professorID": 1477354
-    },
-    "Richard Tovar": {
-        "avgRating": 4,
-        "avgDifficulty": 3,
-        "professorID": 3059025
-    },
-    "Marit Ostebo": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.1,
-        "professorID": 2134473
-    },
-    "Bron Taylor": {
-        "avgRating": 1.9000000000000001,
-        "avgDifficulty": 4.6000000000000005,
-        "professorID": 986640
-    },
-    "Eben Broadbent": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.2,
-        "professorID": 2255662
-    },
-    "Brian Harfe": {
-        "avgRating": 4.5,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 2286729
-    },
-    "Sierra Calhoun-Pollard": {
-        "avgRating": 4,
-        "avgDifficulty": 3.5,
-        "professorID": 2795027
-    },
-    "Peter Kima": {
-        "avgRating": 3.6,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 903093
-    },
-    "Richard Dickinson": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2782388
-    },
-    "Gail Fanucci": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 2.6,
-        "professorID": 584841
-    },
-    "Jenna Gonzalez": {
-        "avgRating": 5,
-        "avgDifficulty": 1.1,
-        "professorID": 2682931
-    },
-    "Ann Atwater": {
-        "avgRating": 1.5,
-        "avgDifficulty": 4.3,
-        "professorID": 2965847
-    },
-    "Lyle Buss": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2958437
-    },
-    "Naibi Marinas": {
-        "avgRating": 2.9000000000000004,
-        "avgDifficulty": 3.5,
-        "professorID": 1021346
-    },
-    "Chunmei Wang": {
-        "avgRating": 1.5,
-        "avgDifficulty": 3,
-        "professorID": 2723004
-    },
-    "Scott Rane": {
-        "avgRating": 5,
-        "avgDifficulty": 2.5,
-        "professorID": 3033851
-    },
-    "Eric Wright": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3025343
-    },
-    "Edwin Marte": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 2.1,
-        "professorID": 2740590
-    },
-    "Namodhi Wijerathne": {
-        "avgRating": 2,
-        "avgDifficulty": 3,
-        "professorID": 2644428
-    },
-    "Michael Martinez": {
-        "avgRating": 4,
-        "avgDifficulty": 2.5,
-        "professorID": 133222
-    },
-    "Sarah Morais": {
-        "avgRating": 5,
-        "avgDifficulty": 1.5,
-        "professorID": 2857805
-    },
-    "Xiaoguang Zhang": {
-        "avgRating": 2.6,
-        "avgDifficulty": 3.7,
-        "professorID": 2864952
-    },
-    "Charles Sims": {
+    "Anna Gardner": {
         "avgRating": 4.9,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 1167223
-    },
-    "Andrea Goncher": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2.1,
-        "professorID": 2615464
-    },
-    "Lerah Sutton": {
-        "avgRating": 5,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 1657605
-    },
-    "Rachel Grant": {
-        "avgRating": 2.6,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2563803
-    },
-    "Ziting He": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3088404
-    },
-    "Malay Ghosh": {
-        "avgRating": 1.3,
-        "avgDifficulty": 4.3,
-        "professorID": 2679748
-    },
-    "Terri Craig": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2.5,
-        "professorID": 2550991
-    },
-    "James Jawitz": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 1570887
-    },
-    "Yakubu Bitrus": {
-        "avgRating": 4,
-        "avgDifficulty": 1.6,
-        "professorID": 3058475
-    },
-    "Suzanne Chapman": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2287157
-    },
-    "Scott Wilson": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 1.5,
-        "professorID": 1317486
-    },
-    "Jessica Harland-Jacobs": {
-        "avgRating": 4,
-        "avgDifficulty": 3.1,
-        "professorID": 184045
-    },
-    "Asli Odabasi": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 2,
-        "professorID": 2263127
-    },
-    "Jonathan Bloch": {
-        "avgRating": 1.3,
-        "avgDifficulty": 4.5,
-        "professorID": 797262
-    },
-    "Catherine Tucker": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2,
-        "professorID": 2746505
-    },
-    "Steven Shugan": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 2,
-        "professorID": 939478
-    },
-    "Derek Hunt": {
-        "avgRating": 5,
-        "avgDifficulty": 2.2,
-        "professorID": 2596978
-    },
-    "Leo Duan": {
-        "avgRating": 3.6,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 2430196
-    },
-    "Andrew Wehle": {
-        "avgRating": 3.1,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 2360004
-    },
-    "Ginessa Mahar": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 3.5,
-        "professorID": 2168843
-    },
-    "Chris Wilson": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2788800
-    },
-    "James Essegbey": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 931077
-    },
-    "Evangelos Christou": {
-        "avgRating": 4,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2463907
-    },
-    "Benjamin Johnson": {
-        "avgRating": 3.7,
-        "avgDifficulty": 3.7,
-        "professorID": 2415148
-    },
-    "Satarupa Bhattacharjee": {
-        "avgRating": 2.6,
-        "avgDifficulty": 4.2,
-        "professorID": 3040432
-    },
-    "Robert Padovano": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.5,
-        "professorID": 2153217
-    },
-    "Carla Tierney": {
-        "avgRating": 5,
-        "avgDifficulty": 1.6,
-        "professorID": 3000594
-    },
-    "Justin Callaham": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2746391
-    },
-    "Bryce Catarelli": {
-        "avgRating": 5,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2710162
-    },
-    "Conner Mullally": {
-        "avgRating": 4.3,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 2658163
-    },
-    "Nicholas Coles": {
-        "avgRating": 5,
-        "avgDifficulty": 1.8,
-        "professorID": 3072848
-    },
-    "Khiem Tran": {
-        "avgRating": 3,
-        "avgDifficulty": 2,
-        "professorID": 2483080
-    },
-    "Sayar Karmakar": {
-        "avgRating": 2.6,
-        "avgDifficulty": 3.5,
-        "professorID": 2397230
-    },
-    "Rachel Slivon": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 1135332
-    },
-    "Jim Ross": {
-        "avgRating": 4.9,
-        "avgDifficulty": 3.6,
-        "professorID": 2008256
-    },
-    "Cynthia Barnett": {
-        "avgRating": 4.5,
-        "avgDifficulty": 4,
-        "professorID": 2146247
-    },
-    "Valeria Kleiman": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 4.5,
-        "professorID": 2418936
-    },
-    "Zhiyuan Wang": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2509833
-    },
-    "Ann Wehmeyer": {
-        "avgRating": 2.9000000000000004,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 1277828
-    },
-    "Lillian Martinez": {
-        "avgRating": 5,
-        "avgDifficulty": 2.4000000000000004,
-        "professorID": 2580831
-    },
-    "James Parrino": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 3.5,
-        "professorID": 2021982
-    },
-    "Sebastian Elischer": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 3.1,
-        "professorID": 2162799
-    },
-    "Jamie Foster": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 1440341
-    },
-    "Marcus Kirk": {
-        "avgRating": 4.5,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 1433420
-    },
-    "Brigitte Weltman-Aron": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 897552
-    },
-    "Gabriela Hamerlinck": {
-        "avgRating": 4.5,
         "avgDifficulty": 2.6,
-        "professorID": 2570510
-    },
-    "Wendell Cropper": {
-        "avgRating": 5,
-        "avgDifficulty": 4,
-        "professorID": 1546829
-    },
-    "Ryan Mears": {
-        "avgRating": 2.6,
-        "avgDifficulty": 3.7,
-        "professorID": 2319686
-    },
-    "Brian Avery": {
-        "avgRating": 4.9,
-        "avgDifficulty": 1.5,
-        "professorID": 2487760
-    },
-    "Mato Brautovic": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2160389
-    },
-    "Larry Muszynski": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2032209
-    },
-    "Warren Dixon": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.7,
-        "professorID": 1045636
-    },
-    "Ethan White": {
-        "avgRating": 5,
-        "avgDifficulty": 1,
-        "professorID": 2435755
-    },
-    "David Julian": {
-        "avgRating": 3.2,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 162010
-    },
-    "Katerie Gladdys": {
-        "avgRating": 4,
-        "avgDifficulty": 1.7000000000000002,
-        "professorID": 2522146
-    },
-    "Nan Jiang": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2911071
-    },
-    "Graciela Lorca": {
-        "avgRating": 3.1,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 1381846
-    },
-    "Yuan Sun": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 1.5,
-        "professorID": 2987985
-    },
-    "Christopher Pryor": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.7,
-        "professorID": 2065996
-    },
-    "Marcus Davis": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2814443
-    },
-    "Christina Boucher": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 2297813
-    },
-    "Erta Cenko": {
-        "avgRating": 4.9,
-        "avgDifficulty": 1.2000000000000002,
-        "professorID": 3034151
-    },
-    "Kevin Keating": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 421057
-    },
-    "Anita Marshall": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 1.6,
-        "professorID": 2606000
-    },
-    "Mathew Leibold": {
-        "avgRating": 2,
-        "avgDifficulty": 3,
-        "professorID": 2791385
-    },
-    "Stephen Mulkey": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 257574
-    },
-    "Francis Akanbi": {
-        "avgRating": 5,
-        "avgDifficulty": 2.2,
-        "professorID": 2808055
-    },
-    "Megan Cantrell": {
-        "avgRating": 5,
-        "avgDifficulty": 1.5,
-        "professorID": 2692145
-    },
-    "Rachel Mallinger": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2742281
-    },
-    "Derek Mann": {
-        "avgRating": 4,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 3040803
-    },
-    "Jerne Shapiro": {
-        "avgRating": 2.9000000000000004,
-        "avgDifficulty": 3.2,
-        "professorID": 2160471
-    },
-    "Selman Hershfield": {
-        "avgRating": 4.4,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 343755
-    },
-    "Anthony Smith": {
-        "avgRating": 4,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2595939
-    },
-    "Haldun Aytug": {
-        "avgRating": 4.5,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 320757
-    },
-    "PAUL FULDA": {
-        "avgRating": 3,
-        "avgDifficulty": 4,
-        "professorID": 2722457
-    },
-    "James Collins": {
-        "avgRating": 2.4000000000000004,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 1268012
-    },
-    "Patrick Inglett": {
-        "avgRating": 1.7000000000000002,
-        "avgDifficulty": 4.3,
-        "professorID": 1136969
-    },
-    "Willard Hasty": {
-        "avgRating": 2.5,
-        "avgDifficulty": 5,
-        "professorID": 2366657
-    },
-    "Maryam Khorasani": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3038830
-    },
-    "Antonio Faciola": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 2368430
-    },
-    "Tierney Shimansky": {
-        "avgRating": 5,
-        "avgDifficulty": 1,
-        "professorID": 2848734
-    },
-    "Myles Swann": {
-        "avgRating": 1.5,
-        "avgDifficulty": 1.5,
-        "professorID": 3095876
-    },
-    "Benjamin Wise": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 1364930
-    },
-    "Hui Zou": {
-        "avgRating": 2.5,
-        "avgDifficulty": 2.6,
-        "professorID": 469081
-    },
-    "May Mansy": {
-        "avgRating": 5,
-        "avgDifficulty": 2.5,
-        "professorID": 2874851
-    },
-    "Sean Niemi": {
-        "avgRating": 2.4000000000000004,
-        "avgDifficulty": 4.2,
-        "professorID": 2461621
-    },
-    "Crystal Tisby": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2902026
-    },
-    "Austin Vining": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2386648
-    },
-    "Terry Harpold": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 3.6,
-        "professorID": 134516
-    },
-    "Alison Reynolds": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.7,
-        "professorID": 1268167
-    },
-    "Joseph Meert": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.7,
-        "professorID": 1161196
-    },
-    "Michelle Lefebvre": {
-        "avgRating": 5,
-        "avgDifficulty": 1.5,
-        "professorID": 2791942
-    },
-    "Liesel Hamilton": {
-        "avgRating": 3.5,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 3061812
-    },
-    "Vandana Baweja": {
-        "avgRating": 2.1,
-        "avgDifficulty": 3,
-        "professorID": 1350202
-    },
-    "Feng Yue": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.5,
-        "professorID": 2889191
-    },
-    "Hina Shaikh": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2838253
-    },
-    "Asli Baysal": {
-        "avgRating": 3.9000000000000004,
-        "avgDifficulty": 3.2,
-        "professorID": 2274580
-    },
-    "Kristen Apraiz": {
-        "avgRating": 5,
-        "avgDifficulty": 1.4000000000000001,
-        "professorID": 2269232
-    },
-    "Carlos Vallejos": {
-        "avgRating": 1,
-        "avgDifficulty": 5,
-        "professorID": 2388756
-    },
-    "Kejun Huang": {
-        "avgRating": 1.6,
-        "avgDifficulty": 3.6,
-        "professorID": 2664609
-    },
-    "Katrice Graham": {
-        "avgRating": 2.7,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2266049
-    },
-    "Patrick Baker": {
-        "avgRating": 2,
-        "avgDifficulty": 5,
-        "professorID": 2441929
-    },
-    "David Lindberg": {
-        "avgRating": 4.4,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2155075
-    },
-    "Lisa McElwee-White": {
-        "avgRating": 3.6,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 380431
-    },
-    "James Estrada": {
-        "avgRating": 3,
-        "avgDifficulty": 2,
-        "professorID": 2868447
-    },
-    "Jared Tanner": {
-        "avgRating": 5,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2553762
-    },
-    "Angelika Neitzel": {
-        "avgRating": 3.7,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2882953
-    },
-    "Taryrn Brown": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2511463
-    },
-    "Holly Raynard": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 1005000
-    },
-    "Angeleah Browdy": {
-        "avgRating": 1.5,
-        "avgDifficulty": 3,
-        "professorID": 2752998
-    },
-    "Steven Bruner": {
-        "avgRating": 2.8000000000000003,
-        "avgDifficulty": 4,
-        "professorID": 2536738
-    },
-    "Bart Schutzman": {
-        "avgRating": 4.3,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2600630
-    },
-    "Maxim Dolinsky": {
-        "avgRating": 2.8000000000000003,
-        "avgDifficulty": 4.4,
-        "professorID": 2936871
-    },
-    "Amie Baisley": {
-        "avgRating": 2.5,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 2584667
-    },
-    "Colin Smith": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.1,
-        "professorID": 1936251
-    },
-    "Monica Webb": {
-        "avgRating": 2.4000000000000004,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 1019790
-    },
-    "Stephanie Smith": {
-        "avgRating": 2.7,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 452993
-    },
-    "Oluwatobi Alawode": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 1.3,
-        "professorID": 2871992
-    },
-    "MEGAN MCVAY": {
-        "avgRating": 3,
-        "avgDifficulty": 3.5,
-        "professorID": 2448495
-    },
-    "Joel Mcquagge": {
-        "avgRating": 5,
-        "avgDifficulty": 1.3,
-        "professorID": 1600172
-    },
-    "Xiao-Xiao Zhang": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3.5,
-        "professorID": 2720090
-    },
-    "Sabine Grunwald": {
-        "avgRating": 1.5,
-        "avgDifficulty": 5,
-        "professorID": 2090122
-    },
-    "Sharon Austin": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2.1,
-        "professorID": 262224
-    },
-    "Gaia Zori": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.4000000000000004,
-        "professorID": 2824181
-    },
-    "Ashlee Ossiboff": {
-        "avgRating": 3.1,
-        "avgDifficulty": 2.6,
-        "professorID": 2584003
-    },
-    "Fatimah Tuggar": {
-        "avgRating": 1.1,
-        "avgDifficulty": 4.7,
-        "professorID": 2904440
-    },
-    "Lyndal Grant": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.1,
-        "professorID": 2747505
-    },
-    "Jack Kugelmass": {
-        "avgRating": 4.9,
-        "avgDifficulty": 1,
-        "professorID": 1074860
-    },
-    "Eleni Bozia": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 600143
-    },
-    "John Cooper": {
-        "avgRating": 3,
-        "avgDifficulty": 4,
-        "professorID": 2583832
-    },
-    "Julian Michele": {
-        "avgRating": 1.8,
-        "avgDifficulty": 4,
-        "professorID": 2893786
-    },
-    "Gustavo Cortes": {
-        "avgRating": 3.6,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 2586126
-    },
-    "Yeongseon Jang": {
-        "avgRating": 4.7,
-        "avgDifficulty": 3.7,
-        "professorID": 3058554
-    },
-    "Nicole Kinbarovsky": {
-        "avgRating": 3.7,
-        "avgDifficulty": 1,
-        "professorID": 2900688
-    },
-    "Lisa Domenico": {
-        "avgRating": 4,
-        "avgDifficulty": 5,
-        "professorID": 2389977
-    },
-    "Bradford Daigneault": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2746390
-    },
-    "Alyssa Nunez": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2,
-        "professorID": 2719412
-    },
-    "Heather Stark": {
-        "avgRating": 3,
-        "avgDifficulty": 1.6,
-        "professorID": 2866918
-    },
-    "Cameron Buckner": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3088315
-    },
-    "William Pelletier": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 1840970
-    },
-    "Sartaj Sahni": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 160740
-    },
-    "Brenda Smith": {
-        "avgRating": 3.6,
-        "avgDifficulty": 2.5,
-        "professorID": 829085
-    },
-    "Danling Fu": {
-        "avgRating": 2.6,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 993741
-    },
-    "Alexander Wong": {
-        "avgRating": 4.7,
-        "avgDifficulty": 1.3,
-        "professorID": 3048003
-    },
-    "Antarpreet Jutla": {
-        "avgRating": 1.3,
-        "avgDifficulty": 4.800000000000001,
-        "professorID": 2707355
-    },
-    "Yao-Chin Wang": {
-        "avgRating": 3.7,
-        "avgDifficulty": 2.7,
-        "professorID": 2812545
-    },
-    "Mitchell Knutson": {
-        "avgRating": 5,
-        "avgDifficulty": 3.5,
-        "professorID": 853038
-    },
-    "Nigel Newbutt": {
-        "avgRating": 5,
-        "avgDifficulty": 1.5,
-        "professorID": 3005749
-    },
-    "Lisa Platt": {
-        "avgRating": 2,
-        "avgDifficulty": 3.5,
-        "professorID": 2633795
-    },
-    "George Broadwell": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2201984
-    },
-    "Hwayoung Cho": {
-        "avgRating": 1,
-        "avgDifficulty": 5,
-        "professorID": 2641763
-    },
-    "Aritram Dhar": {
-        "avgRating": 5,
-        "avgDifficulty": 1.3,
-        "professorID": 2991587
-    },
-    "Melissa Mellon": {
-        "avgRating": 4,
-        "avgDifficulty": 2.6,
-        "professorID": 665303
-    },
-    "Brian Child": {
-        "avgRating": 3.2,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 1806109
-    },
-    "Julia Choi": {
-        "avgRating": 3.5,
-        "avgDifficulty": 3,
-        "professorID": 2684556
-    },
-    "James Fairbanks": {
-        "avgRating": 3.5,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2761191
-    },
-    "Regan Garner": {
-        "avgRating": 4.7,
-        "avgDifficulty": 1.5,
-        "professorID": 965267
-    },
-    "Mona Sayedul Huq": {
-        "avgRating": 4.3,
-        "avgDifficulty": 1,
-        "professorID": 2792589
-    },
-    "Hannah Alarian": {
-        "avgRating": 3.7,
-        "avgDifficulty": 4.3,
-        "professorID": 2588062
-    },
-    "Akintunde Akinyemi": {
-        "avgRating": 4.4,
-        "avgDifficulty": 1.5,
-        "professorID": 964309
+        "professorID": 2540803
     },
     "Kimberly Stubbs": {
         "avgRating": 3.4000000000000004,
         "avgDifficulty": 2.9000000000000004,
         "professorID": 2995869
     },
-    "Jessica Marsh": {
-        "avgRating": 4,
-        "avgDifficulty": 3,
-        "professorID": 2273519
-    },
-    "Eric Triplett": {
-        "avgRating": 1.1,
-        "avgDifficulty": 4.6000000000000005,
-        "professorID": 1715554
-    },
-    "Heather Ray": {
-        "avgRating": 2.9000000000000004,
-        "avgDifficulty": 4,
-        "professorID": 1643652
-    },
-    "Benjamin Baiser": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2098640
-    },
-    "Heather Gonyeau": {
-        "avgRating": 3,
-        "avgDifficulty": 3.5,
-        "professorID": 3012184
-    },
-    "Sara Rampazzi": {
-        "avgRating": 2.3000000000000003,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2781186
-    },
-    "Myoseon Jang": {
-        "avgRating": 1.8,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 1395080
-    },
-    "Bewuket Tefera": {
-        "avgRating": 5,
-        "avgDifficulty": 1.8,
-        "professorID": 2895041
-    },
-    "Kevin Jones": {
-        "avgRating": 4.4,
-        "avgDifficulty": 2.6,
-        "professorID": 2187882
-    },
-    "Jeremiah Blanchard": {
-        "avgRating": 4,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 2273667
-    },
-    "Isa Garcia-Rose": {
-        "avgRating": 3.6,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 371363
-    },
-    "Kenneth Sassaman": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 1.9000000000000001,
-        "professorID": 160580
-    },
-    "Daron Dean": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 1873943
-    },
-    "Jamie Garner": {
-        "avgRating": 3.7,
-        "avgDifficulty": 3,
-        "professorID": 2469970
-    },
-    "Amr Abd-Elrahman": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 3,
-        "professorID": 1546822
-    },
-    "Kutsal Dogan": {
-        "avgRating": 4,
-        "avgDifficulty": 3,
-        "professorID": 2704225
-    },
-    "Marina Klimenko": {
-        "avgRating": 2.7,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 1840320
-    },
-    "Hyojin Kim": {
-        "avgRating": 2.3000000000000003,
-        "avgDifficulty": 4.1000000000000005,
-        "professorID": 596757
-    },
-    "Barbara Mennel": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2.7,
-        "professorID": 967598
-    },
-    "Carlos Suarez": {
-        "avgRating": 4,
-        "avgDifficulty": 2.4000000000000004,
-        "professorID": 3010283
-    },
-    "Marian Borg": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 413437
-    },
-    "Allen Shamsi": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2,
-        "professorID": 2901623
-    },
-    "Brent Berthy": {
-        "avgRating": 3.5,
-        "avgDifficulty": 3,
-        "professorID": 2761292
-    },
-    "Katherine Serafin": {
-        "avgRating": 3.5,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 3002435
-    },
-    "Matt Gitzendanner": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 1,
-        "professorID": 2759690
-    },
-    "Sylvie Blum": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.6,
-        "professorID": 549098
-    },
-    "Jennifer Rea": {
-        "avgRating": 4.7,
-        "avgDifficulty": 1.7000000000000002,
-        "professorID": 3046986
-    },
-    "Karim Oweiss": {
-        "avgRating": 2.3000000000000003,
-        "avgDifficulty": 4,
-        "professorID": 2477985
-    },
-    "Matt Friedl": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.1,
-        "professorID": 2942518
-    },
-    "Woochoel Shin": {
-        "avgRating": 2,
-        "avgDifficulty": 4.4,
-        "professorID": 2704222
-    },
-    "Jing Pan": {
-        "avgRating": 2.9000000000000004,
-        "avgDifficulty": 4,
-        "professorID": 2590570
-    },
-    "Bethany Zumwalde": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 3097115
-    },
-    "Zhihui Fang": {
-        "avgRating": 1.1,
-        "avgDifficulty": 4,
-        "professorID": 1367901
-    },
-    "Jessica Sheffield": {
-        "avgRating": 2.4000000000000004,
-        "avgDifficulty": 3,
-        "professorID": 3010553
-    },
-    "Brenda Chalfin": {
-        "avgRating": 2.7,
-        "avgDifficulty": 3.2,
-        "professorID": 264441
-    },
-    "Whitney Stoppel": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2436936
-    },
-    "Sarah Moeller": {
-        "avgRating": 2.4000000000000004,
-        "avgDifficulty": 3.1,
-        "professorID": 2764964
-    },
-    "Amanda Maxey": {
-        "avgRating": 5,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2666966
-    },
-    "Cindy Dosch": {
-        "avgRating": 5,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 2824228
-    },
-    "Scott Taylor": {
-        "avgRating": 3.5,
-        "avgDifficulty": 2.7,
-        "professorID": 3020840
-    },
-    "Jonathan Brooks": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 2346349
-    },
-    "Ethan Rutter": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3045882
-    },
-    "Rodrigo Borges": {
-        "avgRating": 3.5,
-        "avgDifficulty": 2.7,
-        "professorID": 2499533
-    },
-    "David Holmes": {
-        "avgRating": 5,
-        "avgDifficulty": 2.5,
-        "professorID": 2789540
-    },
-    "Anthony Gonzalez": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 3.2,
-        "professorID": 829636
-    },
-    "Frank Garvan": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 3,
-        "professorID": 59335
-    },
-    "Ashlyn Hale": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 3.6,
-        "professorID": 2936633
-    },
-    "Scott Cinel": {
-        "avgRating": 4,
-        "avgDifficulty": 3,
-        "professorID": 2765123
-    },
-    "Bryon Moraski": {
-        "avgRating": 3.5,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 108713
-    },
-    "Andrey Korytov": {
-        "avgRating": 2.4000000000000004,
-        "avgDifficulty": 4.2,
-        "professorID": 374372
-    },
-    "Cheng Yu": {
-        "avgRating": 3,
-        "avgDifficulty": 2.5,
-        "professorID": 2404833
-    },
-    "Chelsea Cantrell": {
-        "avgRating": 3.1,
-        "avgDifficulty": 3.5,
-        "professorID": 2184840
-    },
-    "Zachary Selden": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 985163
-    },
-    "Ryan Duffy": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 1319446
-    },
-    "Angela Bacsik": {
-        "avgRating": 2.3000000000000003,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 1784549
-    },
-    "Colleen Rua": {
-        "avgRating": 5,
-        "avgDifficulty": 2.5,
-        "professorID": 2546709
-    },
-    "Sara Pollock": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 2428855
-    },
-    "Mai Frndjibachian": {
-        "avgRating": 4.2,
-        "avgDifficulty": 3.2,
-        "professorID": 2946267
-    },
-    "Sonia Singh": {
-        "avgRating": 3.5,
-        "avgDifficulty": 4.4,
-        "professorID": 1687622
-    },
-    "Barry Hartz": {
-        "avgRating": 5,
-        "avgDifficulty": 3,
-        "professorID": 2493920
-    },
-    "Ghatu Subhash": {
-        "avgRating": 4.3,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 1127463
-    },
-    "Douglas Spearot": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 3.7,
-        "professorID": 2232885
-    },
-    "Linda Clarke": {
-        "avgRating": 2.2,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 1549493
-    },
-    "Shani Kerr": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2.1,
-        "professorID": 2687144
-    },
-    "Curtis Taylor": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 1449486
-    },
-    "Laura Dedenbach": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.6,
-        "professorID": 2208251
-    },
-    "Christopher Ferraro": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 3,
-        "professorID": 1570074
-    },
-    "Stephen Miller": {
-        "avgRating": 3.6,
-        "avgDifficulty": 3.9000000000000004,
-        "professorID": 1129277
-    },
-    "Joann Mossa": {
-        "avgRating": 4.4,
-        "avgDifficulty": 3,
-        "professorID": 785218
-    },
-    "James Fulcher": {
-        "avgRating": 4.4,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 2709076
-    },
-    "Youping Chen": {
-        "avgRating": 2.6,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 1227892
-    },
-    "Joseph Spillane": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.6,
-        "professorID": 108727
-    },
-    "Baibhab Chatterjee": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.7,
-        "professorID": 2910273
-    },
-    "Maria Esterline": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2688014
-    },
-    "Eric Kligerman": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.7,
-        "professorID": 546819
-    },
-    "Kevin Butler": {
-        "avgRating": 4,
-        "avgDifficulty": 2.5,
-        "professorID": 3014213
-    },
-    "Jay Hmielowski": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 2759746
-    },
-    "Glenn Kepic": {
-        "avgRating": 4,
-        "avgDifficulty": 1,
-        "professorID": 2301464
-    },
-    "Liang Mao": {
-        "avgRating": 3.8000000000000003,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 1653972
-    },
-    "Tharanga Rajapakshe": {
-        "avgRating": 1.9000000000000001,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 2235037
-    },
-    "Kirk Ziegler": {
+    "Michael Stone": {
         "avgRating": 3.4000000000000004,
-        "avgDifficulty": 4.3,
-        "professorID": 819398
+        "avgDifficulty": 3.2,
+        "professorID": 2332787
     },
-    "Lori Knackstedt": {
-        "avgRating": 3,
-        "avgDifficulty": 4.4,
-        "professorID": 1855410
-    },
-    "Yoonseok Lee": {
-        "avgRating": 3.2,
-        "avgDifficulty": 3.8000000000000003,
-        "professorID": 838750
-    },
-    "Jennifer Bridge": {
+    "Suzanne Chapman": {
         "avgRating": 5,
         "avgDifficulty": 2,
-        "professorID": 2885229
+        "professorID": 2287157
     },
-    "Sadie Ryan": {
-        "avgRating": 4.4,
-        "avgDifficulty": 3,
-        "professorID": 2007337
-    },
-    "Alioune Sow": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2.7,
-        "professorID": 647527
-    },
-    "John Kramer": {
-        "avgRating": 2.7,
-        "avgDifficulty": 2.2,
-        "professorID": 2715559
-    },
-    "Pietro Bianchi": {
-        "avgRating": 5,
-        "avgDifficulty": 2.6,
-        "professorID": 2560651
-    },
-    "Ranga Narayanan": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 3,
-        "professorID": 62919
-    },
-    "Arunava Banerjee": {
-        "avgRating": 4.4,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 443201
-    },
-    "Debbie Mason": {
+    "Patricia Kio": {
         "avgRating": 1,
-        "avgDifficulty": 2,
-        "professorID": 3063379
-    },
-    "Lei Zhang": {
-        "avgRating": 3.4000000000000004,
-        "avgDifficulty": 3.6,
-        "professorID": 1592769
-    },
-    "Margaret Portillo": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.5,
-        "professorID": 1164302
-    },
-    "Zhongwu Guo": {
-        "avgRating": 3.1,
-        "avgDifficulty": 3.7,
-        "professorID": 2370010
-    },
-    "Roger Maioli": {
-        "avgRating": 3,
-        "avgDifficulty": 4,
-        "professorID": 2175644
-    },
-    "Rich\u00e9 Barnes": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2901414
-    },
-    "Charles Gattone": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 3.1,
-        "professorID": 109852
-    },
-    "Amy Martinelli": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.1,
-        "professorID": 1058448
-    },
-    "Aida Hozic": {
-        "avgRating": 3.3000000000000003,
-        "avgDifficulty": 3.1,
-        "professorID": 160789
-    },
-    "Erin Alvarez": {
-        "avgRating": 3.7,
-        "avgDifficulty": 2.1,
-        "professorID": 1167983
-    },
-    "Jamie Tayar": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2724427
-    },
-    "Ivy Munoko": {
-        "avgRating": 4.2,
-        "avgDifficulty": 3.6,
-        "professorID": 2795402
-    },
-    "Samuel Smidt": {
-        "avgRating": 4.5,
-        "avgDifficulty": 2,
-        "professorID": 2620475
-    },
-    "Michael Schadewald": {
-        "avgRating": 2.5,
-        "avgDifficulty": 4.3,
-        "professorID": 2292424
-    },
-    "Michael Gorham": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.2,
-        "professorID": 229506
-    },
-    "Azadeh Jalali": {
-        "avgRating": 4,
-        "avgDifficulty": 1.5,
-        "professorID": 3060590
-    },
-    "Sadie Sanders": {
-        "avgRating": 4.2,
-        "avgDifficulty": 1.8,
-        "professorID": 400348
-    },
-    "Maggie Clifford": {
-        "avgRating": 4,
         "avgDifficulty": 1.7000000000000002,
-        "professorID": 3027655
+        "professorID": 3054872
     },
-    "Abigail Held": {
-        "avgRating": 3,
-        "avgDifficulty": 3.3000000000000003,
-        "professorID": 2744391
+    "Gregory Stewart": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 3,
+        "professorID": 472361
     },
-    "Tamer Kahveci": {
-        "avgRating": 4.7,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 900753
-    },
-    "Brianna Blassneck": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2,
-        "professorID": 2733595
-    },
-    "Anthony Farace": {
-        "avgRating": 4.6000000000000005,
-        "avgDifficulty": 2.5,
-        "professorID": 2806607
-    },
-    "Meredith Beaupre": {
-        "avgRating": 5,
-        "avgDifficulty": 1.3,
-        "professorID": 2836645
-    },
-    "Emily Miller-Cushon": {
-        "avgRating": 4.3,
-        "avgDifficulty": 2.3000000000000003,
-        "professorID": 2481700
-    },
-    "Michael O'Malley": {
-        "avgRating": 4,
-        "avgDifficulty": 2,
-        "professorID": 3063798
-    },
-    "Christopher McDevitt": {
-        "avgRating": 5,
-        "avgDifficulty": 3.5,
-        "professorID": 2761915
-    },
-    "Chris Gibson": {
-        "avgRating": 4.2,
-        "avgDifficulty": 2.6,
-        "professorID": 1131507
-    },
-    "Danielle Moreau": {
+    "Janet Coats": {
         "avgRating": 5,
         "avgDifficulty": 1,
-        "professorID": 2946639
+        "professorID": 3147257
     },
-    "Jonathan Helton": {
-        "avgRating": 4,
-        "avgDifficulty": 3.5,
-        "professorID": 142640
+    "Austin Vining": {
+        "avgRating": 3.2,
+        "avgDifficulty": 3.2,
+        "professorID": 2386648
     },
-    "Peter Ifju": {
+    "Han Xu": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.6,
+        "professorID": 1683886
+    },
+    "Aditi Mukherjee": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 1412013
+    },
+    "Bradford Daigneault": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2746390
+    },
+    "Paul Borsa": {
         "avgRating": 4,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 328653
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 650712
     },
     "Susan Hatch": {
-        "avgRating": 5,
+        "avgRating": 4.3,
         "avgDifficulty": 3.2,
         "professorID": 2977116
     },
-    "Neha Rani": {
-        "avgRating": 2.1,
-        "avgDifficulty": 1.7000000000000002,
-        "professorID": 2982983
-    },
-    "Sean Adams": {
-        "avgRating": 4.800000000000001,
-        "avgDifficulty": 2.8000000000000003,
-        "professorID": 710120
-    },
-    "Long Xiao": {
+    "Ellen Martin": {
         "avgRating": 5,
-        "avgDifficulty": 1.7000000000000002,
-        "professorID": 3001366
+        "avgDifficulty": 2.5,
+        "professorID": 2251630
     },
-    "Anna Lankina": {
-        "avgRating": 3.4000000000000004,
+    "Hyunjin Cho": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3155712
+    },
+    "Yukai Chen": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.7,
+        "professorID": 3002963
+    },
+    "Aroba Saleem": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3,
+        "professorID": 2529928
+    },
+    "Jacob Regier": {
+        "avgRating": 4,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 2655579
+    },
+    "Elinore Fresh": {
+        "avgRating": 4.5,
         "avgDifficulty": 3.2,
-        "professorID": 2526143
+        "professorID": 442256
     },
-    "Lisa Campbell": {
+    "Jason Meneely": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1630462
+    },
+    "Amanda Subalusky": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 3091999
+    },
+    "Youngmin Park": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2848514
+    },
+    "Demetra Christou": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 1742226
+    },
+    "Saundra Tenbroeck": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 3.6,
+        "professorID": 825553
+    },
+    "Herman Lam": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 3.1,
+        "professorID": 185740
+    },
+    "Terje Ostebo": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.5,
+        "professorID": 1575489
+    },
+    "Eamon O'Connor": {
+        "avgRating": 4.3,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2721473
+    },
+    "Ashish Aggarwal": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2394360
+    },
+    "Christina Norton": {
+        "avgRating": 5,
+        "avgDifficulty": 4,
+        "professorID": 3089941
+    },
+    "David Leavitt": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 627022
+    },
+    "Caitlin Holden": {
         "avgRating": 5,
         "avgDifficulty": 1,
-        "professorID": 2700568
+        "professorID": 3062170
     },
-    "David Daegling": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 3.4000000000000004,
-        "professorID": 1233158
-    },
-    "Patrick Scanlon": {
-        "avgRating": 4.4,
-        "avgDifficulty": 2.6,
-        "professorID": 2846317
-    },
-    "Mysha Clarke": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 2792807
-    },
-    "Yang Lin": {
-        "avgRating": 1.3,
-        "avgDifficulty": 3.5,
-        "professorID": 3006139
-    },
-    "Paige Glotzer": {
-        "avgRating": 5,
-        "avgDifficulty": 2,
-        "professorID": 3069570
-    },
-    "Brent Sumerlin": {
-        "avgRating": 4.5,
+    "Vincent Bindschaedler": {
+        "avgRating": 4.3,
         "avgDifficulty": 3.7,
-        "professorID": 1971580
+        "professorID": 2680322
+    },
+    "Juan Nino": {
+        "avgRating": 2.7,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 1239749
+    },
+    "Mario Cano": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.7,
+        "professorID": 3130778
+    },
+    "Robert Spielbauer": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2637356
+    },
+    "Chris Lause": {
+        "avgRating": 5,
+        "avgDifficulty": 1.8,
+        "professorID": 2822694
+    },
+    "Larissa Williamson": {
+        "avgRating": 2.1,
+        "avgDifficulty": 3.5,
+        "professorID": 278192
+    },
+    "Keith Searles": {
+        "avgRating": 5,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 3004201
+    },
+    "Adam Ginsburg": {
+        "avgRating": 5,
+        "avgDifficulty": 3.5,
+        "professorID": 2608806
+    },
+    "Mitchell Knutson": {
+        "avgRating": 5,
+        "avgDifficulty": 3.5,
+        "professorID": 853038
+    },
+    "Nicole Dorey": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 3.5,
+        "professorID": 1089773
+    },
+    "Thomas Vazquez": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 1.8,
+        "professorID": 3023406
+    },
+    "Mark Mcglothlin": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.7,
+        "professorID": 236392
+    },
+    "Willm Martens-Habbena": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2379407
+    },
+    "Crystal Marull": {
+        "avgRating": 4.3,
+        "avgDifficulty": 3,
+        "professorID": 2293674
+    },
+    "Debra Murie": {
+        "avgRating": 5,
+        "avgDifficulty": 1.8,
+        "professorID": 2581004
+    },
+    "Stephen Mullens": {
+        "avgRating": 4.4,
+        "avgDifficulty": 2.2,
+        "professorID": 2526848
+    },
+    "Matt Knudsen": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2795039
+    },
+    "William Kenney": {
+        "avgRating": 5,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2288782
+    },
+    "Xiao-Xiao Zhang": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 3.5,
+        "professorID": 2720090
+    },
+    "Karim Asghari": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 256650
+    },
+    "Max Skjonsberg": {
+        "avgRating": 5,
+        "avgDifficulty": 1.9000000000000001,
+        "professorID": 3005528
+    },
+    "Candice Adams-Mitchell": {
+        "avgRating": 4,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 2725848
+    },
+    "Iman Zawahry": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 2619513
+    },
+    "Valerie DeLeon": {
+        "avgRating": 4.7,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2138513
+    },
+    "Jennifer Braddock": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.2,
+        "professorID": 1526743
+    },
+    "Kasey Power": {
+        "avgRating": 2,
+        "avgDifficulty": 5,
+        "professorID": 2899275
+    },
+    "Mike Foley": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 133950
+    },
+    "Mary Hart": {
+        "avgRating": 2.3000000000000003,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2571264
+    },
+    "Gail Fanucci": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 2.6,
+        "professorID": 584841
     },
     "Michael Harris": {
         "avgRating": 4.800000000000001,
         "avgDifficulty": 4,
         "professorID": 2297172
     },
-    "Pasha Agoes": {
-        "avgRating": 4.1000000000000005,
+    "Alireza Entezari": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1669386
+    },
+    "Diba Mani": {
+        "avgRating": 3.1,
+        "avgDifficulty": 4,
+        "professorID": 2409794
+    },
+    "Iblin Edelweiss Murillo Lafuente": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 2855482
+    },
+    "Derek Farnsworth": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.7,
+        "professorID": 2243964
+    },
+    "Mohammad Al-Saad": {
+        "avgRating": 4.4,
         "avgDifficulty": 2,
-        "professorID": 2862677
+        "professorID": 3039748
+    },
+    "Garrett Beatty": {
+        "avgRating": 4,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 2112437
+    },
+    "Lindy Archambeau": {
+        "avgRating": 2.3000000000000003,
+        "avgDifficulty": 3.5,
+        "professorID": 1864049
+    },
+    "Amanda Phalin": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 1759068
+    },
+    "Keith Rambo": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1916960
+    },
+    "Mark Reid": {
+        "avgRating": 3.2,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 776686
+    },
+    "Maddy Coy": {
+        "avgRating": 4.7,
+        "avgDifficulty": 1.8,
+        "professorID": 2411813
+    },
+    "Sebastian Elischer": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3.1,
+        "professorID": 2162799
+    },
+    "Steven Harris": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 2510383
+    },
+    "David Diehl": {
+        "avgRating": 3.6,
+        "avgDifficulty": 4,
+        "professorID": 1564038
+    },
+    "Paul Sell": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.5,
+        "professorID": 2529190
+    },
+    "Zhanar Abil": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 4.1000000000000005,
+        "professorID": 3006384
+    },
+    "Kalisha Whitman": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 3082325
+    },
+    "Daniel Contreras": {
+        "avgRating": 1.7000000000000002,
+        "avgDifficulty": 3.7,
+        "professorID": 2804956
+    },
+    "Benjamin Soares": {
+        "avgRating": 4.3,
+        "avgDifficulty": 3.5,
+        "professorID": 2384868
+    },
+    "Hitomi Greenslet": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.6,
+        "professorID": 1833652
+    },
+    "YUXUAN WANG": {
+        "avgRating": 4,
+        "avgDifficulty": 4,
+        "professorID": 2759608
+    },
+    "Jonathan Helton": {
+        "avgRating": 4,
+        "avgDifficulty": 3.5,
+        "professorID": 142640
+    },
+    "Danielle Moreau": {
+        "avgRating": 4.3,
+        "avgDifficulty": 1.2000000000000002,
+        "professorID": 2946639
+    },
+    "Michael Harmon": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2849022
+    },
+    "Matthew Strickland": {
+        "avgRating": 4,
+        "avgDifficulty": 3.1,
+        "professorID": 2082894
+    },
+    "Geraldine Klarenberg": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2,
+        "professorID": 2754633
+    },
+    "Umesh Persad": {
+        "avgRating": 3,
+        "avgDifficulty": 2,
+        "professorID": 2902336
+    },
+    "Marvin Andujar": {
+        "avgRating": 1.3,
+        "avgDifficulty": 4.7,
+        "professorID": 3125931
+    },
+    "Leah Corpus": {
+        "avgRating": 4,
+        "avgDifficulty": 3,
+        "professorID": 3009577
+    },
+    "Jerne Shapiro": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 3.2,
+        "professorID": 2160471
+    },
+    "Long Xiao": {
+        "avgRating": 5,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 3001366
+    },
+    "Benjamin Hebblethwaite": {
+        "avgRating": 4,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 1074007
+    },
+    "Helene Blondeau": {
+        "avgRating": 4.2,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 536714
+    },
+    "Rickard Ewetz": {
+        "avgRating": 3,
+        "avgDifficulty": 4,
+        "professorID": 3096491
+    },
+    "William Marsiglio": {
+        "avgRating": 2.5,
+        "avgDifficulty": 3.7,
+        "professorID": 112545
+    },
+    "Jad Atweh": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 3130348
+    },
+    "Ralena McDevitt": {
+        "avgRating": 5,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 2958598
+    },
+    "Yong Zeng": {
+        "avgRating": 1.4000000000000001,
+        "avgDifficulty": 4,
+        "professorID": 3048774
+    },
+    "Daniele Thallner": {
+        "avgRating": 4,
+        "avgDifficulty": 1,
+        "professorID": 2859779
+    },
+    "Anastasia Ulanowicz": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 3.5,
+        "professorID": 898961
+    },
+    "Nikolay Bliznyuk": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 1628484
+    },
+    "Maggie Clifford": {
+        "avgRating": 4,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 3027655
+    },
+    "Jacob Chung": {
+        "avgRating": 3.4000000000000004,
+        "avgDifficulty": 3,
+        "professorID": 1004093
+    },
+    "Yuan Gao": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 2595792
+    },
+    "Jesse Render": {
+        "avgRating": 5,
+        "avgDifficulty": 2.7,
+        "professorID": 3157272
+    },
+    "Greg Stitt": {
+        "avgRating": 4.7,
+        "avgDifficulty": 3.2,
+        "professorID": 1568357
+    },
+    "Michael O'Malley": {
+        "avgRating": 4,
+        "avgDifficulty": 2,
+        "professorID": 3063798
+    },
+    "Eric Kligerman": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.7,
+        "professorID": 546819
+    },
+    "Demi Zhang": {
+        "avgRating": 5,
+        "avgDifficulty": 1.3,
+        "professorID": 2978024
+    },
+    "Megan Cogburn": {
+        "avgRating": 5,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2640003
+    },
+    "Carol Demas": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 2328700
+    },
+    "Brenda Smith": {
+        "avgRating": 3.6,
+        "avgDifficulty": 2.5,
+        "professorID": 829085
+    },
+    "DOMINIQUE LAROCHE": {
+        "avgRating": 3.4000000000000004,
+        "avgDifficulty": 4.2,
+        "professorID": 2694159
+    },
+    "Michael Tegeder": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.7,
+        "professorID": 1304285
+    },
+    "Hyunyi Jung": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2657024
+    },
+    "BingKan Xue": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 2809643
+    },
+    "Andrew Selepak": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 1266255
+    },
+    "Miklos Bona": {
+        "avgRating": 3.4000000000000004,
+        "avgDifficulty": 4,
+        "professorID": 563586
+    },
+    "George Adams": {
+        "avgRating": 3,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2934910
+    },
+    "Nicholas Napoli": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2721903
+    },
+    "Scott Taylor": {
+        "avgRating": 3.6,
+        "avgDifficulty": 2.7,
+        "professorID": 3020840
+    },
+    "Deborah Amberson": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.5,
+        "professorID": 722921
+    },
+    "Joel Wixson": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.5,
+        "professorID": 3085611
+    },
+    "Joel Parker": {
+        "avgRating": 4.9,
+        "avgDifficulty": 1.2000000000000002,
+        "professorID": 2644875
+    },
+    "Frank Sutera": {
+        "avgRating": 3,
+        "avgDifficulty": 2,
+        "professorID": 3095011
+    },
+    "David Lucier": {
+        "avgRating": 5,
+        "avgDifficulty": 1.5,
+        "professorID": 2722480
+    },
+    "Patrick Baker": {
+        "avgRating": 2,
+        "avgDifficulty": 5,
+        "professorID": 2441929
+    },
+    "Kate Fogarty": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 1.8,
+        "professorID": 1213985
+    },
+    "Penny Cox": {
+        "avgRating": 4.3,
+        "avgDifficulty": 1.6,
+        "professorID": 1116094
+    },
+    "Christine Overdevest": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2617608
+    },
+    "Ricarda Foxx": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1.3,
+        "professorID": 2995610
+    },
+    "Raul Sanchez": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 846053
+    },
+    "Kevin Butler": {
+        "avgRating": 4,
+        "avgDifficulty": 2.5,
+        "professorID": 3014213
+    },
+    "Amy Freeman": {
+        "avgRating": 1.3,
+        "avgDifficulty": 4.7,
+        "professorID": 2331131
+    },
+    "Taylor Morris": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3010938
+    },
+    "Joseph Delfino": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.1,
+        "professorID": 731539
+    },
+    "Stephanie Lynge": {
+        "avgRating": 3,
+        "avgDifficulty": 3.5,
+        "professorID": 2367780
+    },
+    "Yongpei Guan": {
+        "avgRating": 2.3000000000000003,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 1503605
+    },
+    "Ocqua Murrell": {
+        "avgRating": 3.5,
+        "avgDifficulty": 1.8,
+        "professorID": 2924721
+    },
+    "Torit Chakraborty": {
+        "avgRating": 4,
+        "avgDifficulty": 1,
+        "professorID": 3046154
+    },
+    "Bron Taylor": {
+        "avgRating": 1.9000000000000001,
+        "avgDifficulty": 4.5,
+        "professorID": 986640
+    },
+    "Erta Cenko": {
+        "avgRating": 4.9,
+        "avgDifficulty": 1.2000000000000002,
+        "professorID": 3034151
+    },
+    "Ira Harkness": {
+        "avgRating": 5,
+        "avgDifficulty": 2.2,
+        "professorID": 2919707
+    },
+    "Richard Crew": {
+        "avgRating": 3,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 248592
+    },
+    "David Dusenbury": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 3080967
+    },
+    "Jason Von Meding": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 1.6,
+        "professorID": 2865413
+    },
+    "Kyriaki Kaplanidou": {
+        "avgRating": 2.2,
+        "avgDifficulty": 3.6,
+        "professorID": 1269566
+    },
+    "Gladys Cleland": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 2298603
+    },
+    "Richard Tovar": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 3059025
+    },
+    "Khiem Tran": {
+        "avgRating": 3,
+        "avgDifficulty": 2,
+        "professorID": 2483080
+    },
+    "Tre Easterly": {
+        "avgRating": 4,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 1299415
+    },
+    "Anqi Yang": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2955756
+    },
+    "Zepeng Yao": {
+        "avgRating": 4,
+        "avgDifficulty": 2.5,
+        "professorID": 2961988
+    },
+    "SADIE HUNDEMER": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3,
+        "professorID": 2978013
+    },
+    "Briana Bivens": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3,
+        "professorID": 3057706
+    },
+    "Warren Dixon": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.7,
+        "professorID": 1045636
+    },
+    "Michael Aull": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2486448
+    },
+    "Robert Stone": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1.5,
+        "professorID": 3093213
+    },
+    "Melissa White": {
+        "avgRating": 2.6,
+        "avgDifficulty": 2.7,
+        "professorID": 2464897
+    },
+    "Christopher Pryor": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 2065996
+    },
+    "Theodosios Aivalis": {
+        "avgRating": 3.7,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 3118326
+    },
+    "Suman Chowdhury": {
+        "avgRating": 5,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 3061708
+    },
+    "Jason Blackburn": {
+        "avgRating": 3,
+        "avgDifficulty": 4.5,
+        "professorID": 2234360
+    },
+    "Carlos Vallejos": {
+        "avgRating": 1,
+        "avgDifficulty": 5,
+        "professorID": 2388756
+    },
+    "Aaron Zubia": {
+        "avgRating": 3.2,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 2999682
+    },
+    "Rachel Mallinger": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2742281
+    },
+    "Jessica Allen": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.5,
+        "professorID": 3009694
+    },
+    "John Yelton": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 3.6,
+        "professorID": 320468
+    },
+    "Anthony Smith": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 2595939
+    },
+    "Emily Swanson": {
+        "avgRating": 4,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 2944964
+    },
+    "Leah Rosenberg": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.7,
+        "professorID": 936663
+    },
+    "Todd Palmer": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.6,
+        "professorID": 925753
+    },
+    "Nick Heitzman": {
+        "avgRating": 5,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2513637
+    },
+    "Alan McKnight": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3.7,
+        "professorID": 2935632
+    },
+    "Sarah Moeller": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 3.1,
+        "professorID": 2764964
+    },
+    "Dustin Hall": {
+        "avgRating": 4,
+        "avgDifficulty": 3.1,
+        "professorID": 2650445
+    },
+    "Eric Triplett": {
+        "avgRating": 1.1,
+        "avgDifficulty": 4.6000000000000005,
+        "professorID": 1715554
+    },
+    "Carolyn Hanson": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 2473682
+    },
+    "John Bromfield": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 2200601
+    },
+    "Gaia Zori": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.2,
+        "professorID": 2824181
+    },
+    "Joann Mossa": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3,
+        "professorID": 785218
+    },
+    "Dave Carlson": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.2,
+        "professorID": 400945
+    },
+    "Juannan Zhou": {
+        "avgRating": 1.2000000000000002,
+        "avgDifficulty": 4.3,
+        "professorID": 2841666
+    },
+    "Timothy Stolz": {
+        "avgRating": 5,
+        "avgDifficulty": 2.1,
+        "professorID": 2847247
+    },
+    "Ashley MacSuga-Gage": {
+        "avgRating": 3,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 2195687
+    },
+    "Taryn Buckley": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 1.2000000000000002,
+        "professorID": 1310323
+    },
+    "Ryan Houim": {
+        "avgRating": 2.5,
+        "avgDifficulty": 4.4,
+        "professorID": 2574380
+    },
+    "Frank Garvan": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3,
+        "professorID": 59335
+    },
+    "Katie Kozlowski": {
+        "avgRating": 5,
+        "avgDifficulty": 1.3,
+        "professorID": 2855926
+    },
+    "Elizabeth Ross": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 3.1,
+        "professorID": 762121
+    },
+    "Elizabeth Washington": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 1729760
+    },
+    "Justin Ortagus": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2225590
+    },
+    "Michael Gorham": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.2,
+        "professorID": 229506
+    },
+    "Robin Tucker-Drob": {
+        "avgRating": 1.2000000000000002,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 2819088
+    },
+    "Nathan Stelari": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2783789
+    },
+    "Michael Olexa": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3.1,
+        "professorID": 449716
+    },
+    "Timothy Vollmer": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3.1,
+        "professorID": 591115
+    },
+    "Andrea Goncher": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.1,
+        "professorID": 2615464
+    },
+    "Gene Witmer": {
+        "avgRating": 4,
+        "avgDifficulty": 3.7,
+        "professorID": 438067
+    },
+    "Kevin Ash": {
+        "avgRating": 5,
+        "avgDifficulty": 2.2,
+        "professorID": 2758493
+    },
+    "Anwesha Chattopadhyay": {
+        "avgRating": 3.5,
+        "avgDifficulty": 2.2,
+        "professorID": 2705262
+    },
+    "David Holmes": {
+        "avgRating": 5,
+        "avgDifficulty": 2.5,
+        "professorID": 2789540
+    },
+    "Lyle Buss": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2958437
+    },
+    "Shelley Lyle": {
+        "avgRating": 4,
+        "avgDifficulty": 3,
+        "professorID": 3110193
+    },
+    "Zachary Slepian": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2626165
+    },
+    "Larry Muszynski": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2032209
+    },
+    "Yixuan Li": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2772702
+    },
+    "Hua Yan": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3,
+        "professorID": 2461526
+    },
+    "Jesse Dallery": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.6,
+        "professorID": 108751
+    },
+    "Meredith Beaupre": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 1.3,
+        "professorID": 2836645
+    },
+    "William Schap": {
+        "avgRating": 5,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2294428
+    },
+    "Nan Jiang": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2911071
+    },
+    "Lerah Sutton": {
+        "avgRating": 5,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 1657605
+    },
+    "Esther Mullens": {
+        "avgRating": 2.7,
+        "avgDifficulty": 3.7,
+        "professorID": 2405688
+    },
+    "Myunghee You": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 1.8,
+        "professorID": 3057636
+    },
+    "Matthieu Felt": {
+        "avgRating": 5,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2578357
+    },
+    "Guelden Olgun": {
+        "avgRating": 5,
+        "avgDifficulty": 1.8,
+        "professorID": 3045368
+    },
+    "Rachel Carrico": {
+        "avgRating": 4.3,
+        "avgDifficulty": 1.8,
+        "professorID": 2554233
+    },
+    "William Mobley": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 4.5,
+        "professorID": 2047454
+    },
+    "Danny Coenen": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 3,
+        "professorID": 1871763
+    },
+    "Amber Ross": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2614883
+    },
+    "Rui Guo": {
+        "avgRating": 3.7,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 2570166
+    },
+    "Melanie Correll": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 1263265
+    },
+    "Missy Shabazz": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 2407372
+    },
+    "Markus Santoso": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2418034
+    },
+    "David Prevatt": {
+        "avgRating": 1.5,
+        "avgDifficulty": 3.7,
+        "professorID": 1132536
+    },
+    "Ingrid Kleespies": {
+        "avgRating": 5,
+        "avgDifficulty": 2.1,
+        "professorID": 692403
+    },
+    "Michael Ricci": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.2,
+        "professorID": 2452494
+    },
+    "Ivan Furic": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1068798
+    },
+    "Paul Madsen": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.7,
+        "professorID": 1930863
+    },
+    "Hsing Cheng": {
+        "avgRating": 1.8,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 161159
+    },
+    "LINDSEY REISINGER": {
+        "avgRating": 1.6,
+        "avgDifficulty": 2.2,
+        "professorID": 2645765
+    },
+    "Daniel Ferris": {
+        "avgRating": 1,
+        "avgDifficulty": 4,
+        "professorID": 2410458
+    },
+    "Xiaochen Duan": {
+        "avgRating": 5,
+        "avgDifficulty": 1.8,
+        "professorID": 3006100
+    },
+    "Giulio Ronzoni": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.2,
+        "professorID": 2840928
+    },
+    "Kyle Dost": {
+        "avgRating": 5,
+        "avgDifficulty": 1.9000000000000001,
+        "professorID": 2792350
+    },
+    "Thomas Garvey": {
+        "avgRating": 3,
+        "avgDifficulty": 1,
+        "professorID": 3152769
+    },
+    "Masoud Gheisari": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3,
+        "professorID": 2404382
+    },
+    "Kun Xu": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 1.5,
+        "professorID": 2684724
+    },
+    "Erika Brooke": {
+        "avgRating": 4,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2469320
+    },
+    "Alix Rexford": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 2697226
+    },
+    "Michael Moulton": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1.3,
+        "professorID": 2154909
+    },
+    "Lillian Guerra": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 1562557
+    },
+    "Robert McKenna": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.7,
+        "professorID": 1148006
+    },
+    "Ivan Ruchkin": {
+        "avgRating": 4,
+        "avgDifficulty": 3.7,
+        "professorID": 3057377
+    },
+    "Elizabeth Gadsby": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3104800
+    },
+    "Steven Noll": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 108743
+    },
+    "Sean Adams": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 710120
+    },
+    "Elif Akcali": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 781997
+    },
+    "Ana Siljak": {
+        "avgRating": 4,
+        "avgDifficulty": 3,
+        "professorID": 3037342
+    },
+    "Emily Hind": {
+        "avgRating": 2.3000000000000003,
+        "avgDifficulty": 3.2,
+        "professorID": 2153768
+    },
+    "Peggy Borum": {
+        "avgRating": 1.8,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 720984
+    },
+    "Lyle Brenner": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.2,
+        "professorID": 201224
+    },
+    "Parisa Azizi": {
+        "avgRating": 1,
+        "avgDifficulty": 2,
+        "professorID": 3069443
+    },
+    "Jillian Hernandez": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3099877
+    },
+    "Edward Phelps": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 2579213
+    },
+    "Seun Ajoseh": {
+        "avgRating": 5,
+        "avgDifficulty": 1.5,
+        "professorID": 3145240
+    },
+    "Selwyn Piramuthu": {
+        "avgRating": 4.2,
+        "avgDifficulty": 1.9000000000000001,
+        "professorID": 131641
+    },
+    "Bethany Taylor": {
+        "avgRating": 4,
+        "avgDifficulty": 2.6,
+        "professorID": 729187
+    },
+    "Sergey Klimenko": {
+        "avgRating": 5,
+        "avgDifficulty": 4,
+        "professorID": 2985566
+    },
+    "Amanda Hodges": {
+        "avgRating": 3,
+        "avgDifficulty": 3.1,
+        "professorID": 2374629
+    },
+    "MATTHEW EDDY": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 3129788
+    },
+    "Allen Shamsi": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2,
+        "professorID": 2901623
+    },
+    "Denise Schentrup": {
+        "avgRating": 4,
+        "avgDifficulty": 5,
+        "professorID": 1513025
+    },
+    "Elizabeth Calienes": {
+        "avgRating": 5,
+        "avgDifficulty": 2.5,
+        "professorID": 2656073
+    },
+    "Beth Rosenson": {
+        "avgRating": 4,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 327236
+    },
+    "Bonnie Dorr": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 3.1,
+        "professorID": 2843145
+    },
+    "Tehquin Forbes": {
+        "avgRating": 4.2,
+        "avgDifficulty": 1.2000000000000002,
+        "professorID": 2946779
+    },
+    "Eric Ragan": {
+        "avgRating": 3.7,
+        "avgDifficulty": 2.7,
+        "professorID": 2656122
+    },
+    "Tierney Shimansky": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 2848734
+    },
+    "Joel Houston": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 959108
+    },
+    "Steve Johnson": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3,
+        "professorID": 1340526
+    },
+    "Darlene Kertes": {
+        "avgRating": 4,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 1491950
+    },
+    "Keiji Iwamoto": {
+        "avgRating": 5,
+        "avgDifficulty": 2.7,
+        "professorID": 3123097
+    },
+    "Stephen DeLeonardis": {
+        "avgRating": 1,
+        "avgDifficulty": 4,
+        "professorID": 2770185
+    },
+    "Stephanie Bogart": {
+        "avgRating": 4.4,
+        "avgDifficulty": 2,
+        "professorID": 2389440
+    },
+    "Brittany Taylor": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 2.5,
+        "professorID": 2839895
+    },
+    "Piyush Jain": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 2425310
+    },
+    "Emily Brienza-Larsen": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.5,
+        "professorID": 3088221
+    },
+    "Derek Burdette": {
+        "avgRating": 4.4,
+        "avgDifficulty": 1.6,
+        "professorID": 2648796
+    },
+    "Andrea Villa": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.2,
+        "professorID": 1683328
+    },
+    "Anthony Manganaro": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2524003
+    },
+    "Arnaud Marsiglietti": {
+        "avgRating": 5,
+        "avgDifficulty": 3.7,
+        "professorID": 2689064
+    },
+    "Kevin Folta": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 512605
+    },
+    "Tammy Davidson": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 613834
+    },
+    "Aitong Li": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 3123167
+    },
+    "Alice Emery": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2580176
+    },
+    "Dmitry Kopelevich": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 3.5,
+        "professorID": 991537
+    },
+    "Ryan Good": {
+        "avgRating": 3.6,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 1538749
+    },
+    "Robert Judin": {
+        "avgRating": 5,
+        "avgDifficulty": 1.6,
+        "professorID": 2813612
+    },
+    "George Cunningham": {
+        "avgRating": 3,
+        "avgDifficulty": 4,
+        "professorID": 3110194
+    },
+    "William Anderson": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.7,
+        "professorID": 3101633
+    },
+    "Raluca Mateescu": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2682138
+    },
+    "Keith Schneider": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3,
+        "professorID": 1329105
+    },
+    "Steven Thomas": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 1.5,
+        "professorID": 1477354
+    },
+    "Sadie Ryan": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3,
+        "professorID": 2007337
+    },
+    "Thomas Dolce": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2265200
+    },
+    "James Simpson": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 1.3,
+        "professorID": 2508812
+    },
+    "Michael Martinez": {
+        "avgRating": 4,
+        "avgDifficulty": 2.6,
+        "professorID": 133222
+    },
+    "Colin Smith": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.1,
+        "professorID": 1936251
+    },
+    "Henry Adams": {
+        "avgRating": 5,
+        "avgDifficulty": 4,
+        "professorID": 2946049
+    },
+    "Angela Lindner": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 617808
+    },
+    "Carolyn Kelley": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 1241103
+    },
+    "STEFANIE HABENICHT": {
+        "avgRating": 3.7,
+        "avgDifficulty": 4,
+        "professorID": 2186256
+    },
+    "Sarah Morais": {
+        "avgRating": 5,
+        "avgDifficulty": 1.3,
+        "professorID": 2857805
+    },
+    "Zea Miller": {
+        "avgRating": 5,
+        "avgDifficulty": 1.3,
+        "professorID": 2731959
+    },
+    "Julian Michele": {
+        "avgRating": 1.8,
+        "avgDifficulty": 4,
+        "professorID": 2893786
+    },
+    "Jaime Little": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 2273580
+    },
+    "David Ostroff": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2479879
+    },
+    "Jennifer Lee": {
+        "avgRating": 3.5,
+        "avgDifficulty": 2.6,
+        "professorID": 830487
+    },
+    "Namodhi Wijerathne": {
+        "avgRating": 2,
+        "avgDifficulty": 3,
+        "professorID": 2644428
+    },
+    "David Julian": {
+        "avgRating": 3.2,
+        "avgDifficulty": 4.1000000000000005,
+        "professorID": 162010
+    },
+    "Erin Alvarez": {
+        "avgRating": 3.7,
+        "avgDifficulty": 2.1,
+        "professorID": 1167983
+    },
+    "James Gerien-Chen": {
+        "avgRating": 2.5,
+        "avgDifficulty": 5,
+        "professorID": 3127155
+    },
+    "Timothy Halloran": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3.7,
+        "professorID": 2709642
+    },
+    "Max Adolphs": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.7,
+        "professorID": 2708564
+    },
+    "Yao-Chin Wang": {
+        "avgRating": 4,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2812545
+    },
+    "Daron Dean": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.6,
+        "professorID": 1873943
+    },
+    "Sean Niemi": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 4.2,
+        "professorID": 2461621
+    },
+    "Dori Griffin": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3,
+        "professorID": 1552297
+    },
+    "Jeyoul Choi": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2663528
+    },
+    "Pablo Lamino": {
+        "avgRating": 4,
+        "avgDifficulty": 4,
+        "professorID": 2949447
+    },
+    "Mark Russell": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2468769
+    },
+    "Bridget Baker": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.2,
+        "professorID": 2960416
+    },
+    "Amanpreet Kapoor": {
+        "avgRating": 4.7,
+        "avgDifficulty": 3.2,
+        "professorID": 2384893
+    },
+    "Grady Roberts": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 4.1000000000000005,
+        "professorID": 243050
+    },
+    "Sandy Chang": {
+        "avgRating": 4.9,
+        "avgDifficulty": 3.1,
+        "professorID": 2624828
+    },
+    "Daniel Smith": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 366859
+    },
+    "Amir Erez": {
+        "avgRating": 4.7,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1380692
+    },
+    "Aaron Hill": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 2590102
+    },
+    "Fatimah Tuggar": {
+        "avgRating": 1.1,
+        "avgDifficulty": 4.7,
+        "professorID": 2904440
+    },
+    "Kyle Selley": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 3148312
+    },
+    "Zhongwu Guo": {
+        "avgRating": 3,
+        "avgDifficulty": 3.6,
+        "professorID": 2370010
+    },
+    "Jane Bachelor": {
+        "avgRating": 2.1,
+        "avgDifficulty": 2.5,
+        "professorID": 1629812
+    },
+    "Gillian Lord": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 2.7,
+        "professorID": 123389
+    },
+    "Sean Limon": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 1015622
+    },
+    "Peter Adams": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3,
+        "professorID": 1337068
+    },
+    "Michael Ryngaert": {
+        "avgRating": 3.2,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 2337533
+    },
+    "Vivian Wong": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 3068195
+    },
+    "Vincent Tocco": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 2436488
+    },
+    "Ryan Mears": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.7,
+        "professorID": 2319686
+    },
+    "Ben Vollmer": {
+        "avgRating": 5,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2761975
+    },
+    "Sarah Karl": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 3042493
+    },
+    "Craig Smith": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 1527971
+    },
+    "Andrew Altieri": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.5,
+        "professorID": 2681835
+    },
+    "Kevin Ingersent": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.7,
+        "professorID": 788978
+    },
+    "Akintunde Akinyemi": {
+        "avgRating": 4.4,
+        "avgDifficulty": 1.5,
+        "professorID": 964309
+    },
+    "Glen Billesbach": {
+        "avgRating": 5,
+        "avgDifficulty": 2.7,
+        "professorID": 2790049
+    },
+    "Yu Yang": {
+        "avgRating": 2.3000000000000003,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 2690667
+    },
+    "Chunmei Wang": {
+        "avgRating": 1.5,
+        "avgDifficulty": 3,
+        "professorID": 2723004
+    },
+    "Amy Williams": {
+        "avgRating": 4.7,
+        "avgDifficulty": 3.7,
+        "professorID": 2843786
+    },
+    "Anthony Auletta": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.6,
+        "professorID": 2593760
+    },
+    "Lori Warren": {
+        "avgRating": 4.9,
+        "avgDifficulty": 3.2,
+        "professorID": 825556
+    },
+    "Alyssa Tavormina": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2150707
+    },
+    "Martina Speranza": {
+        "avgRating": 4.3,
+        "avgDifficulty": 3.7,
+        "professorID": 2818932
+    },
+    "Michael Clark": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 1.6,
+        "professorID": 2579015
+    },
+    "Hina Shaikh": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2838253
+    },
+    "Jennifer Coenen": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 472368
+    },
+    "Amy Martinelli": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.1,
+        "professorID": 1058448
+    },
+    "Maria Sellers": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2952821
+    },
+    "Edward Braun": {
+        "avgRating": 2.1,
+        "avgDifficulty": 4,
+        "professorID": 461590
+    },
+    "Nigel Newbutt": {
+        "avgRating": 5,
+        "avgDifficulty": 1.5,
+        "professorID": 3005749
+    },
+    "Matthew Sowcik": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1.3,
+        "professorID": 2187871
+    },
+    "Jindrich Zapletal": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 377858
+    },
+    "Brittany Hoover": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2,
+        "professorID": 2852161
+    },
+    "John Flanagan": {
+        "avgRating": 4.7,
+        "avgDifficulty": 3.2,
+        "professorID": 2730918
+    },
+    "Philip Allen": {
+        "avgRating": 5,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2042445
+    },
+    "Jay Hmielowski": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.5,
+        "professorID": 2759746
+    },
+    "Aqsa Bashir": {
+        "avgRating": 3,
+        "avgDifficulty": 3.2,
+        "professorID": 2655029
+    },
+    "Stephanie Stine": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2397231
+    },
+    "Amin Hosseininasab": {
+        "avgRating": 1,
+        "avgDifficulty": 5,
+        "professorID": 3101373
+    },
+    "David Macdonald": {
+        "avgRating": 4.2,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2960891
+    },
+    "Hannah Vander Zanden": {
+        "avgRating": 3.6,
+        "avgDifficulty": 2.6,
+        "professorID": 2492981
+    },
+    "David Richardson": {
+        "avgRating": 3,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 1849163
+    },
+    "Jonathan Rick": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3.1,
+        "professorID": 2563489
+    },
+    "Emily Overend": {
+        "avgRating": 2.2,
+        "avgDifficulty": 3,
+        "professorID": 2964024
+    },
+    "Sarah Ballard": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 2527782
+    },
+    "Jennifer Wooten": {
+        "avgRating": 3,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2089573
+    },
+    "Johanna Engstrom": {
+        "avgRating": 4.9,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 2854120
+    },
+    "Kenneth Broadway": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 1904927
+    },
+    "Brady Tripp": {
+        "avgRating": 4.5,
+        "avgDifficulty": 4,
+        "professorID": 1807447
+    },
+    "Paul Basler": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 143852
+    },
+    "Elise Morrison": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2711631
+    },
+    "Brianna Blassneck": {
+        "avgRating": 4.2,
+        "avgDifficulty": 2,
+        "professorID": 2733595
+    },
+    "Brandon Warmke": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 3128368
+    },
+    "Adam Veige": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.7,
+        "professorID": 861275
+    },
+    "Robert Moore": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 1649273
+    },
+    "Jasmin Arakawa": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 2298402
+    },
+    "Simon Lopez D'Sola": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 1889472
+    },
+    "Cheng Zhang": {
+        "avgRating": 5,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 3024406
+    },
+    "John Cooper": {
+        "avgRating": 2,
+        "avgDifficulty": 3,
+        "professorID": 2583832
+    },
+    "Sujata Krishna": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3.7,
+        "professorID": 2425565
+    },
+    "Lisa McElwee-White": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 380431
+    },
+    "Mysha Clarke": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2792807
+    },
+    "Liangfei Qiu": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 1969796
+    },
+    "Lisa Campbell": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 2700568
+    },
+    "Joseph Meert": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.7,
+        "professorID": 1161196
+    },
+    "Samuel Smidt": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2,
+        "professorID": 2620475
+    },
+    "James Sullivan": {
+        "avgRating": 4.7,
+        "avgDifficulty": 1.8,
+        "professorID": 1074530
+    },
+    "Harrison Hove": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 2780659
+    },
+    "Ratree Wayland": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 676244
+    },
+    "Thomas Shrimpton": {
+        "avgRating": 5,
+        "avgDifficulty": 4,
+        "professorID": 2814573
+    },
+    "Fatma Gunay": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.2,
+        "professorID": 2489477
+    },
+    "Alison Reynolds": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.7,
+        "professorID": 1268167
+    },
+    "Jian Li": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 932838
+    },
+    "Amy Pan": {
+        "avgRating": 2.7,
+        "avgDifficulty": 3.5,
+        "professorID": 1701260
+    },
+    "Haruna Kyomoto": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 3027295
+    },
+    "Ashley Jones": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 3,
+        "professorID": 2353181
+    },
+    "Sara Pollock": {
+        "avgRating": 4,
+        "avgDifficulty": 2.7,
+        "professorID": 2428855
+    },
+    "David Clark": {
+        "avgRating": 4.2,
+        "avgDifficulty": 2.7,
+        "professorID": 1439257
+    },
+    "Linda Lombardino": {
+        "avgRating": 3.5,
+        "avgDifficulty": 2,
+        "professorID": 2323277
+    },
+    "Angelika Neitzel": {
+        "avgRating": 3.7,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2882953
+    },
+    "Jingchuan Pu": {
+        "avgRating": 4.3,
+        "avgDifficulty": 3,
+        "professorID": 2897208
+    },
+    "Charlie Fanning": {
+        "avgRating": 3.5,
+        "avgDifficulty": 2,
+        "professorID": 3054345
+    },
+    "Naibi Marinas": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 3.5,
+        "professorID": 1021346
+    },
+    "Philip Chang": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 2947219
+    },
+    "Jashodhara Sen": {
+        "avgRating": 5,
+        "avgDifficulty": 1.5,
+        "professorID": 3006123
+    },
+    "Kaiyu Zhang": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3152170
+    },
+    "Roy Holler": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2788964
+    },
+    "Gregory Davis": {
+        "avgRating": 5,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2944092
+    },
+    "Darragh Devine": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 3.7,
+        "professorID": 180885
+    },
+    "Nicole Kinbarovsky": {
+        "avgRating": 3.7,
+        "avgDifficulty": 1,
+        "professorID": 2900688
+    },
+    "Angela Bacsik": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.2,
+        "professorID": 1784549
+    },
+    "Antarpreet Jutla": {
+        "avgRating": 1.3,
+        "avgDifficulty": 4.800000000000001,
+        "professorID": 2707355
+    },
+    "Dragan Kujundzic": {
+        "avgRating": 3.1,
+        "avgDifficulty": 1.6,
+        "professorID": 1048108
+    },
+    "Renee Martin-Kratzer": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 3.6,
+        "professorID": 744455
+    },
+    "Czerne Reid": {
+        "avgRating": 3,
+        "avgDifficulty": 3,
+        "professorID": 2592506
+    },
+    "Elizabeth Lada": {
+        "avgRating": 2.7,
+        "avgDifficulty": 3.5,
+        "professorID": 429661
+    },
+    "Sergio Vega": {
+        "avgRating": 4,
+        "avgDifficulty": 2,
+        "professorID": 808094
+    },
+    "Christine Bucan": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2,
+        "professorID": 2896986
+    },
+    "Murwan Siddig": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 1.6,
+        "professorID": 3146815
+    },
+    "Stephen Miller": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 1129277
+    },
+    "David Arnold": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.5,
+        "professorID": 912753
+    },
+    "Arunava Banerjee": {
+        "avgRating": 4.4,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 443201
+    },
+    "Achilles Valetopoulos": {
+        "avgRating": 5,
+        "avgDifficulty": 4,
+        "professorID": 3127537
+    },
+    "Alyssa Cole": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 1.6,
+        "professorID": 2846615
+    },
+    "Ana Longo": {
+        "avgRating": 2.1,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 2588317
+    },
+    "Steven Bruner": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 4,
+        "professorID": 2536738
+    },
+    "Theresa Antes": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.6,
+        "professorID": 536711
+    },
+    "Lindsey Scott": {
+        "avgRating": 5,
+        "avgDifficulty": 2.5,
+        "professorID": 2967501
+    },
+    "Angelica Ahrens": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.1,
+        "professorID": 2902920
+    },
+    "Shani Kerr": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2,
+        "professorID": 2687144
+    },
+    "Saeed Moghaddam": {
+        "avgRating": 4,
+        "avgDifficulty": 3.7,
+        "professorID": 1516432
+    },
+    "Carla Tierney": {
+        "avgRating": 5,
+        "avgDifficulty": 1.8,
+        "professorID": 3000594
+    },
+    "Xiaoguang Zhang": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.7,
+        "professorID": 2864952
+    },
+    "Catherine Tucker": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2,
+        "professorID": 2746505
+    },
+    "Andrew Wehle": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 2360004
+    },
+    "Adam Lebovitz": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.1,
+        "professorID": 3051680
+    },
+    "Aaron King": {
+        "avgRating": 1.6,
+        "avgDifficulty": 3.2,
+        "professorID": 3006830
+    },
+    "Barbara Zsembik": {
+        "avgRating": 3.7,
+        "avgDifficulty": 2.7,
+        "professorID": 550207
+    },
+    "Mang Tia": {
+        "avgRating": 4,
+        "avgDifficulty": 2.5,
+        "professorID": 1443291
+    },
+    "Lori Knackstedt": {
+        "avgRating": 3,
+        "avgDifficulty": 4.4,
+        "professorID": 1855410
+    },
+    "Alexander Lowie": {
+        "avgRating": 3,
+        "avgDifficulty": 3,
+        "professorID": 2809045
+    },
+    "Caleb Stair": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2657430
+    },
+    "Jaclyn Kropp": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 4,
+        "professorID": 1755307
+    },
+    "Alan Cooke": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3.5,
+        "professorID": 377482
+    },
+    "Flounder Lee": {
+        "avgRating": 3.6,
+        "avgDifficulty": 1.6,
+        "professorID": 2974519
+    },
+    "Akito Kawahara": {
+        "avgRating": 5,
+        "avgDifficulty": 1.8,
+        "professorID": 1854294
+    },
+    "Anne Zhou": {
+        "avgRating": 5,
+        "avgDifficulty": 2.7,
+        "professorID": 2829369
+    },
+    "Hector Perez": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1499118
+    },
+    "Michael Griffis": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1680882
+    },
+    "Jonathan Brooks": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 2346349
+    },
+    "Avi Mukhopadhyay": {
+        "avgRating": 3,
+        "avgDifficulty": 4,
+        "professorID": 3060569
+    },
+    "Colleen Rua": {
+        "avgRating": 5,
+        "avgDifficulty": 2.6,
+        "professorID": 2546709
+    },
+    "Orlando Laitano": {
+        "avgRating": 5,
+        "avgDifficulty": 3,
+        "professorID": 3087538
+    },
+    "Summer Shelton": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2272472
+    },
+    "Farah Akiely": {
+        "avgRating": 2.7,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 2813935
+    },
+    "Brenda Such": {
+        "avgRating": 4.5,
+        "avgDifficulty": 1.5,
+        "professorID": 3118337
+    },
+    "Joseph Miguez": {
+        "avgRating": 5,
+        "avgDifficulty": 2.5,
+        "professorID": 2786607
+    },
+    "Autumn Rose": {
+        "avgRating": 4,
+        "avgDifficulty": 3.7,
+        "professorID": 3069645
+    },
+    "Nawari Nawari": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 1.6,
+        "professorID": 2635760
+    },
+    "Zhonglin Mou": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 4.1000000000000005,
+        "professorID": 760229
+    },
+    "Anuj Kumar": {
+        "avgRating": 1.8,
+        "avgDifficulty": 4,
+        "professorID": 1858045
+    },
+    "Cayley Robinson": {
+        "avgRating": 5,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2977551
+    },
+    "Richard Lutz": {
+        "avgRating": 4.4,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 68431
+    },
+    "Brian Harfe": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 1.8,
+        "professorID": 2286729
+    },
+    "Larry Howard": {
+        "avgRating": 5,
+        "avgDifficulty": 1.3,
+        "professorID": 3087274
+    },
+    "Catherine Price": {
+        "avgRating": 4,
+        "avgDifficulty": 4,
+        "professorID": 2912817
+    },
+    "Brian Slawson": {
+        "avgRating": 4,
+        "avgDifficulty": 1,
+        "professorID": 3055918
+    },
+    "Katerie Gladdys": {
+        "avgRating": 4,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 2522146
+    },
+    "John Aris": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 4.3,
+        "professorID": 2666951
+    },
+    "Todd Best": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.6,
+        "professorID": 2183669
+    },
+    "Conrad Cheung": {
+        "avgRating": 5,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 3127423
+    },
+    "Eric Potsdam": {
+        "avgRating": 4,
+        "avgDifficulty": 3.6,
+        "professorID": 378365
+    },
+    "Eury Kim": {
+        "avgRating": 3,
+        "avgDifficulty": 3,
+        "professorID": 3055912
+    },
+    "Manuel Simons": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 2,
+        "professorID": 2906223
+    },
+    "Mark Law": {
+        "avgRating": 4.4,
+        "avgDifficulty": 1.6,
+        "professorID": 160164
+    },
+    "Andreas Keil": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.2,
+        "professorID": 1159415
+    },
+    "Lonn Lanza Kaduce": {
+        "avgRating": 2,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 1317643
+    },
+    "Ting Dong": {
+        "avgRating": 4.9,
+        "avgDifficulty": 3.1,
+        "professorID": 2615639
+    },
+    "Neha Rani": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 1.8,
+        "professorID": 2982983
+    },
+    "Tuba Yavuz": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.2,
+        "professorID": 596886
+    },
+    "Eben Broadbent": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.2,
+        "professorID": 2255662
+    },
+    "Rebecca Butcher": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 3.6,
+        "professorID": 1518621
+    },
+    "Jennifer Bridge": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 2885229
+    },
+    "Calistus Ngonghala": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 2193050
+    },
+    "Danielle Jake-Schoffman": {
+        "avgRating": 2.3000000000000003,
+        "avgDifficulty": 4.3,
+        "professorID": 2654311
+    },
+    "Grant Jones": {
+        "avgRating": 5,
+        "avgDifficulty": 1.4000000000000001,
+        "professorID": 2721382
+    },
+    "Dmitrii Maslov": {
+        "avgRating": 3.1,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 317149
+    },
+    "Sonia San Juan": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2094227
+    },
+    "Victoria Miller": {
+        "avgRating": 3,
+        "avgDifficulty": 2.5,
+        "professorID": 2692848
+    },
+    "Janice Carrillo": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3078197
+    },
+    "David Daegling": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.4000000000000004,
+        "professorID": 1233158
+    },
+    "William Dunn": {
+        "avgRating": 3,
+        "avgDifficulty": 4.5,
+        "professorID": 2108298
+    },
+    "Boyi Hu": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2481816
+    },
+    "Ange Mlinko": {
+        "avgRating": 2.5,
+        "avgDifficulty": 3.1,
+        "professorID": 2134958
+    },
+    "Laura Dallman": {
+        "avgRating": 4.9,
+        "avgDifficulty": 1.6,
+        "professorID": 2408242
+    },
+    "Zainab Ali": {
+        "avgRating": 4,
+        "avgDifficulty": 1,
+        "professorID": 2911150
+    },
+    "John Sansalone": {
+        "avgRating": 1.8,
+        "avgDifficulty": 3.7,
+        "professorID": 1134713
+    },
+    "Anna Peterson": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 2.7,
+        "professorID": 425327
+    },
+    "Tie Liu": {
+        "avgRating": 3.5,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 2758439
+    },
+    "Jane Smith": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3090312
+    },
+    "Jim Hoover": {
+        "avgRating": 4.9,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 2630181
+    },
+    "Scott Mccullough": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 185770
+    },
+    "James Ji": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3073091
+    },
+    "MELISSA HYDE": {
+        "avgRating": 4.3,
+        "avgDifficulty": 3.2,
+        "professorID": 331797
+    },
+    "Ali Shafiee": {
+        "avgRating": 1,
+        "avgDifficulty": 5,
+        "professorID": 3156669
+    },
+    "Imanol Suarez-Palma": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.5,
+        "professorID": 2573403
+    },
+    "Gabriel Johnston": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 2946516
+    },
+    "Matthew Jones": {
+        "avgRating": 5,
+        "avgDifficulty": 2.1,
+        "professorID": 2897559
+    },
+    "Fatemeh Tavassoli": {
+        "avgRating": 3.6,
+        "avgDifficulty": 3.2,
+        "professorID": 2990070
+    },
+    "Chenjie Zeng": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 2903900
+    },
+    "David Foster": {
+        "avgRating": 3.7,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 761808
+    },
+    "Ramon Aleman": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 3147211
+    },
+    "Martina Sumner": {
+        "avgRating": 2.9000000000000004,
+        "avgDifficulty": 4,
+        "professorID": 2180251
+    },
+    "Kejun Huang": {
+        "avgRating": 1.6,
+        "avgDifficulty": 3.6,
+        "professorID": 2664609
+    },
+    "Ye Xia": {
+        "avgRating": 1.9000000000000001,
+        "avgDifficulty": 4.2,
+        "professorID": 2669496
+    },
+    "Russell Bauer": {
+        "avgRating": 3.5,
+        "avgDifficulty": 2.9000000000000004,
+        "professorID": 143594
+    },
+    "Linda Nguyen": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 2294033
+    },
+    "Regan Garner": {
+        "avgRating": 4.7,
+        "avgDifficulty": 1.5,
+        "professorID": 965267
     },
     "Pavlo Antonenko": {
         "avgRating": 4.800000000000001,
         "avgDifficulty": 2.2,
         "professorID": 1825785
     },
-    "Ben Smith": {
-        "avgRating": 4.1000000000000005,
-        "avgDifficulty": 2.9000000000000004,
-        "professorID": 926703
+    "Donna Cohen": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3,
+        "professorID": 1867587
     },
-    "Heather Vrana": {
+    "Martie Gillen": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.1,
+        "professorID": 1813004
+    },
+    "Corene Matyas": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 3,
+        "professorID": 748244
+    },
+    "Leslie Anderson": {
+        "avgRating": 1.9000000000000001,
+        "avgDifficulty": 3.9000000000000004,
+        "professorID": 511499
+    },
+    "Angelos Barmpoutis": {
+        "avgRating": 5,
+        "avgDifficulty": 3.5,
+        "professorID": 2580949
+    },
+    "William Logan": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3.6,
+        "professorID": 372731
+    },
+    "Seth Bernstein": {
+        "avgRating": 3.7,
+        "avgDifficulty": 3.1,
+        "professorID": 2590711
+    },
+    "Laura Cruz Castro": {
+        "avgRating": 4.5,
+        "avgDifficulty": 3,
+        "professorID": 2840256
+    },
+    "Madison Roberts": {
+        "avgRating": 3,
+        "avgDifficulty": 2,
+        "professorID": 3151470
+    },
+    "Paul Lim": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3134187
+    },
+    "Sanethia Thomas": {
+        "avgRating": 3.2,
+        "avgDifficulty": 2.7,
+        "professorID": 2567506
+    },
+    "Carlos Casanova": {
+        "avgRating": 4.1000000000000005,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 2907395
+    },
+    "Brent Gila": {
+        "avgRating": 3.7,
+        "avgDifficulty": 4,
+        "professorID": 1007263
+    },
+    "Andrew Janusz": {
+        "avgRating": 4.7,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 3042247
+    },
+    "Volker Mai": {
+        "avgRating": 2.4000000000000004,
+        "avgDifficulty": 3.8000000000000003,
+        "professorID": 1356550
+    },
+    "Ashlyn Hale": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.7,
+        "professorID": 2936633
+    },
+    "Marcus Lashley": {
+        "avgRating": 2.8000000000000003,
+        "avgDifficulty": 3,
+        "professorID": 2529996
+    },
+    "Arch Mainous": {
+        "avgRating": 3.5,
+        "avgDifficulty": 2.5,
+        "professorID": 2523558
+    },
+    "Mickey Nall": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 3.1,
+        "professorID": 2204488
+    },
+    "Julia Morrisroe": {
+        "avgRating": 3.1,
+        "avgDifficulty": 2.7,
+        "professorID": 840808
+    },
+    "Leandro Teixeira": {
+        "avgRating": 3.5,
+        "avgDifficulty": 3.5,
+        "professorID": 2917267
+    },
+    "Baolian Wang": {
+        "avgRating": 3.2,
+        "avgDifficulty": 3.6,
+        "professorID": 2471942
+    },
+    "David Grant": {
+        "avgRating": 4.5,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2730385
+    },
+    "Lawrence Winner": {
+        "avgRating": 2,
+        "avgDifficulty": 4,
+        "professorID": 2861721
+    },
+    "Andrew Macintosh": {
         "avgRating": 5,
         "avgDifficulty": 3.3000000000000003,
-        "professorID": 2448851
+        "professorID": 2789551
     },
-    "Alix Rexford": {
-        "avgRating": 4.3,
+    "Katrice Graham": {
+        "avgRating": 2.7,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2266049
+    },
+    "Victor Jordan": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2.7,
+        "professorID": 770300
+    },
+    "Brian Roberts": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 3053921
+    },
+    "Siyao Xu": {
+        "avgRating": 3.7,
+        "avgDifficulty": 2.1,
+        "professorID": 3098574
+    },
+    "Jennifer Drew": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 2.6,
+        "professorID": 1629882
+    },
+    "Peng Jiang": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 1.9000000000000001,
+        "professorID": 1052919
+    },
+    "Mariano German-Coley": {
+        "avgRating": 5,
+        "avgDifficulty": 2.7,
+        "professorID": 2651785
+    },
+    "Anusha Chaudhary": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 1.5,
+        "professorID": 2775671
+    },
+    "Mallory Szymanski": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.7,
+        "professorID": 1914383
+    },
+    "Ryan Sharston": {
+        "avgRating": 3.9000000000000004,
+        "avgDifficulty": 1.8,
+        "professorID": 2488548
+    },
+    "Galina Rylkova": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.1,
+        "professorID": 579078
+    },
+    "Julia Mollenthiel": {
+        "avgRating": 5,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 2857801
+    },
+    "Robert Parker": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3.3000000000000003,
+        "professorID": 1914202
+    },
+    "Drew Brown": {
+        "avgRating": 1.4000000000000001,
+        "avgDifficulty": 4.2,
+        "professorID": 2920371
+    },
+    "Marit Ostebo": {
+        "avgRating": 4.4,
+        "avgDifficulty": 2.1,
+        "professorID": 2134473
+    },
+    "Mario Poceski": {
+        "avgRating": 3.3000000000000003,
+        "avgDifficulty": 3.5,
+        "professorID": 656150
+    },
+    "Sheridan Lea": {
+        "avgRating": 3.6,
+        "avgDifficulty": 2.1,
+        "professorID": 2970985
+    },
+    "Brigitte Weltman-Aron": {
+        "avgRating": 4.6000000000000005,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 897552
+    },
+    "Peter Sprowls": {
+        "avgRating": 5,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2397823
+    },
+    "Xin Zhao": {
+        "avgRating": 3.6,
+        "avgDifficulty": 2.8000000000000003,
+        "professorID": 1180405
+    },
+    "Wendy Dahl": {
+        "avgRating": 4.9,
+        "avgDifficulty": 3.5,
+        "professorID": 1705060
+    },
+    "Vanessa Hull": {
+        "avgRating": 4.7,
+        "avgDifficulty": 1.7000000000000002,
+        "professorID": 2446727
+    },
+    "Antoine Haywood": {
+        "avgRating": 5,
+        "avgDifficulty": 2.4000000000000004,
+        "professorID": 3067620
+    },
+    "Lucas Majure": {
+        "avgRating": 3,
+        "avgDifficulty": 4,
+        "professorID": 2836060
+    },
+    "Lindsey Maeshima": {
+        "avgRating": 5,
+        "avgDifficulty": 1,
+        "professorID": 2943833
+    },
+    "Tan Wong": {
+        "avgRating": 3,
+        "avgDifficulty": 4,
+        "professorID": 1356178
+    },
+    "Yuan Zhang": {
+        "avgRating": 5,
+        "avgDifficulty": 2,
+        "professorID": 3014218
+    },
+    "Katie Franklin": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3,
+        "professorID": 2854040
+    },
+    "Kristen Stoner": {
+        "avgRating": 4.7,
+        "avgDifficulty": 2,
+        "professorID": 612635
+    },
+    "JAMIE LOIZZO": {
+        "avgRating": 3.7,
+        "avgDifficulty": 2,
+        "professorID": 2586208
+    },
+    "Rachel Silveri": {
+        "avgRating": 4.2,
+        "avgDifficulty": 3,
+        "professorID": 2558366
+    },
+    "Bewuket Tefera": {
+        "avgRating": 5,
+        "avgDifficulty": 1.5,
+        "professorID": 2895041
+    },
+    "Mack Thetford": {
+        "avgRating": 2.5,
+        "avgDifficulty": 4.5,
+        "professorID": 2623329
+    },
+    "Shawn Weatherford": {
+        "avgRating": 3.8000000000000003,
+        "avgDifficulty": 4,
+        "professorID": 2395835
+    },
+    "Holly Moses": {
+        "avgRating": 2.6,
+        "avgDifficulty": 3,
+        "professorID": 2246373
+    },
+    "Pietro Bianchi": {
+        "avgRating": 5,
+        "avgDifficulty": 2.6,
+        "professorID": 2560651
+    },
+    "Brian Malatesta": {
+        "avgRating": 4.800000000000001,
+        "avgDifficulty": 3,
+        "professorID": 2549543
+    },
+    "Isa Garcia-Rose": {
+        "avgRating": 3.6,
         "avgDifficulty": 3.4000000000000004,
-        "professorID": 2697226
+        "professorID": 371363
+    },
+    "Natalia Dambe": {
+        "avgRating": 4.3,
+        "avgDifficulty": 2.3000000000000003,
+        "professorID": 2960840
     }
 }
