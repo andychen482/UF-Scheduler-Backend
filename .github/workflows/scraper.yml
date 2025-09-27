@@ -26,7 +26,7 @@ jobs:
           pip install -r requirements.txt  # Ensure you have a requirements.txt
 
       - name: Run first script for Summer and Fall 2025
-        run: python pythonScripts/UFCourseGrabber.py summer 25 fall 25
+        run: python pythonScripts/UFCourseGrabber.py summer 25 fall 25 spring 26
 
       - name: Run second script
         run: python pythonScripts/scrapeRMP.py
